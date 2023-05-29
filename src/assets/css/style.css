@@ -1,2 +1,29 @@
 @import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 /* @import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle"; */
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.topbar {
+    height: 45px;
+}
+
+.sidebar {
+    width: 300px;
+    height: calc(100vh - 45px);
+    padding: 10px 20px;
+}
+
+.sidebar-list {
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+.main {
+    width: -webkit-fill-available;
+    height: calc(100vh - 45px);
+    border: 1px solid green;
+}
