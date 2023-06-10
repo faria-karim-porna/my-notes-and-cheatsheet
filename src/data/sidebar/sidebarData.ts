@@ -7,12 +7,7 @@ const routine = {};
 
 const office = {};
 
-export const sidebarData = () => {
-  return [cheatsheets];
-};
-
-
-
+export const sidebarData = [cheatsheets];
 
 // data structure and algorithms
 

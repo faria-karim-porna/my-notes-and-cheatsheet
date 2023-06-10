@@ -3,7 +3,7 @@ import { sidebarData } from "../../data/sidebar/sidebarData";
 import { SidebarAccordion } from "./SidebarAccordion";
 
 const SidebarComponent = () => {
-  const data: any = sidebarData();
+  const data = sidebarData;
   return (
     <div className="bg-danger sidebar">
       <div className="sidebar-fixed">
@@ -11,7 +11,7 @@ const SidebarComponent = () => {
       </div>
       <div className="sidebar-list">
         {data.map((eachData: any) => (
-          <SidebarAccordion />
+          <SidebarAccordion view={eachData.view} outer={eachData.outer} inner={eachData.inner} />
         ))}
       </div>
     </div>
