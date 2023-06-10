@@ -253,7 +253,7 @@ const designPatterns = {
 
 const oops = {
   view: "OOPS_CHEATSHEET",
-  outer: "OBJECT ORIENTED PROGRAMMING",
+  outer: "Object Oriented Programming",
   inner: [],
 };
 

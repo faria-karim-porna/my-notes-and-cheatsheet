@@ -5,7 +5,7 @@ import { SidebarAccordion } from "./SidebarAccordion";
 const SidebarComponent = () => {
   const data = sidebarData;
   return (
-    <div className="bg-danger sidebar">
+    <div className="sidebar">
       <div className="sidebar-fixed">
         <div>Search</div>
       </div>

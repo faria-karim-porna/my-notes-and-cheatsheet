@@ -9,12 +9,15 @@ body {
 
 .topbar {
     height: 45px;
+    background-color: rgb(214, 213, 213);
 }
 
 .sidebar {
     width: 300px;
     height: calc(100vh - 45px);
     padding: 10px 20px;
+    background-color: rgb(247, 242, 242);
+    box-shadow: rgba(0, 0, 0, 0.024) -1px 0px 0px 0px inset;
 }
 
 .sidebar-list {
@@ -25,5 +28,4 @@ body {
 .main {
     width: -webkit-fill-available;
     height: calc(100vh - 45px);
-    border: 1px solid green;
 }
