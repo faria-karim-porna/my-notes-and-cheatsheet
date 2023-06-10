@@ -1,10 +1,5 @@
+import { cheatsheets } from "./cheatsheet";
 import { css, html, javascript, typescript } from "./frontend";
-
-const cheatsheets = {
-  view: "FRONTEND_CHEATSHEET",
-  outer: "Frontend",
-  inner: [html, css, javascript, typescript],
-};
 
 const roadmaps = {};
 
@@ -17,51 +12,7 @@ export const sidebarData = () => {
 };
 
 
-// cheatsheets =>
-//// frontend => =>
-////// html
-////// css
-////// bootstrap
-////// react.js
-////// angular.js
-//// backend => =>
-////// node.js
-////// django
-////// flask
-////// laravel
-////// .NET
-//// programming languages => =>
-////// javascript 
-////// typescript
-////// c++
-////// c
-////// php
-////// python
-////// c#
-//// artificial intelligence => =>
-////// matplotlib
-////// keras
-////// tensorflow
-////// opencv
-////// theory
-//// game development => =>
-////// javascript
-////// unity
-//// blockchain
-//// ethical hacking
-//// app development => =>
-////// react native
-////// ionic
-////// flutter
-//// desktop app development => =>
-////// electron.js
-//// others => =>
-////// design patterns
-////// oops
-////// dbms
-////// computer networking
-////// computer architecture
-////// regex
+
 
 // data structure and algorithms
 
