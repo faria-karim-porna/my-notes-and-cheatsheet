@@ -29,4 +29,27 @@ body {
 .main {
     width: -webkit-fill-available;
     height: calc(100vh - 45px);
+    padding: 25px 35px;
+}
+
+.code-block {
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 213, 213);
+    background-color: rgb(247, 242, 242);
+}
+
+.code-block-header {
+    background-color: rgb(214, 213, 213);
+    padding: 10px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.code-section {
+    padding: 10px 15px;
+}
+
+.code-section pre {
+    background-color: rgb(247, 242, 242) !important;
 }
