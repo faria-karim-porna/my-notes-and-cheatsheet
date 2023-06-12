@@ -10,21 +10,26 @@ const VoiceToTextComponent = () => {
   const { transcript, listening, browserSupportsSpeechRecognition } = useSpeechRecognition();
   const startListening = () => SpeechRecognition.startListening({ continuous: true });
 
+  const [isListen, setIsListen] = useState(false);
+
   if (!browserSupportsSpeechRecognition) {
     return <span>Browser doesn't support speech recognition.</span>;
   }
   return (
     <>
-      <div>
-        <p>Microphone: {listening ? "on" : "off"}</p>
-        <button
-          onTouchStart={startListening}
-          onMouseDown={startListening}
-          onTouchEnd={SpeechRecognition.stopListening}
-          onMouseUp={SpeechRecognition.stopListening}
+      <div className="my-4">
+        <div
+          onClick={() => {
+            if (!isListen) {
+              startListening();
+            } else {
+              SpeechRecognition.stopListening();
+            }
+            setIsListen(!isListen);
+          }}
         >
-          Hold to talk
-        </button>
+          Microphone
+        </div>
         <p>{transcript}</p>
       </div>
     </>
