@@ -7,7 +7,12 @@ import { TextToVoice } from "./TextToVoice";
 const MainComponent = () => {
   return (
     <div className="main">
-      <CodeBlock />
+      <CodeBlock language={"javascript"}>
+        {`function helloWorld(){
+    console.log("hello world 2023");
+  }`}
+      </CodeBlock>
+      <CodeBlock language={"html"}>{`<div>hello world</div>`}</CodeBlock>
       <TextToVoice className="que-voice" text="What is your name?" shouldAlwaysView={true} />
       <TextToVoice className="ans-voice" text="Hello this is Faria Karim Porna." />
     </div>
