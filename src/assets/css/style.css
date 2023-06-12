@@ -54,6 +54,10 @@ body {
     background-color: rgb(247, 242, 242) !important;
 }
 
+.speech-to-text-container {
+    width: fit-content;
+}
+
 .que-voice button {
     border: 1px solid red !important;
     padding: 10px 15px;
