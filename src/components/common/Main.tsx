@@ -8,7 +8,8 @@ const MainComponent = () => {
   return (
     <div className="main">
       <CodeBlock />
-      <TextToVoice />
+      <TextToVoice className="que-voice" text="What is your name?" />
+      <TextToVoice className="ans-voice" text="Hello this is Faria Karim Porna." />
     </div>
   );
 };

@@ -1,18 +1,18 @@
 import React from "react";
 import Speech from "react-speech";
 
-const TextToVoiceComponent = () => {
+type TextToVoiceProps = {
+  className?: string;
+  text?: string;
+};
+
+const TextToVoiceComponent = (props: TextToVoiceProps) => {
+  const { className, text } = props;
   return (
     <>
-      <Speech
-        text="I have altered my voice"
-        voice="Google UK English Female"
-        pitch="1"
-        rate="1"
-        volume="1"
-        lang="en-GB"
-        textAsButton={true}
-      />
+      <div className={`${className} my-4`}>
+        <Speech text={text} voice="Google UK English Female" pitch="1" rate="1" volume="1" lang="en-GB" textAsButton={true} />
+      </div>
     </>
   );
 };
