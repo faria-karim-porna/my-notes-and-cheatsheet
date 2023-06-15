@@ -6,6 +6,16 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.all-border-radius {
+    border-radius: 10px;
+}
+
+.top-border-radius {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .topbar {
@@ -29,14 +39,8 @@ body {
 .main {
     width: -webkit-fill-available;
     height: calc(100vh - 45px);
+    overflow: auto;
     padding: 25px 35px;
-}
-
-.code-block {
-    width: fit-content;
-    border-radius: 10px;
-    border: 1px solid rgb(214, 213, 213);
-    background-color: rgb(247, 242, 242);
 }
 
 .code-block-header {
@@ -46,12 +50,21 @@ body {
     border-top-right-radius: 10px;
 }
 
+
+.code-block {
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 213, 213);
+    background-color: rgb(236, 230, 230);
+}
+
 .code-section {
     padding: 10px 15px;
 }
 
 .code-section pre {
-    background-color: rgb(247, 242, 242) !important;
+    background-color: rgb(236, 230, 230) !important;
+    font-size: 16px;
 }
 
 .speech-to-text-container {
@@ -70,4 +83,21 @@ body {
     padding: 10px 15px;
     border-radius: 10px;
     background-color: rgb(0, 128, 0, 0.25) !important;
+}
+
+.accordion {
+    width: 50%;
+}
+
+.accordion-outer {
+    background-color: rgb(214, 213, 213);
+    padding: 10px 15px;
+}
+
+.accordion-inner {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid rgb(214, 213, 213);
+    background-color: rgb(247, 242, 242);
+    padding: 10px 15px;
 }

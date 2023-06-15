@@ -12,9 +12,9 @@ const AccordionComponent = (props: React.PropsWithChildren<AccordionProps>) => {
 
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <>
+    <div className="accordion my-4">
       <div
-        className="accordion-outer d-flex justify-content-between"
+        className={`accordion-outer d-flex justify-content-between ${isOpen ? "top-border-radius" : "all-border-radius"}`}
         onClick={() => {
           setIsOpen(!isOpen);
         }}
@@ -23,7 +23,7 @@ const AccordionComponent = (props: React.PropsWithChildren<AccordionProps>) => {
         <div>caret</div>
       </div>
       <div className={`accordion-inner ${isOpen ? "d-block" : "d-none"}`}>{children}</div>
-    </>
+    </div>
   );
 };
 
