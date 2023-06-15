@@ -4,6 +4,7 @@ import { Topbar } from "../common/Topbar";
 import { CodeBlock } from "./Codeblock";
 import { TextToVoice } from "./TextToVoice";
 import { VoiceToText } from "./VoiceToText";
+import { Accordion } from "./Accordion";
 
 const MainComponent = () => {
   return (
@@ -17,6 +18,13 @@ const MainComponent = () => {
       <TextToVoice className="que-voice" text="What is your name?" shouldAlwaysView={true} />
       <TextToVoice className="ans-voice" text="Hello this is Faria Karim Porna." />
       <VoiceToText />
+
+      <Accordion outer="hello world">
+        <CodeBlock language={"js"}>{`console.log("hello world")`}</CodeBlock>
+      </Accordion>
+      <Accordion outer="world">
+        <div>Nothing Nothing</div>
+      </Accordion>
     </div>
   );
 };
