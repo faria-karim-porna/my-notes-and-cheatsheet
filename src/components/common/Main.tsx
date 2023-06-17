@@ -6,6 +6,7 @@ import { TextToVoice } from "./TextToVoice";
 import { VoiceToText } from "./VoiceToText";
 import { Accordion } from "./Accordion";
 import { Content } from "./Content";
+import { Content2 } from "./Content2";
 
 const MainComponent = () => {
   return (
@@ -27,6 +28,7 @@ const MainComponent = () => {
         <div>Nothing Nothing</div>
       </Accordion>
       <Content />
+      <Content2 />
     </div>
   );
 };
