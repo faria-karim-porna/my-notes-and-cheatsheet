@@ -1,0 +1,109 @@
+Q: Where do you live?
+A: At present, I live in Basabo.
+==========================================
+Q: Who is there in your family?
+A: In my family, there is my mom and my elder brother.
+==========================================
+Q: What are they doing?
+A: My mom is a housewife and my brother is searching for a job. He is a marketing graduate. Earlier he was interested to do his own business. But my family wants to do him job. Now he has completely changed his mind and he is determined to find a job.
+==========================================
+Q: Why did you apply here?
+A: Because cheq has a reputation as a multinational company. I have heard a lot of praise about the culture here. Here hard work is always valued. The seniors and colleagues here are very cooperative. Moreover, the technologies used here are aligned with my skills.
+==========================================
+Q: Where do you want to see yourself in 5 years?
+A: In 5 years I want to see myself as a technical lead who can help many people and make a major impact on the society by contributing in a complex and large scale project.
+==========================================
+Q: Why should we hire you?
+A: Because I am self-motivated and a curious person. I like to learn new techs and tools. I have previous experience in react.js, redux, typescript, node.js. And overall my skills are aligned with the requirements. I was involved in competitive programming. I love to do problem solving.  Mostly I am ready to take all the responsibilities. I am hopeful that I have the ability to prove myself as an important asset to the company.
+
+
+==========================================
+Q: What is your biggest strength and weakness?
+A: First, I want to start with my strengths. I am a responsible person. I always value other people's time and contribution. I am a passionate person. I don’t stop until I am done. I am also a curious person. I love to keep learning. On the other hand, if it comes to weaknesses, then I have to say that I tend to be a perfectionist. Sometimes I put a lot of effort on very small details. Sometimes I become impatient to complete the work very quickly. I am a self critic. I very often feel that it is possible to do far better work from my side.
+==========================================
+Q: Do you have any plans for higher study?
+A: I don’t have any plans because I like practical stuffs more than theoretical studies and researches.
+==========================================
+Q: What are the tools/frameworks you learned recently?
+A: Recently I have learned typescript and redux based tools like redux toolkit, redux, redux.
+==========================================
+Q: What is your salary expectation?
+A: In my perspective, a competitive salary works as a motivation for the employees. But if I have to mention the number, then based on my skills, hard work and prior experience in the job field, I would say 2.2k dollar.
+==========================================
+Q: What would your siblings say about you?
+A: I think they would say I am a hard working and passionate person.
+==========================================
+Q: What will be the three positive and negative things that your brother will tell about you if he were asked?
+A: I think he would say about my positive sides that I am a hardworking, studious and honest person. And about my negative side he would say that sometimes I take a lot of pressure unnecessarily and I am very straight forward and emotional type of person.
+
+
+
+
+
+
+==========================================
+Q: How long have you been working?
+A: I have been working for more than 2 years in my current company.
+==========================================
+Q: What have you done so far?
+A: In my current company I am working on one of the most large scale based project of our company which is mainly ERP based project. So far I have done manual testing, fixed the bugs on the code, done some sort of refactoring, created new features like drag and drop based file uploader, search bar with dropdown options.
+==========================================
+Q: Do you prefer to work in team or solo?
+A: Actually both of the areas have different advantages. The advantage of teamwork is that many large scale projects can be completed in a relatively short amount of time due to work sharing. There is a scope of sharing knowledge with others in a team work. Because of involvement of many people, team members get guidance and help. It is possible to create something innovative by combining the strong skills of the team members. On the other hand, a person can do whatever he thinks is beneficial if he is doing everything all alone. He can takes decision quickly. No one has to take the responsibility of team management.
+==========================================
+Q: What are the 3 positive sides of programming?
+A: I think there is a scope of showing creativity in programming. It is possible to ease people’s life by developing innovative softwares. There is a scope of always learning even without getting bored.
+==========================================
+Q: Which programming language do you like most?
+A: Actually it depends on the type of projects. If the project is a web app or mobile app then I will prefer Javascript. Because it is possible to build interactive UI very easily using js. I think no other programming languages can beat js in this area. There are many efficient and helpful frontend frameworks which are written in js.
+==========================================
+Q: Tell us about your best project? 
+A: My best project was my thesis project. It was mainly a machine learning based project by which we were trying to predict the uttered word without any sound only based on lip movement. To build this project, our motive was to help the mute people. Durning the time of implementation of this project I have faced a lot of challenges. 
+==========================================
+Q: What kind of challenges do you have faced in this project?
+A: The first challenge which I have faced was about dataset. Actually we were dealing with Bengali based audiovisual dataset. But unfortunately we have not found any related dataset. To solve this problem we have built our own dataset by using movie.py. The source of raw data was news presentations. Next challenge which we faced was about dataset representation and mapping output with input. As we were working on video dataset of variable length, so I found it really very challenging. We have cutted each videos into frames. Then we grouped together all the frames which belong to the same video. After that we grouped videos based on their output labels. To make the number of frames equal for each video we used zero padding to our feature vector.
+==========================================
+Q: What technologies have you used in your best project?
+A: To split the videos based on uttered words and to convert them into frames we used movie.pyn We used keras tensorflow to build the model. Opencv and facial landmark is used to track the lip movement. We used geometric shape of lip to extract feature and lstm is used as language model.
+==========================================
+
+
+
+Q: Why do you want to switch your current job?
+A: I have thoroughly enjoyed working for my employer and I have achieved some great things whilst I have been there. I must say my colleagues and senior were very friendly and helpful there. They have guided me well as a fresher. There was a work life balance in my previous company. But suddenly because of some personal reasons, I have to shift my home. And now my office location has become far away from my home.
+==========================================
+Q: Why do you want more salary?
+A: See, as how I see it since I have diverse skillset and have the ability to adopt different technologies and I have performed really well in my previous company and learned a lot of things. I would continue to do that here as well  so I think It's an investment worth making.
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:
+==========================================
+Q:
+A:

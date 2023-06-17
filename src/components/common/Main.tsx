@@ -5,6 +5,7 @@ import { CodeBlock } from "./Codeblock";
 import { TextToVoice } from "./TextToVoice";
 import { VoiceToText } from "./VoiceToText";
 import { Accordion } from "./Accordion";
+import { Content } from "./Content";
 
 const MainComponent = () => {
   return (
@@ -25,6 +26,7 @@ const MainComponent = () => {
       <Accordion outer="world">
         <div>Nothing Nothing</div>
       </Accordion>
+      <Content />
     </div>
   );
 };
