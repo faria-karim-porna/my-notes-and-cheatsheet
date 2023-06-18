@@ -14,7 +14,7 @@ const SidebarAccordionComponent = (props: SidebarAccordionProps) => {
   return (
     <>
       <div
-        className="sidebar-accordion-outer d-flex justify-content-between"
+        className="sidebar-accordion-outer d-flex justify-content-between font-16"
         onClick={() => {
           if (view && viewInner.includes(view)) {
             const index = viewInner.indexOf(view);
@@ -27,14 +27,16 @@ const SidebarAccordionComponent = (props: SidebarAccordionProps) => {
         }}
       >
         <div>{outer}</div>
-        <div>caret</div>
+        <div>
+          <i className={view && viewInner.includes(view) ? "fa fa-caret-up" : "fa fa-caret-down"}></i>
+        </div>
       </div>
       <div className={`sidebar-accordion-inner ${view && viewInner.includes(view) ? "d-block" : "d-none"}`}>
         {inner?.map((accordionInner) =>
           (accordionInner.inner?.length ?? 0) > 0 ? (
             <SidebarAccordion view={accordionInner.view} outer={accordionInner.outer} inner={accordionInner.inner} />
           ) : (
-            <div>{accordionInner.outer}</div>
+            <div className="sidebar-no-accordion">{accordionInner.outer}</div>
           )
         )}
       </div>

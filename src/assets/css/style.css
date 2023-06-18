@@ -9,6 +9,10 @@ body {
     font-size: 16px;
 }
 
+.font-16 {
+    font-size: 16px;
+}
+
 .all-border-radius {
     border-radius: 10px;
 }
@@ -24,9 +28,9 @@ body {
 }
 
 .sidebar {
-    width: 300px;
+    width: 350px;
     height: calc(100vh - 45px);
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     background-color: rgb(247, 242, 242);
     box-shadow: rgba(0, 0, 0, 0.024) -1px 0px 0px 0px inset;
 }
@@ -34,6 +38,17 @@ body {
 .sidebar-list {
     height: calc(100vh - 100px);
     overflow: auto;
+}
+
+.sidebar-accordion-outer,
+.sidebar-no-accordion {
+    padding: 10px 20px;
+}
+
+.sidebar-accordion-outer:hover,
+.sidebar-no-accordion:hover {
+    background-color: rgb(214, 213, 213);
+    cursor: pointer;
 }
 
 .main {
