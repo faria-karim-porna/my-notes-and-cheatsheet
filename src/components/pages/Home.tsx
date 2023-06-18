@@ -1,25 +1,32 @@
 import React from "react";
-import { Sidebar } from "../common/Sidebar";
-import { Topbar } from "../common/Topbar";
-import { Main } from "../common/Main";
-import { useAppSelector } from "../core/redux/reduxStore";
-import { shallowEqual } from "react-redux";
-import { CheatSheetBackendNodeJs } from "./CheatsheetBackendNodeJs";
+import { CodeBlock } from "../common/Codeblock";
+import { TextToVoice } from "../common/TextToVoice";
+import { VoiceToText } from "../common/VoiceToText";
+import { Accordion } from "../common/Accordion";
+import { Content } from "../common/Content";
+import { Content2 } from "../common/Content2";
 
 const HomeComponent = () => {
-  const store = useAppSelector(
-    (state) => ({
-      page: state.UI.pageView,
-    }),
-    shallowEqual
-  );
   return (
     <>
-      <Topbar />
-      <div className="d-flex w-100">
-        <Sidebar />
-        {store.page === "NODE_JS_CHEATSHEET" ? <CheatSheetBackendNodeJs /> : <Main />}
-      </div>
+      <CodeBlock language={"javascript"}>
+        {`function helloWorld(){
+    console.log("hello world 2023");
+  }`}
+      </CodeBlock>
+      <CodeBlock language={"html"}>{`<div>hello world</div>`}</CodeBlock>
+      <TextToVoice className="que-voice" text="What is your name?" shouldAlwaysView={true} />
+      <TextToVoice className="ans-voice" text="Hello this is Faria Karim Porna." />
+      <VoiceToText />
+
+      <Accordion outer="hello world">
+        <CodeBlock language={"js"}>{`console.log("hello world")`}</CodeBlock>
+      </Accordion>
+      <Accordion outer="world">
+        <div>Nothing Nothing</div>
+      </Accordion>
+      <Content />
+      <Content2 />
     </>
   );
 };
