@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { useAppDispatch } from "../core/redux/reduxStore";
+import { UIAction } from "../core/redux/slices/UiSlice";
 
 type SidebarAccordionProps = {
   view?: string;
@@ -11,6 +13,7 @@ const SidebarAccordionComponent = (props: SidebarAccordionProps) => {
   const { view, outer, inner } = props;
 
   const [viewInner, setViewInner] = useState<string[]>([]);
+  const dispatch = useAppDispatch();
   return (
     <>
       <div
@@ -36,7 +39,16 @@ const SidebarAccordionComponent = (props: SidebarAccordionProps) => {
           (accordionInner.inner?.length ?? 0) > 0 ? (
             <SidebarAccordion view={accordionInner.view} outer={accordionInner.outer} inner={accordionInner.inner} />
           ) : (
-            <div className="sidebar-no-accordion">{accordionInner.outer}</div>
+            <div
+              className="sidebar-no-accordion"
+              onClick={() => {
+                if (accordionInner.view) {
+                  dispatch(UIAction.setPage(accordionInner.view));
+                }
+              }}
+            >
+              {accordionInner.outer}
+            </div>
           )
         )}
       </div>

@@ -1,19 +1,17 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 interface UIState {
-  showModal?: boolean;
+  pageView?: string;
 }
 
-const initialState: UIState = {
-  showModal: false,
-};
+const initialState: UIState = {};
 
 const UISlice = createSlice({
   initialState,
   name: "sliceUI",
   reducers: {
-    setModalView(state, action: PayloadAction<boolean>) {
-      state.showModal = action.payload;
+    setPage(state, action: PayloadAction<string>) {
+      state.pageView = action.payload;
     },
   },
 });
