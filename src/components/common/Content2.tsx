@@ -28,11 +28,7 @@ const Content2Component = () => {
     <div>
       <input type="file" name="file" id="file" onChange={handleFileChange} />
       <div dangerouslySetInnerHTML={{ __html: content }} />
-      <iframe
-        src={`https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf`}
-        width="640px"
-        height="300px"
-      >
+      <iframe src={`https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf`} width="640px" height="300px">
         This is an embedded{" "}
         <a target="_blank" href="https://office.com">
           Microsoft Office
@@ -58,6 +54,11 @@ const Content2Component = () => {
         </a>
         .
       </iframe>
+      <iframe
+        src="https://docs.google.com/viewer?embedded=true&url=https%3A%2F%2Fgithub.com%2Ffaria-karim-porna%2Fmy-notes-and-cheatsheet%2Fblob%2Fmain%2Fpublic%2FHashnode2.docx%3Fraw%3Dtrue"
+        width="640px"
+        height="300px"
+      ></iframe>
     </div>
   );
 };

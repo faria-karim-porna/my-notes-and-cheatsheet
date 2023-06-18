@@ -5,9 +5,14 @@ import React from "react";
 function ContentComponent() {
   const docs = [
     {
-      uri: `https://github.com/faria-karim-porna/my-notes-and-cheatsheet/blob/main/public/Hashnode.docx?raw=true`,
+      uri: `https://github.com/faria-karim-porna/my-notes-and-cheatsheet/blob/main/public/Hashnode2.docx?raw=true`,
       fileType: "docx",
-      fileName: "Hashnode.docx",
+      fileName: "Hashnode2.docx",
+    },
+    {
+      uri: `https://github.com/faria-karim-porna/my-notes-and-cheatsheet/blob/main/public/aa.txt`,
+      fileType: "txt",
+      fileName: "aa.txt",
     },
   ];
 
