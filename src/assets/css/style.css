@@ -101,12 +101,13 @@ body {
 }
 
 .accordion {
-    width: 50%;
+    width: 100%;
 }
 
 .accordion-outer {
     background-color: rgb(214, 213, 213);
     padding: 10px 15px;
+    font-weight: 600;
 }
 
 .accordion-inner {

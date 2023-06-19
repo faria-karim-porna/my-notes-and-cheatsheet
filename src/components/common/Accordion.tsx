@@ -20,7 +20,9 @@ const AccordionComponent = (props: React.PropsWithChildren<AccordionProps>) => {
         }}
       >
         <div>{outer}</div>
-        <div>caret</div>
+        <div>
+          <i className={isOpen ? "fa fa-caret-up" : "fa fa-caret-down"}></i>
+        </div>
       </div>
       <div className={`accordion-inner ${isOpen ? "d-block" : "d-none"}`}>{children}</div>
     </div>
