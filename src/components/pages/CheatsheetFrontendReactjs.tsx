@@ -12,7 +12,9 @@ const CheatSheetFrontendReactJsComponent = () => {
           <Accordion outer="Terminal Codes">
             <CodeBlock language="bash">{`npm create vite@latest`}</CodeBlock>
           </Accordion>
-          <div>Press enter enter and give your project name</div>
+          <div>Give the project name</div>
+          <div>Select React by moving down key and enter</div>
+          <div>Select TypeScript + SWC by moving down key and enter</div>
           <div>Goto inside the created folder</div>
           <div>Write the following command inside the terminal of the folder</div>
           <Accordion outer="Terminal Codes">
