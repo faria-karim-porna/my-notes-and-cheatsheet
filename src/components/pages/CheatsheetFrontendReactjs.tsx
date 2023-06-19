@@ -27,6 +27,27 @@ const CheatSheetFrontendReactJsComponent = () => {
             <CodeBlock language="bash">{`npm run dev`}</CodeBlock>
           </Accordion>
         </Accordion>
+        <Accordion outer="Set Up And Installation For Adding Bootstrap">
+          <div>Write the following command inside the terminal of the folder</div>
+          <Accordion outer="Terminal Codes">
+            <CodeBlock language="bash">{`npm install bootstrap`}</CodeBlock>
+            <CodeBlock language="bash">{`npm install react-bootstrap`}</CodeBlock>
+            <CodeBlock language="bash">{`npm install @types/react-bootstrap`}</CodeBlock>
+          </Accordion>
+          <div>{`create a file named style.css in the path src->assets->css`}</div>
+          <div>Inside style.css write the following lines</div>
+          <Accordion outer="Code Snippets">
+            <CodeBlock language="css">
+              {`@import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+/* @import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle"; */`}
+            </CodeBlock>
+          </Accordion>
+          <div>Delete everything of index.css</div>
+          <div>Inside index.css write the following lines</div>
+          <Accordion outer="Code Snippets">
+            <CodeBlock language="css">{`@import "../src/assets/css/style.css";`}</CodeBlock>
+          </Accordion>
+        </Accordion>
       </Accordion>
     </>
   );
