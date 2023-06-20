@@ -5,6 +5,7 @@ import { Topbar } from "./Topbar";
 import { Sidebar } from "./Sidebar";
 import { CheatSheetBackendNodeJs } from "../pages/CheatsheetBackendNodeJs";
 import { Home } from "../pages/Home";
+import { CheatSheetFrontendReactJs } from "../pages/CheatsheetFrontendReactjs";
 
 const MainComponent = () => {
   const store = useAppSelector(
@@ -18,7 +19,15 @@ const MainComponent = () => {
       <Topbar />
       <div className="d-flex w-100">
         <Sidebar />
-        <div className="main">{store.page === "NODE_JS_CHEATSHEET" ? <CheatSheetBackendNodeJs /> : <Home />}</div>
+        <div className="main">
+          {store.page === "NODE_JS_CHEATSHEET" ? (
+            <CheatSheetBackendNodeJs />
+          ) : store.page === "REACT_JS_CHEATSHEET" ? (
+            <CheatSheetFrontendReactJs />
+          ) : (
+            <Home />
+          )}
+        </div>
       </div>
     </>
   );
