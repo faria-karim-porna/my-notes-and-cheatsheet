@@ -48,6 +48,12 @@ const CheatSheetFrontendReactJsComponent = () => {
             <CodeBlock language="css">{`@import "../src/assets/css/style.css";`}</CodeBlock>
           </Accordion>
         </Accordion>
+        <Accordion outer="Set Up And Installation For Redux Toolkit">
+          <div>Write the following command inside the terminal of the folder</div>
+          <Accordion outer="Terminal Codes">
+            <CodeBlock language="bash">{`npm install @reduxjs/toolkit react-redux`}</CodeBlock>
+          </Accordion>
+        </Accordion>
       </Accordion>
     </>
   );
