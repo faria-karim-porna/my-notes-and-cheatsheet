@@ -63,11 +63,14 @@ body {
     padding: 10px 15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 
 .code-block {
     width: fit-content;
+    min-width: 500px;
     border-radius: 10px;
     border: 1px solid rgb(214, 213, 213);
     background-color: rgb(236, 230, 230);
