@@ -37,7 +37,10 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
         <Accordion outer="Latest"></Accordion>
       </Accordion>
       <Accordion outer="3. Complexities">
-        <Accordion outer="Now"></Accordion>
+        <Accordion outer="Now">
+          <div>Time</div>
+          <div>Space</div>
+        </Accordion>
         <Accordion outer="Later"></Accordion>
         <Accordion outer="Latest"></Accordion>
       </Accordion>
