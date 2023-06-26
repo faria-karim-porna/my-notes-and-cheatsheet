@@ -1,13 +1,11 @@
 import { cheatsheets } from "./cheatsheet";
-import { css, html, javascript, typescript } from "./frontend";
-
-const roadmaps = {};
+import { roadmaps } from "./roadmap";
 
 const routine = {};
 
 const office = {};
 
-export const sidebarData = [cheatsheets];
+export const sidebarData = [cheatsheets, roadmaps];
 
 // data structure and algorithms
 
