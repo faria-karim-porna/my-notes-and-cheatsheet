@@ -128,3 +128,31 @@ body {
     background-color: rgb(247, 242, 242);
     padding: 10px 15px;
 }
+
+
+/* ::-webkit-scrollbar {
+    width: 20px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C1C1C1 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */
+
+.ndfHFb-c4YZDc-i5oIFb .ndfHFb-c4YZDc-s2gQvd::-webkit-scrollbar-thumb {
+    background-color: yellow !important;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    border-width: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height: 56px;
+    padding: 0;
+}
