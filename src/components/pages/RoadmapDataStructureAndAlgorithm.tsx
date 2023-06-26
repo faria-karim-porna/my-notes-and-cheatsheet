@@ -22,8 +22,18 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
         <Accordion outer="Latest"></Accordion>
       </Accordion>
       <Accordion outer="2. Class">
-        <Accordion outer="Now"></Accordion>
-        <Accordion outer="Later"></Accordion>
+        <Accordion outer="Now">
+          <div>Constructor</div>
+          <div>Destructor</div>
+          <div>Access Modifier</div>
+          <div>Polymorphism</div>
+          <div>Inheritance</div>
+          <div>Abstraction</div>
+          <div>Encapsulation</div>
+        </Accordion>
+        <Accordion outer="Later">
+          <div>Friend Function</div>
+        </Accordion>
         <Accordion outer="Latest"></Accordion>
       </Accordion>
       <Accordion outer="3. Complexities">
