@@ -169,9 +169,18 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
       <Accordion outer="9. Arrays"></Accordion>
       <Accordion outer="10. Strings"></Accordion>
       <Accordion outer="11. Searching">
-        <Accordion outer="Now"></Accordion>
-        <Accordion outer="Later"></Accordion>
-        <Accordion outer="Latest"></Accordion>
+        <Accordion outer="Now">
+          <div>1. Linear Search</div>
+          <div>2. Binary Search</div>
+        </Accordion>
+        <Accordion outer="Later">
+          <div>1. Ternary Search</div>
+          <div>2. Jump Search</div>
+        </Accordion>
+        <Accordion outer="Latest">
+          <div>1. Interpolation Search</div>
+          <div>2. Exponential Search</div>
+        </Accordion>
       </Accordion>
       <Accordion outer="12. Sorting">
         <Accordion outer="Now"></Accordion>
