@@ -45,9 +45,122 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
         <Accordion outer="Latest"></Accordion>
       </Accordion>
       <Accordion outer="4. Data Structure And STL Basic">
-        <Accordion outer="Now"></Accordion>
-        <Accordion outer="Later"></Accordion>
-        <Accordion outer="Latest"></Accordion>
+        <Accordion outer="Now">
+          <Accordion outer="1. Vector">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+          <Accordion outer="2. List">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+          <Accordion outer="3. Set">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+          <Accordion outer="4. Map">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+        </Accordion>
+        <Accordion outer="Later">
+          <Accordion outer="1. Deque">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+          <Accordion outer="2. Stack">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+          <Accordion outer="3. Queue">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+          <Accordion outer="4. Priority Queue">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+        </Accordion>
+        <Accordion outer="Latest">
+          <Accordion outer="1. Multiset">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+          <Accordion outer="2. Multimap">
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Input</div>
+            <div>Insert</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Use In Function Parameter</div>
+            <div>Use In Function Return Type</div>
+            <div>Use With Object</div>
+          </Accordion>
+        </Accordion>
       </Accordion>
       <Accordion outer="5. Recursion"></Accordion>
       <Accordion outer="6. Divide And Conquer"></Accordion>
