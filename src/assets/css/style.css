@@ -25,6 +25,14 @@ body {
 .topbar {
     height: 45px;
     background-color: rgb(214, 213, 213);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.sidebar-button {
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .sidebar {
@@ -63,11 +71,14 @@ body {
     padding: 10px 15px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 
 .code-block {
     width: fit-content;
+    min-width: 500px;
     border-radius: 10px;
     border: 1px solid rgb(214, 213, 213);
     background-color: rgb(236, 230, 230);
@@ -116,4 +127,32 @@ body {
     border: 1px solid rgb(214, 213, 213);
     background-color: rgb(247, 242, 242);
     padding: 10px 15px;
+}
+
+
+/* ::-webkit-scrollbar {
+    width: 20px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #C1C1C1 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+} */
+
+.ndfHFb-c4YZDc-i5oIFb .ndfHFb-c4YZDc-s2gQvd::-webkit-scrollbar-thumb {
+    background-color: yellow !important;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    border-width: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height: 56px;
+    padding: 0;
 }
