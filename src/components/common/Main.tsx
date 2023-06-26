@@ -11,6 +11,7 @@ const MainComponent = () => {
   const store = useAppSelector(
     (state) => ({
       page: state.UI.pageView,
+      showSidebar: state.UI.showSidebar,
     }),
     shallowEqual
   );
@@ -18,7 +19,7 @@ const MainComponent = () => {
     <>
       <Topbar />
       <div className="d-flex w-100">
-        <Sidebar />
+        {store.showSidebar ? <Sidebar /> : null}
         <div className="main">
           {store.page === "NODE_JS_CHEATSHEET" ? (
             <CheatSheetBackendNodeJs />
