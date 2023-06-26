@@ -6,7 +6,18 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
   return (
     <>
       <Accordion outer="1. Basics">
-        <Accordion outer="Now"></Accordion>
+        <Accordion outer="Now">
+          <div>Print</div>
+          <div>User Input</div>
+          <div>Data Types</div>
+          <div>Operators</div>
+          <div>Conditions</div>
+          <div>Switch Case</div>
+          <div>Loops</div>
+          <div>Functions</div>
+          <div>Structure</div>
+          <div>Enumeration</div>
+        </Accordion>
         <Accordion outer="Later"></Accordion>
         <Accordion outer="Latest"></Accordion>
       </Accordion>
