@@ -180,15 +180,17 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
       <Accordion outer="8. Patterns"></Accordion>
       <Accordion outer="9. Arrays">
         <Accordion outer="Now">
-          <UncheckList>Declaration</UncheckList>
-          <UncheckList>Access</UncheckList>
-          <UncheckList>Delete</UncheckList>
-          <UncheckList>Update</UncheckList>
-          <UncheckList>Subarray</UncheckList>
-          <UncheckList>Subsequence</UncheckList>
-          <UncheckList>Dutch National Flag Algorithm</UncheckList>
-          <UncheckList>Sliding Window</UncheckList>
-          <UncheckList>Two pointers</UncheckList>
+          <UncheckList>
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Subarray</div>
+            <div>Subsequence</div>
+            <div>Dutch National Flag Algorithm</div>
+            <div>Sliding Window</div>
+            <div>Two pointers</div>
+          </UncheckList>
         </Accordion>
         <Accordion outer="Later"></Accordion>
         <Accordion outer="Latest"></Accordion>
