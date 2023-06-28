@@ -5,6 +5,8 @@ import { VoiceToText } from "../common/VoiceToText";
 import { Accordion } from "../common/Accordion";
 import { Content } from "../common/Content";
 import { Content2 } from "../common/Content2";
+import { UncheckList } from "../common/UncheckList";
+import { CheckList } from "../common/CheckList";
 
 const HomeComponent = () => {
   return (
@@ -27,6 +29,12 @@ const HomeComponent = () => {
       </Accordion>
       <Content />
       <Content2 />
+      <UncheckList>Hello 1</UncheckList>
+      <UncheckList>Hello 2</UncheckList>
+      <UncheckList>Hello 3</UncheckList>
+      <CheckList>Hello 1</CheckList>
+      <CheckList>Hello 2</CheckList>
+      <CheckList>Hello 3</CheckList>
     </>
   );
 };
