@@ -7,6 +7,8 @@ import { Content } from "../common/Content";
 import { Content2 } from "../common/Content2";
 import { UncheckList } from "../common/UncheckList";
 import { CheckList } from "../common/CheckList";
+import { Tags } from "../common/Tags";
+import { Block } from "../common/Block";
 
 const HomeComponent = () => {
   return (
@@ -35,6 +37,14 @@ const HomeComponent = () => {
       <CheckList>Hello 1</CheckList>
       <CheckList>Hello 2</CheckList>
       <CheckList>Hello 3</CheckList>
+      <Tags>Not Started</Tags>
+      <Tags>Progress</Tags>
+      <Tags>Done</Tags>
+      <Block title="Main Block">
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+      </Block>
     </>
   );
 };
