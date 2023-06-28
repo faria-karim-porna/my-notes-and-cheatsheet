@@ -31,12 +31,16 @@ const HomeComponent = () => {
       </Accordion>
       <Content />
       <Content2 />
-      <UncheckList>Hello 1</UncheckList>
-      <UncheckList>Hello 2</UncheckList>
-      <UncheckList>Hello 3</UncheckList>
-      <CheckList>Hello 1</CheckList>
-      <CheckList>Hello 2</CheckList>
-      <CheckList>Hello 3</CheckList>
+      <UncheckList>
+        <div>hello 1</div>
+        <div>hello 2</div>
+        <div>hello 3</div>
+      </UncheckList>
+      <CheckList>
+        <div>hello 1</div>
+        <div>hello 2</div>
+        <div>hello 3</div>
+      </CheckList>
       <Tags>Not Started</Tags>
       <Tags>Progress</Tags>
       <Tags>Done</Tags>
