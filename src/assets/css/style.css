@@ -156,3 +156,47 @@ body {
     min-height: 56px;
     padding: 0;
 }
+
+.uncheck-list {
+    height: 22px;
+}
+
+.uncheck-list div:nth-child(1) {
+    height: 22px;
+    width: 22px;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+
+.check-list {
+    height: 22px;
+}
+
+.check-list div:nth-child(1) {
+    font-size: 18px;
+    height: 22px;
+    width: 22px;
+    color: white;
+    background-color: green;
+    margin-right: 10px;
+    font-weight: 100;
+}
+
+.check-list div:nth-child(2) {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.tags {
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.block {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(214, 213, 213);
+    box-shadow: rgba(0, 0, 0, 0.024) 1px 0px 0px 0px inset;
+}
