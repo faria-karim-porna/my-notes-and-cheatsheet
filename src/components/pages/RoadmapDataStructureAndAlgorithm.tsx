@@ -1,8 +1,9 @@
 import React from "react";
 import { Accordion } from "../common/Accordion";
-import { CodeBlock } from "../common/Codeblock";
+
 import { Block } from "../common/Block";
 import { UncheckList } from "../common/UncheckList";
+import { CheckList } from "../common/CheckList";
 
 const RoadmapDataStructureAndAlgorithmComponent = () => {
   return (
@@ -59,15 +60,20 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
       <Accordion outer="4. Data Structure And STL Basic">
         <Accordion outer="Now">
           <Accordion outer="1. Vector">
-            <div>Declaration</div>
-            <div>Access</div>
-            <div>Input</div>
-            <div>Insert</div>
-            <div>Delete</div>
-            <div>Update</div>
-            <div>Use In Function Parameter</div>
-            <div>Use In Function Return Type</div>
-            <div>Use With Object</div>
+            <CheckList>
+              <div>Declaration</div>
+              <div>Insert</div>
+              <div>Input</div>
+              <div>Print</div>
+              <div>Update</div>
+              <div>Delete</div>
+              <div>Access</div>
+              <div>Use In Function Parameter</div>
+              <div>Use In Function Return Type</div>
+            </CheckList>
+            <UncheckList>
+              {[<div>Use With Object</div>]}
+            </UncheckList>
           </Accordion>
           <Accordion outer="2. List">
             <div>Declaration</div>
