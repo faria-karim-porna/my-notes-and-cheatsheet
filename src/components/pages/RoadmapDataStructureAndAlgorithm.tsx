@@ -1,10 +1,22 @@
 import React from "react";
 import { Accordion } from "../common/Accordion";
 import { CodeBlock } from "../common/Codeblock";
+import { Block } from "../common/Block";
+import { UncheckList } from "../common/UncheckList";
 
 const RoadmapDataStructureAndAlgorithmComponent = () => {
   return (
     <>
+      <Block title="💥 Topics To Be Noted Down:">
+        <div>1. Steps To Implement Each Data Structure/Algorithm</div>
+        <div>2. Dry Run Of Each Data Structure/Algorithm</div>
+        <div>3. Advantage Of Each Data Structure/Algorithm</div>
+        <div>4. Disadvantage Of Each Of The Data Structure/Algorithm</div>
+        <div>5. Time Complexity Of Each Data Structure/Algorithm</div>
+        <div>6. Space Complexity Of Each Data Structure/Algorithm</div>
+        <div>7. When To Use Which Data Structure/Algorithm</div>
+        <div>8. At Least Three Approach Of Each Problems</div>
+      </Block>
       <Accordion outer="1. Basics">
         <Accordion outer="Now">
           <div>Print</div>
@@ -166,7 +178,21 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
       <Accordion outer="6. Divide And Conquer"></Accordion>
       <Accordion outer="7. Backtracking"></Accordion>
       <Accordion outer="8. Patterns"></Accordion>
-      <Accordion outer="9. Arrays"></Accordion>
+      <Accordion outer="9. Arrays">
+        <Accordion outer="Now">
+          <UncheckList>Declaration</UncheckList>
+          <UncheckList>Access</UncheckList>
+          <UncheckList>Delete</UncheckList>
+          <UncheckList>Update</UncheckList>
+          <UncheckList>Subarray</UncheckList>
+          <UncheckList>Subsequence</UncheckList>
+          <UncheckList>Dutch National Flag Algorithm</UncheckList>
+          <UncheckList>Sliding Window</UncheckList>
+          <UncheckList>Two pointers</UncheckList>
+        </Accordion>
+        <Accordion outer="Later"></Accordion>
+        <Accordion outer="Latest"></Accordion>
+      </Accordion>
       <Accordion outer="10. Strings"></Accordion>
       <Accordion outer="11. Searching">
         <Accordion outer="Now">
