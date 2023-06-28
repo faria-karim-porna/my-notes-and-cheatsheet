@@ -6,6 +6,7 @@ import { Sidebar } from "./Sidebar";
 import { CheatSheetBackendNodeJs } from "../pages/CheatsheetBackendNodeJs";
 import { Home } from "../pages/Home";
 import { CheatSheetFrontendReactJs } from "../pages/CheatsheetFrontendReactjs";
+import { RoadmapDataStructureAndAlgorithm } from "../pages/RoadmapDataStructureAndAlgorithm";
 
 const MainComponent = () => {
   const store = useAppSelector(
@@ -25,6 +26,8 @@ const MainComponent = () => {
             <CheatSheetBackendNodeJs />
           ) : store.page === "REACT_JS_CHEATSHEET" ? (
             <CheatSheetFrontendReactJs />
+          ) : store.page === "DATA_STRUCTURES_AND_ALGORITHMS_ROADMAP" ? (
+            <RoadmapDataStructureAndAlgorithm />
           ) : (
             <Home />
           )}
