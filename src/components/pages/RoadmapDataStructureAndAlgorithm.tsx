@@ -72,7 +72,7 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
               <div>Use In Function Return Type</div>
             </CheckList>
             <UncheckList>
-              {[<div>Use With Object</div>]}
+              <div>Use With Object</div>
             </UncheckList>
           </Accordion>
           <Accordion outer="2. List">
