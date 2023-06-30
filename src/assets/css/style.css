@@ -200,3 +200,30 @@ body {
     background-color: rgb(214, 213, 213);
     box-shadow: rgba(0, 0, 0, 0.024) 1px 0px 0px 0px inset;
 }
+
+.sidebar-search>input {
+    background-color: transparent !important;
+    color: gray;
+    border: none !important;
+    width: calc(100% - 35px);
+}
+
+.sidebar-search>input:focus {
+    outline: none !important;
+}
+
+.sidebar-search>button {
+    background-color: transparent !important;
+    color: gray;
+    border: none !important;
+}
+
+.sidebar-search {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.sidebar-fixed {
+    padding: 10px 20px;
+}

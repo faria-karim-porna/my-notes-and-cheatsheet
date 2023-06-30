@@ -7,7 +7,13 @@ const SidebarComponent = () => {
   return (
     <div className="sidebar">
       <div className="sidebar-fixed">
-        <div>Search</div>
+        <div className="sidebar-search">
+          <input placeholder="Search..."/>
+          <button>
+            <i className="fa fa-search"></i>
+          </button>
+        </div>
+        <hr />
       </div>
       <div className="sidebar-list">
         {data.map((eachData: any) => (
