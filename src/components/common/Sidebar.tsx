@@ -1,15 +1,57 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { sidebarData } from "../../data/sidebar/sidebarData";
 import { SidebarAccordion } from "./SidebarAccordion";
+import { xcode } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const SidebarComponent = () => {
-  const data = sidebarData;
+  const [data, setData] = useState<any>(sidebarData);
+  // const [searchKey, setSearchKey] = useState<string>("");
+  useEffect(() => {
+    setData(sidebarData);
+  }, []);
+
+  const anotherRec = (data: any, searchKey: string) => {
+    data.inner = data.inner?.filter((y: any) => {
+      if (y.outer?.toLowerCase().includes(searchKey.toLowerCase())) {
+        console.log("newData2222", y);
+        return y.outer?.toLowerCase().includes(searchKey.toLowerCase());
+      } else {
+        return anotherRec(y, searchKey);
+      }
+    });
+
+    if (data.inner?.length > 0) {
+      // console.log("newD", newD);
+      // data = newD;
+      console.log("datassssssss", data);
+      return data;
+    }
+  };
+
+  const recursiveSearch: any = (data: any, searchKey: string) => {
+    if (searchKey) {
+      const newData = data.filter((x: any) => {
+        return anotherRec(x, searchKey);
+      });
+      return newData;
+    } else {
+      return sidebarData;
+    }
+  };
+
   return (
     <div className="sidebar">
       <div className="sidebar-fixed">
         <div className="sidebar-search">
-          <input placeholder="Search..."/>
-          <button>
+          <input
+            placeholder="Search..."
+          />
+          <button
+            onClick={() => {
+              const newData = recursiveSearch(sidebarData, "data structure");
+              setData(newData);
+            }}
+          >
             <i className="fa fa-search"></i>
           </button>
         </div>
