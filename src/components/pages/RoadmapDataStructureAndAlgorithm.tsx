@@ -1,10 +1,23 @@
 import React from "react";
 import { Accordion } from "../common/Accordion";
-import { CodeBlock } from "../common/Codeblock";
+
+import { Block } from "../common/Block";
+import { UncheckList } from "../common/UncheckList";
+import { CheckList } from "../common/CheckList";
 
 const RoadmapDataStructureAndAlgorithmComponent = () => {
   return (
     <>
+      <Block title="💥 Topics To Be Noted Down:">
+        <div>1. Steps To Implement Each Data Structure/Algorithm</div>
+        <div>2. Dry Run Of Each Data Structure/Algorithm</div>
+        <div>3. Advantage Of Each Data Structure/Algorithm</div>
+        <div>4. Disadvantage Of Each Of The Data Structure/Algorithm</div>
+        <div>5. Time Complexity Of Each Data Structure/Algorithm</div>
+        <div>6. Space Complexity Of Each Data Structure/Algorithm</div>
+        <div>7. When To Use Which Data Structure/Algorithm</div>
+        <div>8. At Least Three Approach Of Each Problems</div>
+      </Block>
       <Accordion outer="1. Basics">
         <Accordion outer="Now">
           <div>Print</div>
@@ -47,15 +60,20 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
       <Accordion outer="4. Data Structure And STL Basic">
         <Accordion outer="Now">
           <Accordion outer="1. Vector">
-            <div>Declaration</div>
-            <div>Access</div>
-            <div>Input</div>
-            <div>Insert</div>
-            <div>Delete</div>
-            <div>Update</div>
-            <div>Use In Function Parameter</div>
-            <div>Use In Function Return Type</div>
-            <div>Use With Object</div>
+            <CheckList>
+              <div>Declaration</div>
+              <div>Insert</div>
+              <div>Input</div>
+              <div>Print</div>
+              <div>Update</div>
+              <div>Delete</div>
+              <div>Access</div>
+              <div>Use In Function Parameter</div>
+              <div>Use In Function Return Type</div>
+            </CheckList>
+            <UncheckList>
+              {[<div>Use With Object</div>]}
+            </UncheckList>
           </Accordion>
           <Accordion outer="2. List">
             <div>Declaration</div>
@@ -166,7 +184,23 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
       <Accordion outer="6. Divide And Conquer"></Accordion>
       <Accordion outer="7. Backtracking"></Accordion>
       <Accordion outer="8. Patterns"></Accordion>
-      <Accordion outer="9. Arrays"></Accordion>
+      <Accordion outer="9. Arrays">
+        <Accordion outer="Now">
+          <UncheckList>
+            <div>Declaration</div>
+            <div>Access</div>
+            <div>Delete</div>
+            <div>Update</div>
+            <div>Subarray</div>
+            <div>Subsequence</div>
+            <div>Dutch National Flag Algorithm</div>
+            <div>Sliding Window</div>
+            <div>Two pointers</div>
+          </UncheckList>
+        </Accordion>
+        <Accordion outer="Later"></Accordion>
+        <Accordion outer="Latest"></Accordion>
+      </Accordion>
       <Accordion outer="10. Strings"></Accordion>
       <Accordion outer="11. Searching">
         <Accordion outer="Now">
