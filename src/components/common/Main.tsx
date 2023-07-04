@@ -3,11 +3,11 @@ import { useAppSelector } from "../core/redux/reduxStore";
 import { shallowEqual } from "react-redux";
 import { Topbar } from "./Topbar";
 import { Sidebar } from "./Sidebar";
-import { CheatSheetBackendNodeJs } from "../pages/CheatsheetBackendNodeJs";
+import { CheatSheetBackendNodeJs } from "../pages/cheatsheets/CheatsheetBackendNodeJs";
 import { Home } from "../pages/Home";
-import { CheatSheetFrontendReactJs } from "../pages/CheatsheetFrontendReactjs";
-import { RoadmapDataStructureAndAlgorithm } from "../pages/RoadmapDataStructureAndAlgorithm";
-import { CheatsheetDataStructureAndAlgorithm } from "../pages/CheatsheetDataStructureAndAlgorithm";
+import { CheatSheetFrontendReactJs } from "../pages/cheatsheets/CheatsheetFrontendReactjs";
+import { RoadmapDataStructureAndAlgorithm } from "../pages/roadmaps/RoadmapDataStructureAndAlgorithm";
+import { CheatsheetDataStructureAndAlgorithm } from "../pages/cheatsheets/CheatsheetDataStructureAndAlgorithm";
 
 const MainComponent = () => {
   const store = useAppSelector(

@@ -1,7 +1,7 @@
 import React from "react";
-import { Block } from "../common/Block";
-import { Accordion } from "../common/Accordion";
-import { UncheckList } from "../common/UncheckList";
+import { Block } from "../../common/Block";
+import { Accordion } from "../../common/Accordion";
+import { UncheckList } from "../../common/UncheckList";
 
 const CheatsheetDataStructureAndAlgorithmComponent = () => {
   return (
