@@ -8,6 +8,12 @@ import { Home } from "../pages/Home";
 import { CheatSheetFrontendReactJs } from "../pages/cheatsheets/CheatsheetFrontendReactjs";
 import { RoadmapDataStructureAndAlgorithm } from "../pages/roadmaps/RoadmapDataStructureAndAlgorithm";
 import { CheatsheetDataStructureAndAlgorithm } from "../pages/cheatsheets/CheatsheetDataStructureAndAlgorithm";
+import { InterviewPreparationHtml } from "../pages/interviewPreperation/InterviewPreparationHtml";
+import { InterviewPreparationCss } from "../pages/interviewPreperation/InterviewPreparationCss";
+import { InterviewPreparationJavaScript } from "../pages/interviewPreperation/InterviewPreparationJavaScript";
+import { InterviewPreparationReactJs } from "../pages/interviewPreperation/InterviewPreparationReactJs";
+import { InterviewPreparationObjectOrientedProgramming } from "../pages/interviewPreperation/InterviewPreparationObjectOrientedProgramming";
+import { InterviewPreparationDatabaseManagementSystem } from "../pages/interviewPreperation/InterviewPreparationDatabaseManagementSystem";
 
 const MainComponent = () => {
   const store = useAppSelector(
@@ -31,6 +37,18 @@ const MainComponent = () => {
             <CheatSheetFrontendReactJs />
           ) : store.page === "DATA_STRUCTURES_AND_ALGORITHMS_ROADMAP" ? (
             <RoadmapDataStructureAndAlgorithm />
+          ) : store.page === "HTML_INTERVIEW_PREPARATION" ? (
+            <InterviewPreparationHtml />
+          ) : store.page === "CSS_INTERVIEW_PREPARATION" ? (
+            <InterviewPreparationCss />
+          ) : store.page === "JAVASCRIPT_INTERVIEW_PREPARATION" ? (
+            <InterviewPreparationJavaScript />
+          ) : store.page === "REACT_JS_INTERVIEW_PREPARATION" ? (
+            <InterviewPreparationReactJs />
+          ) : store.page === "OOPS_INTERVIEW_PREPARATION" ? (
+            <InterviewPreparationObjectOrientedProgramming />
+          ) : store.page === "DBMS_INTERVIEW_PREPARATION" ? (
+            <InterviewPreparationDatabaseManagementSystem />
           ) : (
             <Home />
           )}
