@@ -299,10 +299,17 @@ const ethicalHacking = {
   inner: [],
 };
 
+const dataStructureAndAlgorithms = {
+  view: "DATA_STRUCTURES_AND_ALGORITHMS_CHEATSHEET",
+  outer: "Data Structure And Algorithms",
+  inner: [],
+};
+
 export const cheatsheets = {
   view: "CHEATSHEETS",
   outer: "Cheatsheets",
   inner: [
+    dataStructureAndAlgorithms,
     programmingLanguages,
     frontendDevelopment,
     backendDevelopment,

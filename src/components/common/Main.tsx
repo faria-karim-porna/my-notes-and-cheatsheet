@@ -7,6 +7,7 @@ import { CheatSheetBackendNodeJs } from "../pages/CheatsheetBackendNodeJs";
 import { Home } from "../pages/Home";
 import { CheatSheetFrontendReactJs } from "../pages/CheatsheetFrontendReactjs";
 import { RoadmapDataStructureAndAlgorithm } from "../pages/RoadmapDataStructureAndAlgorithm";
+import { CheatsheetDataStructureAndAlgorithm } from "../pages/CheatsheetDataStructureAndAlgorithm";
 
 const MainComponent = () => {
   const store = useAppSelector(
@@ -22,7 +23,9 @@ const MainComponent = () => {
       <div className="d-flex w-100">
         {store.showSidebar ? <Sidebar /> : null}
         <div className="main">
-          {store.page === "NODE_JS_CHEATSHEET" ? (
+          {store.page === "DATA_STRUCTURES_AND_ALGORITHMS_CHEATSHEET" ? (
+            <CheatsheetDataStructureAndAlgorithm />
+          ) : store.page === "NODE_JS_CHEATSHEET" ? (
             <CheatSheetBackendNodeJs />
           ) : store.page === "REACT_JS_CHEATSHEET" ? (
             <CheatSheetFrontendReactJs />
