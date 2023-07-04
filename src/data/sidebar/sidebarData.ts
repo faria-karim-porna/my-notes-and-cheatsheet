@@ -1,11 +1,12 @@
 import { cheatsheets } from "./cheatsheet";
+import { interviewPreparation } from "./interviewPreperation";
 import { roadmaps } from "./roadmap";
 
 const routine = {};
 
 const office = {};
 
-export const sidebarData = [cheatsheets, roadmaps];
+export const sidebarData = [cheatsheets, roadmaps, interviewPreparation];
 
 // data structure and algorithms
 
