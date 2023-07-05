@@ -5,9 +5,12 @@ import { xcode } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 const SidebarComponent = () => {
   const [data, setData] = useState<any>(sidebarData);
-  // const [searchKey, setSearchKey] = useState<string>("");
+  const [unChangedData, setUnChangedData] = useState<any>(sidebarData);
+  const [searchValue, setSearchValue] = useState<string>("");
+  
   useEffect(() => {
     setData(sidebarData);
+    setUnChangedData(sidebarData);
   }, []);
 
   const anotherRec = (data: any, searchKey: string) => {
@@ -35,7 +38,8 @@ const SidebarComponent = () => {
       });
       return newData;
     } else {
-      return sidebarData;
+      console.log("clear", data);
+      return data;
     }
   };
 
@@ -43,12 +47,12 @@ const SidebarComponent = () => {
     <div className="sidebar">
       <div className="sidebar-fixed">
         <div className="sidebar-search">
-          <input
-            placeholder="Search..."
-          />
+          <input placeholder="Search..." onChange={(e) => setSearchValue(e.target.value)} />
           <button
             onClick={() => {
-              const newData = recursiveSearch(sidebarData, "data structure");
+              const datadata = [...unChangedData];
+              console.log("datadata", datadata);
+              const newData = recursiveSearch(datadata, searchValue);
               setData(newData);
             }}
           >
