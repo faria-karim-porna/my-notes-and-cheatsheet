@@ -157,46 +157,158 @@ const InterviewPreparationHtmlComponent = () => {
       />
 
       <TextToVoice className="que-voice" text="26. What are the entities in HTML?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`Entities in HTML are special characters that cannot be directly represented in HTML code. They are represented using entity references, such as "&amp; for "&" or "&lt; - for "<".`}
+      />
 
       <TextToVoice className="que-voice" text="27. Why is a URL encoded in HTML?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text="URLs are encoded in HTML to handle special characters and ensure their proper representation within a URL. Encoding converts special characters into a format that can be safely transmitted over the internet. This prevents conflicts with reserved characters, such as spaces or symbols.
+"
+      />
 
       <TextToVoice className="que-voice" text="28. Does a <!DOCTYPE html> tag is a HTML tag?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text="No, the *<!DOCTYPE html> declaration is not an HTML tag. It is an instruction or document type declaration that specifies the HTML version. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset etc.
+"
+      />
 
       <TextToVoice className="que-voice" text="29. What is the canvas element in HTML5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript. It allows for dynamic rendering of 2D shapes and bitmap images. For Example: <canvas id="myCanvas1" width="300" height="100" style="border:2px solid;">    
+    Your browser does not support the HTML5 canvas tag.    
+    </canvas>`}
+      />
 
       <TextToVoice className="que-voice" text="30. What is SVG?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`SVG stands for Scalable Vector Graphics. It is an XML-based markup language. It allows for the creation of vector-based graphics and illustrations in a web browser.SVG graphics can be scaled and manipulated without losing image quality.SVG is commonly used for logos, icons, charts, and interactive graphics. <svg width="100" height="100">    
+      <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />    
+     </svg>`}
+      />
 
       <TextToVoice className="que-voice" text="31. What are the different new form element types in HTML 5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`HTML5 introduces several new form element types, including Color, Date, Datetime-local, Email, Time, Url, Range, Telephone, Number, Search. For example: <input type="date">`}
+      />
 
       <TextToVoice
         className="que-voice"
         text="32. Is there any need to change the web browsers to support HTML5?"
         shouldAlwaysView={true}
       />
+      <TextToVoice
+        className="ans-voice"
+        text="    No, web browsers need to be updated to support HTML5 features fully. Almost all the updated versions of all modern browsers support HTML 5. For example Chrome, Firefox, Opera, Safari, IE.
+"
+      />
 
       <TextToVoice className="que-voice" text="33. Which type of video formats are supported by HTML5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text="    HTML 5 supports three types of video format: mp4, WebM, Ogg,
+"
+      />
 
       <TextToVoice className="que-voice" text="34. Is audio tag supported in HTML 5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`Yes. It is used to add sound or music files on the web page. There are three supported file formats for HTML 5 audio tag. mp3, WAV, Ogg. For example: <audio controls><source src="koyal.mp3" type="audio/mpeg"> Your browser does not support the html audio tag. </audio>`}
+      />
 
       <TextToVoice className="que-voice" text="35. What is the difference between progress and meter tag?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text="The progress tag is used to represent the progress of the task such as file uploads or form submissions. And the meter tag is used to measure data within a given range such as disk usage or battery level."
+      />
 
       <TextToVoice className="que-voice" text="36. What is the use of figure tag in HTML 5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The "<figure>* tag in HTML5 is used to encapsulate and represent self-contained content, such as images, illustrations, diagrams, or videos, along with an optional caption. It provides a semantic and structured way to group and describe content within a document. For example: <p>The Taj Mahal is widely recognized as "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage."</p>    
+      <figure>    
+        <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal"/>    
+      </figure>`}
+      />
 
       <TextToVoice className="que-voice" text="37. What is the use of figcaption tag in HTML 5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The <figcaption> element is used to provide a caption to an image. It is an optional tag. The <figcaption> element is used with <figure> element and it can be placed as the first or last child of the <figure> element. For example: <figure>    
+      <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal"/>    
+    <figcaption>Fig.1.1 - A front view of the great Taj Mahal in Agra.</figcaption>    
+    </figure>`}
+      />
 
       <TextToVoice className="que-voice" text="38. What is button tag?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The <button> tag in HTML represents a clickable button on a webpage. It can be used to perform a specific function when clicked by the user. For example: <button name="button" type="button">Click Here</button> `}
+      />
 
       <TextToVoice className="que-voice" text="39. What is the use of details and summary tag?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The <details> and <summary> tags are used to create collapsible and expandable sections of content. The <details> tag defines the container for the collapsible content, while the <summary> tag provides a visible header or summary for the section. When the user clicks on the summary, the associated content expands or collapses.`}
+      />
 
       <TextToVoice className="que-voice" text="40. What is datalist tag?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The <datalist> tag is used to provide a predefined list of options for an input field. It contains <option>- tags that define the selectable options. When a user click on an input field associated with a <datalist>, they presented with a dropdown of suggested options. For example: <label>Enter your favorite cricket player: Press any character
+      <br />
+      <input type="text" id="favCktPlayer" list="CktPlayers">
+      <datalist id="CktPlayers">
+      <option value="Sachin Tendulkar">
+      <option value="Brian Lara">
+      <option value="Jacques Kallis"> 
+      <option value="Ricky Ponting"> 
+      <option value="Rahul Dravid"> 
+      <option value="Shane Warne"> 
+      <option value="Rohit Sharma"> 
+      <option value="Donald Bradman"> 
+      <option value="Saurav Ganguly "> 
+      <option value="AB diVilliers"> 
+      <option value="Mahendra Singh Dhoni"> 
+      <option value="Adam Gilchrist">
+
+      </datalist>
+    </label>  `}
+      />
 
       <TextToVoice className="que-voice" text="41. How are tags migrated from HTML4 to HTML5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`When migrating tags from HTML4 to HTML5, it is important to consider the semantic structure and replace deprecated or obsolete tags with their appropriate HTML5 counterparts. For example : <div id="header"> to	<header>
+      <div id="menu"> to <nav>
+      <div id="content"> to	<section>
+      <div id="post"> to <article>
+      <div id="footer"> to <footer>`}
+      />
 
       <TextToVoice className="que-voice" text="42. If I do not put <!DOCTYPE html> will HTML 5 work?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`HTML5 will still work without the <!DOCTYPE html> declaration, but it is strongly recommended to include it at the beginning of the HTML document. The <!DOCTYPE html> declaration ensures that the browser interprets the document as HTML5 and follows the correct standards for rendering and parsing the code.`}
+      />
 
       <TextToVoice className="que-voice" text="43. What is the use of the required attribute in HTML5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`It forces a user to fill text on the text field or text area before submitting the form. It is used for form validation. For Example: Name: <input type="text" name="name" required>`}
+      />
 
       <TextToVoice className="que-voice" text="44. What are the new <input> types for form validation in HTML5?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The new input types for form validation are email, URL, number, tel, and date. For example: <input type="email">`}
+      />
 
       <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
 
