@@ -310,17 +310,89 @@ const InterviewPreparationHtmlComponent = () => {
         text={`The new input types for form validation are email, URL, number, tel, and date. For example: <input type="email">`}
       />
 
-      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+      <TextToVoice className="que-voice" text={`45. What is the difference between <div> and <span> in HTML?`} shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`<div> and <span> are both container elements, but they differ in their default behavior. <div> is a block-level element and <span> is an inline element.`}
+      />
 
-      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+      <TextToVoice className="que-voice" text={`46. How do you create a responsive webpage in HTML?`} shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`To create a responsive webpage, CSS media queries can be used. Media queries allow to define different CSS rules for different screen sizes.`}
+      />
 
-      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+      <TextToVoice className="que-voice" text={`47. What is the purpose of the <form> tag in HTML?`} shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The <form> tag provides a way to collect user input and submit it to a server. It acts as a container for form elements such as input fields, checkboxes, radio buttons, and buttons.`}
+      />
 
-      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="que-voice"
+        text={`48. How can you include external CSS and JavaScript files in an HTML document?`}
+        shouldAlwaysView={true}
+      />
+      <TextToVoice
+        className="ans-voice"
+        text={`To include external CSS files, <link> tag within the <head> section of the HTML document can be used. The <link> tag specifies the location and filename of the external CSS file. Similarly, for external JavaScript files, <script> tag can be used and the source file has to be specified using the src attribute. <script> tag can be placed either in the <head> or <body> section.`}
+      />
 
-      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+      <TextToVoice className="que-voice" text={`49. What is the purpose of the alt attribute in the <img> tag?`} shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`The alt attribute in the <img> tag is used to provide alternative text for an image. It serves as a text description of the image content, which is useful for users who cannot see the image or for SEO purposes.`}
+      />
 
-      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+      <TextToVoice
+        className="que-voice"
+        text={`50. What is the difference between the <script>, <script async>, and <script defer> attributes?`}
+        shouldAlwaysView={true}
+      />
+      <TextToVoice
+        className="ans-voice"
+        text={`The <script> tag is used to include JavaScript code in an HTML document. <script> tag without any attribute, fetched and execute synchronously. It blocks the parsing and rendering of the HTML until it's loaded. The async attribute allows the script to be downloaded in parallel to parsing the page, and executed as soon as it is available even before parsing completes. It is used only for external scripts. It does not block the parsing and rendering of the HTML. The defer attribute almost similar as async but ensures that it executes only after the HTML parsing is complete.`}
+      />
+
+      <TextToVoice className="que-voice" text={`51. What are data attributes in HTML and how are they used?`} shouldAlwaysView={true} />
+      <TextToVoice
+        className="ans-voice"
+        text={`Data attributes, denoted by the data-* format. It is used to store custom data private to the page or application. These attributes can be accessed and manipulated using JavaScript. It provides a way to associate additional data or behavior with specific elements. For example: <ul>
+  <li onclick="showDetails(this)" id="owl" data-animal-type="bird">Owl</li>
+  <li onclick="showDetails(this)" id="salmon" data-animal-type="fish">Salmon</li>  
+  <li onclick="showDetails(this)" id="tarantula" data-animal-type="spider">Tarantula</li>  
+</ul>`}
+      />
+
+      <TextToVoice
+        className="que-voice"
+        text={`52. How can you handle cross-site scripting (XSS) vulnerabilities in HTML?`}
+        shouldAlwaysView={true}
+      />
+      <TextToVoice
+        className="ans-voice"
+        text={`To mitigate XSS vulnerabilities, it is important to validate user input before displaying it on a webpage. This involves properly encoding or escaping special characters and ensuring that user-generated content is treated as data, not code. Additionally, implementing Content Security Policy (CSP) headers can further protect against XSS attacks. A CSP compatible browser will then only execute scripts loaded in source files received from those allowed domains and ignores all other scripts.`}
+      />
+
+      <TextToVoice
+        className="que-voice"
+        text={`53. What is the Document Object Model (DOM) in relation to HTML?`}
+        shouldAlwaysView={true}
+      />
+      <TextToVoice
+        className="ans-voice"
+        text={`It provides methods and properties to dynamically access, manipulate, and update the elements and content of a webpage using JavaScript or other scripting languages. The DOM allows developers to interact with and modify the HTML document programmatically.`}
+      />
+
+      <TextToVoice
+        className="que-voice"
+        text={`54. What are the differences between the <input type="file"> and <input type="text"> elements?`}
+        shouldAlwaysView={true}
+      />
+      <TextToVoice
+        className="ans-voice"
+        text={`The <input type="file"> element is used to select and upload files. On the other hand, <input type="text"> is a text input field where users can enter alphanumeric text.`}
+      />
     </>
   );
 };
