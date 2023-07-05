@@ -1,6 +1,6 @@
 import { AnyAction, combineReducers, configureStore } from "@reduxjs/toolkit";
 import { createSelectorHook, TypedUseSelectorHook, useDispatch } from "react-redux";
-import { UIReducer } from "./slices/UiSlice";
+import { UIReducer } from "./slices/UISlice";
 
 const RootReducer = combineReducers({
   UI: UIReducer,
