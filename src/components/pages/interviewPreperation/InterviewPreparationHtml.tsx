@@ -155,6 +155,60 @@ const InterviewPreparationHtmlComponent = () => {
         className="ans-voice"
         text="The <iframe> tag in HTML is used to embed another HTML document or external content within the current webpage. <iframe> is commonly used for embedding videos, maps, or other external content."
       />
+
+      <TextToVoice className="que-voice" text="26. What are the entities in HTML?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="27. Why is a URL encoded in HTML?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="28. Does a <!DOCTYPE html> tag is a HTML tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="29. What is the canvas element in HTML5?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="30. What is SVG?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="31. What are the different new form element types in HTML 5?" shouldAlwaysView={true} />
+
+      <TextToVoice
+        className="que-voice"
+        text="32. Is there any need to change the web browsers to support HTML5?"
+        shouldAlwaysView={true}
+      />
+
+      <TextToVoice className="que-voice" text="33. Which type of video formats are supported by HTML5?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="34. Is audio tag supported in HTML 5?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="35. What is the difference between progress and meter tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="36. What is the use of figure tag in HTML 5?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="37. What is the use of figcaption tag in HTML 5?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="38. What is button tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="39. What is the use of details and summary tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="40. What is datalist tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="41. How are tags migrated from HTML4 to HTML5?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="42. If I do not put <!DOCTYPE html> will HTML 5 work?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="43. What is the use of the required attribute in HTML5?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="44. What are the new <input> types for form validation in HTML5?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
+
+      <TextToVoice className="que-voice" text="25. What is the use of an iframe tag?" shouldAlwaysView={true} />
     </>
   );
 };
