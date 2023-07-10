@@ -14,6 +14,8 @@ import { InterviewPreparationJavaScript } from "../pages/interviewPreperation/In
 import { InterviewPreparationReactJs } from "../pages/interviewPreperation/InterviewPreparationReactJs";
 import { InterviewPreparationObjectOrientedProgramming } from "../pages/interviewPreperation/InterviewPreparationObjectOrientedProgramming";
 import { InterviewPreparationDatabaseManagementSystem } from "../pages/interviewPreperation/InterviewPreparationDatabaseManagementSystem";
+import { InterviewPreparationBehavioralQuestions } from "../pages/interviewPreperation/interviewPreparationBehavioralQuestions";
+import { InterviewPreparationCompanyRelatedQuestions } from "../pages/interviewPreperation/interviewPreparationCompanyRelatedQuestions";
 
 const MainComponent = () => {
   const store = useAppSelector(
@@ -49,6 +51,10 @@ const MainComponent = () => {
             <InterviewPreparationObjectOrientedProgramming />
           ) : store.page === "DBMS_INTERVIEW_PREPARATION" ? (
             <InterviewPreparationDatabaseManagementSystem />
+          ) : store.page === "BEHAVIORAL_INTERVIEW_PREPARATION" ? (
+            <InterviewPreparationBehavioralQuestions />
+          ) : store.page === "COMPANY_RELATED_INTERVIEW_PREPARATION" ? (
+            <InterviewPreparationCompanyRelatedQuestions />
           ) : (
             <Home />
           )}
