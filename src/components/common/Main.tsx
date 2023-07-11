@@ -16,6 +16,7 @@ import { InterviewPreparationObjectOrientedProgramming } from "../pages/intervie
 import { InterviewPreparationDatabaseManagementSystem } from "../pages/interviewPreperation/InterviewPreparationDatabaseManagementSystem";
 import { InterviewPreparationBehavioralQuestions } from "../pages/interviewPreperation/interviewPreparationBehavioralQuestions";
 import { InterviewPreparationCompanyRelatedQuestions } from "../pages/interviewPreperation/interviewPreparationCompanyRelatedQuestions";
+import { CheatSheetSpokenEnglish } from '../pages/cheatsheets/CheatsheetSpokenEnglish';
 
 const MainComponent = () => {
   const store = useAppSelector(
@@ -39,6 +40,8 @@ const MainComponent = () => {
             <CheatSheetFrontendReactJs />
           ) : store.page === "DATA_STRUCTURES_AND_ALGORITHMS_ROADMAP" ? (
             <RoadmapDataStructureAndAlgorithm />
+          ) : store.page === "SPOKEN_ENGLISH_CHEATSHEET" ? (
+            <CheatSheetSpokenEnglish />
           ) : store.page === "HTML_INTERVIEW_PREPARATION" ? (
             <InterviewPreparationHtml />
           ) : store.page === "CSS_INTERVIEW_PREPARATION" ? (

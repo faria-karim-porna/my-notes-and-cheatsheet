@@ -281,10 +281,16 @@ const regex = {
   inner: [],
 };
 
+const spokenEnglish = {
+  view: "SPOKEN_ENGLISH_CHEATSHEET",
+  outer: "Spoken English",
+  inner: [],
+};
+
 const others = {
   view: "OTHERS_CHEATSHEET",
   outer: "Others",
-  inner: [designPatterns, oops, dbms, computerNetworking, computerArchitecture, regex],
+  inner: [designPatterns, oops, dbms, computerNetworking, computerArchitecture, regex, spokenEnglish],
 };
 
 const blockchain = {
