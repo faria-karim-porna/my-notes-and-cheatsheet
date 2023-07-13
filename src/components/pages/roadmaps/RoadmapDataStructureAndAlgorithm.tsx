@@ -2,6 +2,7 @@ import React from "react";
 import { Block } from "../../common/Block";
 import { Accordion } from "../../common/Accordion";
 import { UncheckList } from "../../common/UncheckList";
+import { CheckList } from "../../common/CheckList";
 
 const RoadmapDataStructureAndAlgorithmComponent = () => {
   return (
