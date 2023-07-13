@@ -2,9 +2,11 @@ const notStartedTodoList = [
   {
     date: "13-07-2021",
     todoList: [
-      `Linear Search (Only Understanding)`,
-      `Binary Search (Only Understanding)`,
-      `Sorting (Only Understanding)`,
+      `Quick Sort (Only Understanding)`,
+      `3-Way QuickSort (Dutch National Flag) (Only Understanding)`,
+      `Iterative Quick Sort (Only Understanding)`,
+      `Merge Sort (Only Understanding)`,
+      `Iterative Merge Sort (Only Understanding)`,
       `Array (Only Understanding)`,
       `String (Only Understanding)`,
       `Sliding Window (Only Understanding)`,
@@ -23,7 +25,15 @@ const notStartedTodoList = [
 const inProgressTodoList = [
   {
     date: "13-07-2021",
-    todoList: [],
+    todoList: [
+      `Linear Search (Only Understanding)`,
+      `Binary Search (Only Understanding)`,
+      `Bubble Sort (Only Understanding)`,
+      `Recursive Bubble Sort (Only Understanding)`,
+      `Selection Sort (Only Understanding)`,
+      `Insertion Sort (Only Understanding)`,
+      `Recursive Insertion Sort (Only Understanding)`,
+    ],
   },
 ];
 

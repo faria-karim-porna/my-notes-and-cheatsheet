@@ -248,6 +248,8 @@ body {
     background-color: rgb(247, 242, 242);
     border-radius: 5px;
     padding: 10px 20px;
+    height: 725px;
+    overflow: auto;
 }
 
 .todo-task {
