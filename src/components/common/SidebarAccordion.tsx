@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useAppDispatch } from "../core/redux/reduxStore";
-import { UIAction } from "../core/redux/slices/UiSlice";
+import { UIAction } from "../core/redux/slices/UISlice";
 
 type SidebarAccordionProps = {
   view?: string;
@@ -19,19 +19,25 @@ const SidebarAccordionComponent = (props: SidebarAccordionProps) => {
       <div
         className="sidebar-accordion-outer d-flex justify-content-between font-16"
         onClick={() => {
-          if (view && viewInner.includes(view)) {
-            const index = viewInner.indexOf(view);
-            setViewInner([...viewInner.slice(0, index)]);
+          if ((inner?.length ?? 0) > 0) {
+            if (view && viewInner.includes(view)) {
+              const index = viewInner.indexOf(view);
+              setViewInner([...viewInner.slice(0, index)]);
+            } else {
+              if (view) {
+                setViewInner([...viewInner, view]);
+              }
+            }
           } else {
             if (view) {
-              setViewInner([...viewInner, view]);
+              dispatch(UIAction.setPage(view));
             }
           }
         }}
       >
         <div>{outer}</div>
         <div>
-          <i className={view && viewInner.includes(view) ? "fa fa-caret-up" : "fa fa-caret-down"}></i>
+          {(inner?.length ?? 0) > 0 ? <i className={view && viewInner.includes(view) ? "fa fa-caret-up" : "fa fa-caret-down"}></i> : null}
         </div>
       </div>
       <div className={`sidebar-accordion-inner ${view && viewInner.includes(view) ? "d-block" : "d-none"}`}>
