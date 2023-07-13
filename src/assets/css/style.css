@@ -235,3 +235,24 @@ body {
 .sidebar-fixed {
     padding: 10px 20px;
 }
+
+.todo-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+.todo-list>div {
+    background-color: rgb(214, 213, 213);
+    border-radius: 5px;
+}
+
+.todo-task {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 50px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}

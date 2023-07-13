@@ -16,7 +16,8 @@ import { InterviewPreparationObjectOrientedProgramming } from "../pages/intervie
 import { InterviewPreparationDatabaseManagementSystem } from "../pages/interviewPreperation/InterviewPreparationDatabaseManagementSystem";
 import { InterviewPreparationBehavioralQuestions } from "../pages/interviewPreperation/interviewPreparationBehavioralQuestions";
 import { InterviewPreparationCompanyRelatedQuestions } from "../pages/interviewPreperation/interviewPreparationCompanyRelatedQuestions";
-import { CheatSheetSpokenEnglish } from '../pages/cheatsheets/CheatsheetSpokenEnglish';
+import { CheatSheetSpokenEnglish } from "../pages/cheatsheets/CheatsheetSpokenEnglish";
+import { Todo } from "./Todo";
 
 const MainComponent = () => {
   const store = useAppSelector(
@@ -58,6 +59,8 @@ const MainComponent = () => {
             <InterviewPreparationBehavioralQuestions />
           ) : store.page === "COMPANY_RELATED_INTERVIEW_PREPARATION" ? (
             <InterviewPreparationCompanyRelatedQuestions />
+          ) : store.page === "TODO" ? (
+            <Todo />
           ) : (
             <Home />
           )}
