@@ -245,14 +245,15 @@ body {
 }
 
 .todo-list>div {
-    background-color: rgb(214, 213, 213);
+    background-color: rgb(247, 242, 242);
     border-radius: 5px;
+    padding: 10px 20px;
 }
 
 .todo-task {
     background-color: white;
     border-radius: 10px;
     min-height: 50px;
-    margin: 10px 20px;
+    margin: 10px 0px;
     padding: 10px 20px;
 }

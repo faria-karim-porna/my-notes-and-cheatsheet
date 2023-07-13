@@ -1,26 +1,41 @@
 import React, { useState } from "react";
-import Speech from "react-speech";
+import { Accordion } from "./Accordion";
+import { todoData } from "../../data/todo/todoData";
 
 const TodoComponent = () => {
+  const data = todoData;
+  const { notStarted, inProgress, completed } = data;
   return (
     <>
       <div className="todo-list">
         <div>
           <div>Not Started</div>
-          {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((data) => (
-            <div className="todo-task">{data}</div>
+          {notStarted.map((nsData) => (
+            <Accordion outer={nsData.date}>
+              {nsData.todoList.map((data) => (
+                <div className="todo-task">{data}</div>
+              ))}
+            </Accordion>
           ))}
         </div>
         <div>
           <div>In Progress</div>
-          {[1, 2, 3, 4, 5].map((data) => (
-            <div className="todo-task">{data}</div>
+          {inProgress.map((ipData) => (
+            <Accordion outer={ipData.date}>
+              {ipData.todoList.map((data) => (
+                <div className="todo-task">{data}</div>
+              ))}
+            </Accordion>
           ))}
         </div>
         <div>
           <div>Completed</div>
-          {[1, 2, 3, 4, 5, 6, 7].map((data) => (
-            <div className="todo-task">{data}</div>
+          {completed.map((cData) => (
+            <Accordion outer={cData.date}>
+              {cData.todoList.map((data) => (
+                <div className="todo-task">{data}</div>
+              ))}
+            </Accordion>
           ))}
         </div>
       </div>
