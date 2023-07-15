@@ -9,12 +9,16 @@ const CheatsheetDataStructureAndAlgorithmComponent = () => {
       <Block title="💥 Topics To Be Noted Down:">
         <div>1. Steps To Implement Each Data Structure/Algorithm</div>
         <div>2. Dry Run Of Each Data Structure/Algorithm</div>
-        <div>3. Advantage Of Each Data Structure/Algorithm</div>
-        <div>4. Disadvantage Of Each Of The Data Structure/Algorithm</div>
-        <div>5. Time Complexity Of Each Data Structure/Algorithm</div>
-        <div>6. Space Complexity Of Each Data Structure/Algorithm</div>
-        <div>7. When To Use Which Data Structure/Algorithm</div>
-        <div>8. At Least Three Approach Of Each Problems</div>
+        <div>3. Code Of Each Data Structure/Algorithm</div>
+        <div>4. Time Complexity Of Each Data Structure/Algorithm</div>
+        <div>5. Space Complexity Of Each Data Structure/Algorithm</div>
+        <div>6. Advantage Of Each Data Structure/Algorithm</div>
+        <div>7. Disadvantage Of Each Of The Data Structure/Algorithm</div>
+        <div>8. When To Use Which Data Structure/Algorithm</div>
+        <div>9. At Least Three Approach Of Each Problems</div>
+        <div>10. Real Life Examples Of Each Problems</div>
+        <div>11. LeetCode List Of Each Problems</div>
+        <div>12. Special Question And Tips</div>
       </Block>
       <Block title="❗ Important Resources:">
         <div>1. Apna College</div>
@@ -695,6 +699,40 @@ const CheatsheetDataStructureAndAlgorithmComponent = () => {
             <div>Video No. 221</div>
           </UncheckList>
         </Accordion>
+      </Accordion>
+
+      <Accordion outer="Data Structures And Algorithms">
+        <Accordion outer="Searching">
+          <Accordion outer="Linear Search">
+            <Accordion outer="Steps"></Accordion>
+            <Accordion outer="Dry Run"></Accordion>
+            <Accordion outer="Code"></Accordion>
+            <Accordion outer="Time Complexity"></Accordion>
+            <Accordion outer="Space Complexity"></Accordion>
+            <Accordion outer="Advantages"></Accordion>
+            <Accordion outer="Disadvantages"></Accordion>
+            <Accordion outer="When To Use"></Accordion>
+            <Accordion outer="At Least Three Approaches"></Accordion>
+            <Accordion outer="Real Life Examples"></Accordion>
+            <Accordion outer="LeetCode List"></Accordion>
+            <Accordion outer="Special Question And Tips"></Accordion>
+          </Accordion>
+          <Accordion outer="Binary Search">
+            <Accordion outer="Steps"></Accordion>
+            <Accordion outer="Dry Run"></Accordion>
+            <Accordion outer="Code"></Accordion>
+            <Accordion outer="Time Complexity"></Accordion>
+            <Accordion outer="Space Complexity"></Accordion>
+            <Accordion outer="Advantages"></Accordion>
+            <Accordion outer="Disadvantages"></Accordion>
+            <Accordion outer="When To Use"></Accordion>
+            <Accordion outer="At Least Three Approaches"></Accordion>
+            <Accordion outer="Real Life Examples"></Accordion>
+            <Accordion outer="LeetCode List"></Accordion>
+            <Accordion outer="Special Question And Tips"></Accordion>
+          </Accordion>
+        </Accordion>
+        <Accordion outer="Sorting"></Accordion>
       </Accordion>
     </>
   );
