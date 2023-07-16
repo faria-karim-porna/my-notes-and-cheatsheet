@@ -18,7 +18,7 @@ export const behavioralData = [
     
     Yeah, that's pretty much about me.`,
   },
-  
+
   {
     questions: `Tell me about a time when you faced a difficult technical problem. How did you approach it?`,
     answers: `Whenever I develop complex features, I often encounter technical problems . When I faced with a challenging technical problem, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I make an effort to tackle different cases or scenarios individually in order to find solutions. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference and shared my learnings with the team.`,
@@ -107,6 +107,86 @@ export const behavioralData = [
   {
     questions: `Can you share an experience where you successfully collaborated with a team member with a different working style or personality?`,
     answers: `In a cross-functional project, I collaborated with a team member who had a different working style. To ensure a productive collaboration, I actively listened, sought common ground, and respected their perspectives. Through effective collaboration and mutual respect, we successfully delivered our shared objectives. This experience taught me the importance of adaptability, empathy, and effective communication when working with team members who have different working styles or personalities.`,
+  },
+
+  {
+    questions: `Tell me about a time when you had to implement complex animations or transitions in a web application. How did you approach the implementation and ensure a smooth and visually engaging user experience?`,
+    answers: `- Situation: In one of my personal projects I wanted to implement complex animation. The project was a music-based web app.
+   - Task: In this app, I wanted to implement a circular slider.
+   - Action: I use the CSS transform property to style the slider element and to set the positioning in a circular manner. Additionally, I implemented JavaScript to handle the button click event and trigger the circular movement of the slider.
+   - Result: Finally, by carefully writing the styling and functionality code, I could successfully implement my desired animation.`,
+  },
+
+  {
+    questions: `Share an experience when you had to integrate third-party APIs or libraries into a web application. How did you handle any challenges or compatibility issues that arose during the integration process?`,
+    answers: `- Situation: In my current project, one of the features required to use a third-party library. 
+   - Task: To complete the feature I had to implement react-dropzone.
+   - Action: I carefully reviewed the documentation of the library, and implemented error handling to address any compatibility issues. I also took help from stackoverflow and github to solve specific integration challenges.
+   - Result: Through a systematic approach to address compatibility issues and ensure smooth integration, I successfully incorporated third-party library into the application.`,
+  },
+
+  {
+    questions: `Tell me about a time when you had to troubleshoot and fix a critical front-end bug that impacted the functionality or user experience. How did you approach the debugging process and ensure a timely resolution?`,
+    answers: `- Situation: Two years back I faced a similar kind of situation during the implementation of order shipment functionality.
+   - Task: In such kind of situation the main challenge is to identify the root cause and implement a prompt resolution.
+   - Action: I utilized browser developer tools, debuggers, and logging to pinpoint the issue. I reproduced the bug and validate the fix before deploying it to production.
+   - Result: By quickly identifying and addressing the bug, I restored full functionality and improved the user experience, preventing further disruptions.`,
+  },
+
+  {
+    questions: `Share an example of a time when you had to stay up-to-date with the latest front-end technologies, frameworks, or best practices. How did you incorporate them into your work and ensure continuous improvement?`,
+    answers: `- Situation: I believe it is crucial to stay up-to-date with new technologies in our field. 
+   - Task: Therefore, I continuously try to keep pace with rapidly changing technologies by investing time and effort in learning and gaining expertise. 
+   - Action: I regularly read industry blogs to stay informed. I also try to get ideas from my colleagues and seniors through healthy discussions.  I experiment with new frameworks or techniques on personal projects and apply them to relevant parts of professional projects.
+   - Result: By proactively seeking knowledge and applying it to projects, I tried to stay up-to-date with the latest technologies and frameworks.`,
+  },
+
+  {
+    questions: `Describe a situation where you had to work on a responsive web design project that needed to adapt to various screen sizes and devices. How did you approach the development and testing process to ensure a consistent and user-friendly experience?`,
+    answers: `- Situation: When working on a responsive web design project for multiple screen sizes and devices,
+   - Task: The challenge is to create a consistent user experience across various devices and resolutions.
+   - Action: I use media queries, fluid layouts, and flexible elements to ensure responsiveness. I conduct thorough testing using different dimensions in dev tools and real devices to identify and resolve any layout or usability issues.
+   - Result: By implementing responsive design techniques and thorough testing, I deliver a user-friendly experience across all devices.`,
+  },
+
+  {
+    questions: `Tell me about a time when you had to educate and guide team members or stakeholders on front-end development best practices or emerging trends. How did you facilitate knowledge sharing and adoption of these practices?`,
+    answers: `- Situation: 
+   - Task: 
+   - Action: To facilitate knowledge sharing and advocating best practices, I organized knowledge-sharing sessions, or prepared documentation to explain the benefits of specific practices or trends. I also encouraged open discussions and addressed any questions or concerns.
+   - Result: By doing these, we collectively improved our front-end development approach.`,
+  },
+
+  {
+    questions: `Describe a situation where you had to work on a project with strict performance or SEO requirements. How did you optimize the front end to achieve the desired performance and search engine visibility?`,
+    answers: `- Situation: 
+   - Task: 
+   - Action: To optimize the performance, I optimized code, reduced image sizes, and utilized lazy loading to improve page load speed. For SEO, I implemented structured data, optimized meta tags, and ensured semantic HTML.
+   - Result: By prioritizing performance and SEO best practices, I achieved a high-performing application that ranked well in search engine results.`,
+  },
+
+  {
+    questions: `Tell me about a time when you had to work on a project with limited design specifications or wireframes. How did you ensure a cohesive and visually appealing user interface without explicit guidance?`,
+    answers: `- Situation: 
+   - Task: 
+   - Action: To handle this situation, I collaborated closely with designers and stakeholders to understand project requirements. I created prototypes and obtained feedback early in the development process to iterate and refine the design.
+   - Result: By actively interacting with stakeholders and using an iterative design process, we achieved a user interface that aligned with project goals.`,
+  },
+
+  {
+    questions: `If someone has a different viewpoint to do a project like a different programming language, how would handle this situation?`,
+    answers: `- Situation: 
+   - Task: 
+   - Action: To handle this situation, I would initiate an open discussion with the team, weighing the pros and cons of each approach, considering project requirements, scalability, and team expertise.
+   - Result: By engaging in collaborative decision-making, we can reach a consensus that best aligns with the project's goals and ensures successful implementation.`,
+  },
+
+  {
+    questions: `Tell me about a time when you had to work on a project with tight deadlines and limited resources. How did you manage the situation?`,
+    answers: `- Situation: I have never faced this kind of situation yet.
+   - Task: 
+   - Action: But If I had to face it, I would conduct a thorough project analysis, identify essential tasks, and allocate resources strategically. I would also maintained open communication with the team to ensure everyone remained focused and motivated.
+   - Result:`,
   },
 ];
 
