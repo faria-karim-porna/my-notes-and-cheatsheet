@@ -18,6 +18,7 @@ export const behavioralData = [
     
     Yeah, that's pretty much about me.`,
   },
+  
   {
     questions: `Tell me about a time when you faced a difficult technical problem. How did you approach it?`,
     answers: `Whenever I develop complex features, I often encounter technical problems . When I faced with a challenging technical problem, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I make an effort to tackle different cases or scenarios individually in order to find solutions. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference and shared my learnings with the team.`,
@@ -97,17 +98,17 @@ export const behavioralData = [
     questions: `Describe a situation where you had to juggle multiple priorities or tasks simultaneously.`,
     answers: `In my current project, there was a situation where multiple tasks or tickets demanded my attention. To manage effectively, I prioritized tasks based on deadlines and importance,, and then organized my time accordingly.`,
   },
+
+  {
+    questions: `How do you handle constructive feedback or criticism from colleagues or supervisors?`,
+    answers: `I view constructive feedback as an opportunity for growth and improvement. I actively listen to the feedback. I avoid taking it personally. I ask clarifying questions to gain a deeper understanding and actively seek ways to implement the feedback into my work.`,
+  },
+
+  {
+    questions: `Can you share an experience where you successfully collaborated with a team member with a different working style or personality?`,
+    answers: `In a cross-functional project, I collaborated with a team member who had a different working style. To ensure a productive collaboration, I actively listened, sought common ground, and respected their perspectives. Through effective collaboration and mutual respect, we successfully delivered our shared objectives. This experience taught me the importance of adaptability, empathy, and effective communication when working with team members who have different working styles or personalities.`,
+  },
 ];
-
-// ====
-
-// How do you handle constructive feedback or criticism from colleagues or supervisors?
-// Answer: I view constructive feedback as an opportunity for growth and improvement. I actively listen to the feedback, appreciate different perspectives, and avoid taking it personally. I ask clarifying questions to gain a deeper understanding and take the necessary steps to address the feedback, incorporating it into my work to enhance my skills and performance.
-
-// Can you share an experience where you successfully collaborated with a team member with a different working style or personality?
-// Answer: In a cross-functional project, I collaborated with a team member who had a contrasting working style. To ensure a productive collaboration, I actively listened, sought common ground, and respected their perspectives. By focusing on our shared goals and maintaining open and clear communication, we were able to leverage our diverse strengths and successfully deliver the project.
-
-// Remember, these answers are just examples, and you can personalize them with your own experiences and achievements. It's important to showcase your problem-solving skills, teamwork, adaptability, and effective communication throughout the interview.
 
 // ===
 // Q: Where do you live?

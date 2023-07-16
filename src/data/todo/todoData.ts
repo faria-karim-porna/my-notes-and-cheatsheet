@@ -1,6 +1,6 @@
 const notStartedTodoList = [
   {
-    date: "13-07-2021",
+    date: "16-07-2021",
     todoList: [
       `Quick Sort (Only Understanding)`,
       `3-Way QuickSort (Dutch National Flag) (Only Understanding)`,
@@ -14,7 +14,6 @@ const notStartedTodoList = [
       `Linked List (Only Understanding)`,
       `Stack (Only Understanding)`,
       `Queue (Only Understanding)`,
-      `Complete All Behavioral Interview Questions (With Tips And Tricks)`,
       `Complete All Company Related Interview Questions (With Tips And Tricks)`,
       `JavaScript (Tough Questions Only)`,
       `React.js (Hooks, Life Cycle)`,
@@ -24,8 +23,9 @@ const notStartedTodoList = [
 
 const inProgressTodoList = [
   {
-    date: "13-07-2021",
+    date: "16-07-2021",
     todoList: [
+      `Complete All Behavioral Interview Questions (With Tips And Tricks)`,
       `Linear Search (Only Understanding)`,
       `Binary Search (Only Understanding)`,
       `Bubble Sort (Only Understanding)`,
@@ -39,7 +39,7 @@ const inProgressTodoList = [
 
 const completedTodoList = [
   {
-    date: "13-07-2021",
+    date: "16-07-2021",
     todoList: [],
   },
 ];
