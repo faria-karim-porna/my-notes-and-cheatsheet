@@ -21,27 +21,42 @@ export const behavioralData = [
 
   {
     questions: `Tell me about a time when you faced a difficult technical problem. How did you approach it?`,
-    answers: `Whenever I develop complex features, I often encounter technical problems . When I faced with a challenging technical problem, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I make an effort to tackle different cases or scenarios individually in order to find solutions. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference and shared my learnings with the team.`,
+    answers: `-Situation: 
+    - Task: 
+    - Action: Whenever I develop complex features, I often encounter technical problems . When I faced with a challenging technical problem, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I make an effort to tackle different cases or scenarios individually in order to find solutions. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference and shared my learnings with the team.
+    -Result: `,
   },
 
   {
     questions: `Describe a situation where you had to work under pressure to meet a project deadline.`,
-    answers: `Few months back I was working on a tax related project. In that project, we had to deliver a feature within a very short amount of time. To cope with the pressure, we focused on essential tasks, eliminated non-essential elements. We distributed our work based on our strength. I prioritized tasks,  communicated with the team to ensure everyone was on the same page, and leveraged my problem-solving skills to find efficient solutions. By staying focused and collaborating effectively, we successfully delivered the project on time.`,
+    answers: `- Situation: Few months back I was working on a tax related project. 
+    - Task: In that project, we had to deliver a feature within a very short amount of time. 
+    - Action: To cope with the pressure, we focused on essential tasks, eliminated non-essential elements. We distributed our work based on our strength. I prioritized tasks,  communicated with the team to ensure everyone was on the same page, and leveraged my problem-solving skills to find efficient solutions. 
+    - Result: By staying focused and collaborating effectively, we successfully delivered the project on time.`,
   },
 
   {
     questions: `Can you share an experience when you had to handle conflicting requirements from stakeholders or clients?`,
-    answers: `In one of the features of my current project,  I encountered conflicting requirements from different stakeholders regarding the design and functionality of a web app.  To address this, I initiated meetings with my team lead and other team members. By giving proper examples I made them understand the complexity of the design and the challenges we will face within the given time limitation. Then I presented compromise solutions that met everyone's requirements. This approach helped resolve conflicts, maintain stakeholder satisfaction, and keep the project on track.`,
+    answers: `- Situation: In one of the features of my current project,  I encountered conflicting requirements from different stakeholders 
+    - Task: regarding the design and functionality of a web app.  
+    - Action: To address this, I initiated meetings with my team lead and other team members. By giving proper examples I made them understand the complexity of the design and the challenges we will face within the given time limitation. Then I presented compromise solutions that met everyone's requirements. 
+    - Result: This approach helped resolve conflicts, maintain stakeholder satisfaction, and keep the project on track.`,
   },
 
   {
     questions: `How do you handle a situation when you are assigned a task that you are not familiar with?`,
-    answers: `When assigned an unfamiliar task, I consider it as an opportunity to learn and grow. I start by researching and studying relevant documentation or seeking guidance from team members.`,
+    answers: `- Situation: 
+    - Task: 
+    - Action: When assigned an unfamiliar task, I consider it as an opportunity to learn and grow. I start by researching and studying relevant documentation or seeking guidance from team members.
+    - Result: `,
   },
 
   {
     questions: `Describe a time when you worked on a project as part of a team. How did you contribute to the team's success?`,
-    answers: `In a team project, I contributed to the team's success by participating in collaborative discussions, sharing my ideas, and listening to others' perspectives, completing tasks that are assigned to me and also supporting teammates in areas where they needed assistance.`,
+    answers: `- Situation: 
+    - Task: 
+    - Action: In a team project, I contributed to the team's success by participating in collaborative discussions, sharing my ideas, and listening to others' perspectives, completing tasks that are assigned to me and also supporting teammates in areas where they needed assistance.
+    - Result: `,
   },
 
   {
@@ -61,7 +76,7 @@ export const behavioralData = [
 
   {
     questions: `Provide links to the projects that you worked on and felt proud of it.`,
-    answers: `I felt proud of my thesis project which is a machine learning-based project that aimed to predict uttered words based solely on lip movement without any sound. We hope to publish it. So for the privacy reason, I can not share the link of the project.`,
+    answers: `I felt proud of my thesis project which is a machine learning-based project that aimed to predict uttered words based solely on lip movement without any sound. We used technologies like OpenCV, moviepy, and lstm to do this project.`,
   },
 
   {
@@ -91,12 +106,18 @@ export const behavioralData = [
 
   {
     questions: `Tell me about a time when you faced a setback or failure in a project. How did you handle it?`,
-    answers: `In one of the features of my current project I encountered a failure in delivering the feature on time. When encountering a setback or failure in a project, I acknowledged the situation, took responsibility for my part, and analyzed the root causes to learn from the experience. I sought feedback from teammates or supervisors to gain different perspectives and identify areas for improvement. I then adjusted my approach, made necessary changes, and used the setback as a valuable learning opportunity.`,
+    answers: `- Situation: In one of the features of my current project I encountered a failure in delivering the feature on time. 
+    - Task:
+    - Action: When encountering a setback or failure in a project, I acknowledged the situation, took responsibility for my part, and analyzed the root causes to learn from the experience. I sought feedback from teammates or supervisors to gain different perspectives and identify areas for improvement. 
+    - Result: I then adjusted my approach, made necessary changes, and used the setback as a valuable learning opportunity.`,
   },
 
   {
     questions: `Describe a situation where you had to juggle multiple priorities or tasks simultaneously.`,
-    answers: `In my current project, there was a situation where multiple tasks or tickets demanded my attention. To manage effectively, I prioritized tasks based on deadlines and importance,, and then organized my time accordingly.`,
+    answers: `- Situation: In my current project, there was a situation where multiple tasks or tickets demanded my attention. 
+    - Task:
+    - Action: To manage effectively, I prioritized tasks based on deadlines and importance,, and then organized my time accordingly.
+    - Result:`,
   },
 
   {
@@ -106,7 +127,10 @@ export const behavioralData = [
 
   {
     questions: `Can you share an experience where you successfully collaborated with a team member with a different working style or personality?`,
-    answers: `In a cross-functional project, I collaborated with a team member who had a different working style. To ensure a productive collaboration, I actively listened, sought common ground, and respected their perspectives. Through effective collaboration and mutual respect, we successfully delivered our shared objectives. This experience taught me the importance of adaptability, empathy, and effective communication when working with team members who have different working styles or personalities.`,
+    answers: `- Situation: In a cross-functional project, I collaborated with a team member who had a different working style. 
+    - Task:
+    - Action: To ensure a productive collaboration, I actively listened, sought common ground, and respected their perspectives. 
+    - Result: Through effective collaboration and mutual respect, we successfully delivered our shared objectives. This experience taught me the importance of adaptability, empathy, and effective communication when working with team members who have different working styles or personalities.`,
   },
 
   {
