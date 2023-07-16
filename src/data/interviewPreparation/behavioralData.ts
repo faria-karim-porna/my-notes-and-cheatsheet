@@ -188,6 +188,62 @@ export const behavioralData = [
    - Action: But If I had to face it, I would conduct a thorough project analysis, identify essential tasks, and allocate resources strategically. I would also maintained open communication with the team to ensure everyone remained focused and motivated.
    - Result:`,
   },
+
+  {
+    questions: `Share an example of a complex technical problem you faced and how you approached the troubleshooting and debugging process.`,
+    answers: `- Situation: Recently, I faced a complex technical problem in the order shipment feature of our project.
+   - Task: 
+   - Action: I utilized debugging tools, reviewed logs, and conducted step-by-step testing to isolate the problematic component. I also collaborated with other team members to gain different perspectives on the issue.
+   - Result:`,
+  },
+
+  {
+    questions: `Describe a time when you had to refactor a large codebase. How did you ensure the process was smooth, and what strategies did you employ to minimize disruption?`,
+    answers: `- Situation:
+   - Task: 
+   - Action: Whenever I had to refactor a large codebase, I used to divide into several components. Then, I reviewed the code of the components one by one and indentified the code which need to be refactored. After reviewing a component  I immediatly refactor the code of that component.
+   - Result: By taking a gradual approach I successfully refactored the codebase, enhancing maintainability and reducing potential risks.`,
+  },
+
+  {
+    questions: `Tell me about a time when you faced resistance from team members or stakeholders in adopting a new technology or software development practice. How did you convince them of its benefits?`,
+    answers: `- Situation: I have never faced this kind of situation.
+   - Task: 
+   - Action: But If I had to, I would organize presentations and share case studies to showcase the benefits and potential positive impact.
+   - Result: .`,
+  },
+
+  {
+    questions: `Share an example of a time when you had to balance the need for code quality and delivery speed. How did you make decisions to ensure both aspects were addressed effectively?`,
+    answers: `- Situation: During the development of new features, I have faced many times this kind of situation.
+   - Task: 
+   - Action:  I follow an iterative approach. I used to break down the project into manageable tasks. I first priotize each managable task and then allocate time according to the difficulty level. After finishing a task, I test and review my code immediately. After that I refactor my code according to the necessity.  I always follow the same coding convention thorughout the first while writing code for a specific task for the first attempt.
+   - Result: By prioritizing task and code quality, I ensure the both aspects.`,
+  },
+
+  {
+    questions: `Tell me about a time when you had to mentor or coach a junior team member. How did you approach their development and provide guidance?`,
+    answers: `- Situation: In my previous project I had to mentor a junior team memeber.
+   - Task: The responsibility was to give him guidance and support him if he needs any help.
+   - Action: At the beginning of the day I gave him some tasks to complete. After he had finished the given task, I provided him some constructive feedback. I also used to suggest him useful resources to accomplish his task. If he stucked in any task, we used to do pair programming also.
+   - Result: `,
+  },
+
+  {
+    questions: `Tell me about a time when you faced challenges in ensuring cross-browser compatibility for a web application. How did you address these challenges?`,
+    answers: `- Situation: Cross-browser compatibility issue is one of the most common issues a developer usually faces.
+    - Task: To ensure the application functioned seamlessly across different browsers.
+    - Action: To address these issues, I conducted thorough browser testing, CSS prefixing to ensure consistent behavior across different browsers. Additionally, I utilized polyfills for unsupported features.
+    - Result:`,
+  },
+
+  {
+    questions: `Share an example of a time when you had to handle a difficult client or stakeholder who had unrealistic expectations or constantly changing requirements. How did you manage their expectations and ensure project success?`,
+    answers: `- Situation: I've never needed to do that. Because our team lead usually handles stakeholders and clients.
+    - Task: 
+    - Action: If I had to handle it, I would set a realistic timeline according to the client's requirements and would make them understand the drawback of unrealistic expectations.  I would establish regular meetings with stakeholders to get their continuous feedback. I would also provide timely updates.
+    - Result:`,
+  },
 ];
 
 // ===
