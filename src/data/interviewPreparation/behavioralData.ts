@@ -268,7 +268,71 @@ export const behavioralData = [
     - Action: If I had to handle it, I would set a realistic timeline according to the client's requirements and would make them understand the drawback of unrealistic expectations.  I would establish regular meetings with stakeholders to get their continuous feedback. I would also provide timely updates.
     - Result:`,
   },
+
+  {
+    questions: `What do you know about this role "Frontend Focused Full Stack Developer"?`,
+    answers: `The "Frontend Focused Full Stack Developer" role focuses on frontend development with some backend exposure. It requires proficiency in frontend frameworks, responsive design, and collaboration with backend teams.`,
+  },
+
+  {
+    questions: `What are you looking for in your next role?`,
+    answers: `In my next role, I am looking for challenging and interesting projects so that I can utilize and expand my front-end development skills. I seek a collaborative team environment where I can contribute innovative ideas and continue to learn and grow as a developer.`,
+  },
+
+  {
+    questions: `What project are you currently working on?`,
+    answers: `Currently, I am working on an ERP (Enterprise Resource Planning)-based web application. It deals with order-related data.`,
+  },
+
+  {
+    questions: `What is the most challenging aspect of your current project? `,
+    answers: `The most challenging aspect of my current project is ensuring seamless integration between the frontend and backend components while maintaining optimal performance and scalability.`,
+  },
+
+  {
+    questions: `What was the most difficult bug that you fixed in the past 6 months?`,
+    answers: `In the past 6 months, the most difficult bug I fixed was related to data inconsistency. It happened because of a mismatch in the cache data.`,
+  },
+
+  {
+    questions: `What are you excited about?`,
+    answers: `I am excited about the opportunities to learn and grow as a software engineer, working on innovative projects and collaborating with talented teams.`,
+  },
+
+  {
+    questions: `What frustrates you?`,
+    answers: `Unclear project requirements can be frustrating and impact project timelines. And also encountering complex bugs or technical challenges that require extensive troubleshooting and debugging`,
+  },
+
+  {
+    questions: `Tell me about a time you had a disagreement with your manager.`,
+    answers: `Situation: During a project, I had a disagreement with my manager on the best approach for implementing a new feature. 
+Task: 
+Action: We resolved it through open communication, discussing user needs, and evaluating project goals to find a suitable compromise.
+Result:`,
+  },
+
+  {
+    questions: `What does your best day of work look like?`,
+    answers: `My best day of work involves engaging in meaningful tasks, collaborating with a supportive team, seeing significant progress on projects, solving complex problems, and receiving positive feedback for my contributions. Additionally, having the opportunity to learn something new makes it even more fulfilling.`,
+  },
+
+  {
+    questions: `What is something that you had to push for in your previous projects?`,
+    answers: `In one of my previous projects, I noticed that the codebase had become quite bloated and challenging to maintain. I advocated for a refactoring process to improve code quality, readability, and maintainability`,
+  },
 ];
+
+//===
+
+// Where do you use ChatGPT in your day to day life?
+
+// For example there is a situation, where product owner and stakeholders have different perspective but stakeholder is CheatSheetFrontendReactJs. How will you handle this kind of situation?
+
+// what you have worked on before?
+//  what your favorite tech is?
+//  what tools you love ?
+// what your work experience has been like?
 
 // ===
 // Q: Where do you live?
@@ -278,7 +342,7 @@ export const behavioralData = [
 // A: In my family, there is my mom and my elder brother.
 // ==========================================
 // Q: What are they doing?
-// A: My mom is a housewife and my brother is searching for a job. He is a marketing graduate. Earlier he was interested to do his own business. But my family wants to do him job. Now he is convinced to do job.
+// A: My mom is a housewife and my brother is searching for a job.
 // ==========================================
 // Q: Why did you apply here?
 // A: Because welldev has a reputation as a multinational company. I have heard a lot of praise about the culture here. Here hard work is always valued. The seniors and colleagues here are very cooperative. Different kinds of technologies are dealing here which is quite interesting.
@@ -340,36 +404,3 @@ export const behavioralData = [
 // ==========================================
 // Q: Why do you want more salary?
 // A: See, as how I see it since I have diverse skillset and have the ability to adopt different technologies and I have performed really well in my previous company and learned a lot of things. I I would continue to do that here as well  so I think It's an investment worth making.
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
-// ==========================================
-// Q:
-// A:
