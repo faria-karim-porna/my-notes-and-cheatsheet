@@ -3,10 +3,10 @@ import { TextToVoice } from "../../common/TextToVoice";
 import { behavioralData } from "../../../data/interviewPreparation/behavioralData";
 import { Block } from "../../common/Block";
 import { useState } from "react";
+import { Hints } from "../../common/Hints";
 
 const InterviewPreparationBehavioralQuestionsComponent = () => {
   const data = behavioralData;
-  const [showHints, setShowHints] = useState(false);
   return (
     <>
       <Block title="✨ Tips And Tricks">
@@ -30,17 +30,7 @@ const InterviewPreparationBehavioralQuestionsComponent = () => {
         <>
           <TextToVoice className="que-voice" text={`${index + 1}. ${queAndAns.questions}`} shouldAlwaysView={true} />
           <TextToVoice className="ans-voice" text={queAndAns.answers} />
-          
-          {queAndAns.hints && queAndAns.hints.length > 0 && !showHints ? (
-            <div onClick={() => setShowHints(true)}>Show Hints</div>
-          ) : queAndAns.hints && queAndAns.hints.length > 0 && showHints ? (
-            <div>
-              {queAndAns.hints?.map((hint) => (
-                <span className="bg-danger mx-2 px-2 py-3">{hint}</span>
-              ))}
-              <span onClick={() => setShowHints(false)}>Hide Hints</span>
-            </div>
-          ) : null}
+          <Hints hints={queAndAns.hints} />
         </>
       ))}
     </>
