@@ -3,28 +3,43 @@ export const behavioralData = [
     questions: `Tell us something about yourself which is not mentioned in your cv.`,
     answers: `Yeah sure. Thank you for the opportunity to share more about myself. I am Faria. Currently, I am working as a Software Engineer at Kaz Software where I am involved in testing and debugging code, implementing best coding practices, and ensuring the software is scalable and efficient. 
 
-    I have been working here since march of 2021. I have joined here as an associate software engineer. Recently I got promoted. 
-    In my current company, I have mostly been involved in front-end development for a significant portion of the time. In the span of 2 years, I have been involved in implementing many new features and also have been part of the significant enhancements of the existing features using react.js, redux and typescript. Additionally, to date now I have done code reviews for the backend part of the application and also have worked on performance improvements, and have been involved in optimizing queries.
+    I have been working here since March 2021. I have joined here as an associate software engineer. Recently I got promoted. 
     
-    Although I have worked relatively less in the backend field in my career so far, but I have used many backend technologies for the learning purpose in many of my personal projects. In those projects, my main focus was on performing CRUD operations and implementing robust authentication and authorization systems.
+    In my current company, I have mostly been involved in front-end development for a significant portion of the time. In the span of 2 years, I have been involved in implementing many new features and also have been part of the significant enhancements of the existing features. I mostly used react.js, redux, and typescript to accomplish the tasks.
     
-    Although I have a basic understanding of various backend technologies, I am mostly familiar with Node.js.
+    Additionally, till now I have done code reviews for the backend part of the application and also have worked on performance improvements and query optimization.
+        
+    Although I have worked relatively less in the backend field in my career so far, but I have used many backend technologies like Laravel, Django, flask, and MySQL for the learning purpose in many of my personal projects. In those projects, I have implemented CRUD operations and also implemented robust authentication and authorization systems.
     
+    Although I have a basic understanding of various backend technologies, I am mostly familiar with Node.js, Express.js and Mongodb.
+        
     I have completed my graduation from North South University in the year 2020. I have achieved the highest “Summa Cum Laude” prestige from my university for having an excellent CGPA.
-    
-    In my free time I love to watch indian and south indian movies. Movies which are based on student lives are my most favourite such as 3 idiots, chichore, vaathi, etc.
-    
-    My hobby is to do illustration and animation kind of stuff using powerpoint. I just love this tool. Every creative and artistic kind of things always fascinates me.
+        
+    In my free time, I love to watch Indian and South Indian movies. Movies that are based on student lives are my most favorite such as 3 idiots, chichore, vaathi, etc.
+        
+    My hobby is doing illustration and animation kind of stuff using PowerPoint. I just love this tool. Every creative and artistic kind of thing always fascinates me.
     
     Yeah, that's pretty much about me.`,
+    hints: [
+      `Thank You`,
+      `Office Joining`,
+      `Front-end In Job`,
+      `Backend In Job`,
+      `Backend In General`,
+      `Education`,
+      `Free Time`,
+      `Hobby`,
+      `Ending`,
+    ],
   },
 
   {
     questions: `Tell me about a time when you faced a difficult technical problem. How did you approach it?`,
     answers: `-Situation: 
     - Task: 
-    - Action: Whenever I develop complex features, I often encounter technical problems . When I faced with a challenging technical problem, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I make an effort to tackle different cases or scenarios individually in order to find solutions. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference and shared my learnings with the team.
+    - Action: Whenever I develop complex features, I often encounter technical problems . When I faced with a challenging technical problem, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference.
     -Result: `,
+    hints: [`Root Cause`, `Research`, `Break Down`, `Input From Colleagues`, `Documentation`],
   },
 
   {
@@ -32,7 +47,8 @@ export const behavioralData = [
     answers: `- Situation: Few months back I was working on a tax related project. 
     - Task: In that project, we had to deliver a feature within a very short amount of time. 
     - Action: To cope with the pressure, we focused on essential tasks, eliminated non-essential elements. We distributed our work based on our strength. I prioritized tasks,  communicated with the team to ensure everyone was on the same page, and leveraged my problem-solving skills to find efficient solutions. 
-    - Result: By staying focused and collaborating effectively, we successfully delivered the project on time.`,
+    - Result: By doing these, we successfully delivered the project on time.`,
+    hints: [`Tax Related Project`, `Eliminate Non Essentials`, `Distribute Work`, `Prioritize`, `Communication`],
   },
 
   {
@@ -41,6 +57,7 @@ export const behavioralData = [
     - Task: regarding the design and functionality of a web app.  
     - Action: To address this, I initiated meetings with my team lead and other team members. By giving proper examples I made them understand the complexity of the design and the challenges we will face within the given time limitation. Then I presented compromise solutions that met everyone's requirements. 
     - Result: This approach helped resolve conflicts, maintain stakeholder satisfaction, and keep the project on track.`,
+    hints: [`Task Is Design And Functionality`, `Initiate Meeting`, `Give Example`, `Present Solution`],
   },
 
   {
@@ -49,6 +66,7 @@ export const behavioralData = [
     - Task: 
     - Action: When assigned an unfamiliar task, I consider it as an opportunity to learn and grow. I start by researching and studying relevant documentation or seeking guidance from team members.
     - Result: `,
+    hints: [`Opportunity`, `Research`, `Seek Guidance`],
   },
 
   {
@@ -57,59 +75,70 @@ export const behavioralData = [
     - Task: 
     - Action: In a team project, I contributed to the team's success by participating in collaborative discussions, sharing my ideas, and listening to others' perspectives, completing tasks that are assigned to me and also supporting teammates in areas where they needed assistance.
     - Result: `,
+    hints: [`In Discussion`, `By Sharing Ideas`, `By Completing Task`, `By Supporting`],
   },
 
   {
     questions: `Why did you choose Front-End Development as your career?`,
-    answers: `I love the creative and artistic aspect of designing functional user interfaces in front-end development. It's a rewarding and exciting career that blends my creativity, technical skills, and passion for problem-solving.`,
+    answers: `I love the creative and artistic aspect of designing functional user interfaces in front-end development. It's a rewarding and exciting career. It blends my creativity, technical skills, and passion for problem-solving.`,
+    hints: [`Artistic`, `Rewarding And Exciting`, `Blends`],
   },
 
   {
     questions: `How many years you have been professionally working as a Javascript engineer?`,
     answers: `I have been professionally working as a Javascript engineer for more than 2 years.`,
+    hints: [`More Than 2`],
   },
 
   {
     questions: `What are the challenges faced by the Front-end Development?`,
     answers: `Front-end development challenges include cross-browser compatibility, responsive design, performance optimization, and staying up-to-date with evolving technologies.`,
+    hints: [`Cross Browser`, `Responsive`, `Performance`, `Up To Date`],
   },
 
   {
     questions: `Provide links to the projects that you worked on and felt proud of it.`,
     answers: `I felt proud of my thesis project which is a machine learning-based project that aimed to predict uttered words based solely on lip movement without any sound. We used technologies like OpenCV, moviepy, and lstm to do this project.`,
+    hints: [`Thesis`, `Uttered`, `Technologies Used`],
   },
 
   {
     questions: `How would you respond if a colleague interrupted you while you were in the middle of an assignment?`,
     answers: `If the interruption was urgent, I'd either address the task immediately or delegate it to another team member. Otherwise, I'd request my colleague to wait until I finish my current task, so I can provide my full attention for the best response.`,
+    hints: [`Address`, `Delegate`, `Request To Wait`, `Provide Full Attention`],
   },
 
   {
     questions: `What are your salary expectations?`,
     answers: `I expect a competitive salary reflecting my experience and responsibilities. In my opinion, a competitive salary motivates employees. However, work culture and growth opportunities matter too. But if I've to mention the figure, then I'd say 1000 USD.`,
+    hints: [`Experince And Responsibilities`, `However`, `Growth Opportunity`],
   },
 
   {
     questions: `What are your Biggest Strengths and Weaknesses?`,
     answers: `First, I want to start with my strengths. I am a responsible person. I always value other people's time and contribution. I am also a passionate person. I don’t stop until I am done. I am a curious person as well. I love to keep learning. On the other hand, if it comes to weaknesses, then I have to say that I tend to be a perfectionist. Sometimes I put a lot of effort on very small details. Sometimes I become impatient to complete the work very quickly. I am a self critic. I very often feel that it is possible to do far better work from my side. So I spend too much time reviewing and revising work.`,
+    hints: [`Responsible`, `Passionate`, `Curious`, `Perfectionist`, `Impatient`, `Self Critic`],
   },
 
   {
     questions: `What are your Long-Term Plans?`,
     answers: `As a software engineer, I aim to build a successful career by expanding my expertise. I want to see myself as a technical lead who can help many people and make a major impact on society by contributing to complex and large-scale projects.`,
+    hints: [`Expand Expertise`, `Technical Lead`],
   },
 
   {
     questions: `Can you recall an instance where you had to explain a technical concept to a non-technical person?`,
     answers: `While explaining a technical concept to a non-technical person, I focused on simplifying the language and I also focused on using relatable examples. Visual aids, diagrams, or demonstrations were helpful tools to convey the concept effectively.`,
+    hints: [`Simplify`, `Examples`, `Visual Aids`, `Diagram`],
   },
 
   {
     questions: `Tell me about a time when you faced a setback or failure in a project. How did you handle it?`,
     answers: `- Situation: In one of the features of my current project I encountered a failure in delivering the feature on time. 
     - Task:
-    - Action: When encountering a setback or failure in a project, I acknowledged the situation, took responsibility for my part, and analyzed the root causes to learn from the experience. I sought feedback from teammates or supervisors to gain different perspectives and identify areas for improvement. 
+    - Action: To handle it, I acknowledged the situation, took responsibility for my part, and analyzed the root causes to learn from the experience. I sought feedback from teammates or supervisors to gain different perspectives and identify areas for improvement. 
     - Result: I then adjusted my approach, made necessary changes, and used the setback as a valuable learning opportunity.`,
+    hints: [`Not On Time`, `Take Responsibility`, `Root Cause`, `Feedback`],
   },
 
   {
@@ -118,11 +147,13 @@ export const behavioralData = [
     - Task:
     - Action: To manage effectively, I prioritized tasks based on deadlines and importance,, and then organized my time accordingly.
     - Result:`,
+    hints: [`Prioritize On Deadlines And Importance`, `Organized Time Accordingly`],
   },
 
   {
     questions: `How do you handle constructive feedback or criticism from colleagues or supervisors?`,
     answers: `I view constructive feedback as an opportunity for growth and improvement. I actively listen to the feedback. I avoid taking it personally. I ask clarifying questions to gain a deeper understanding and actively seek ways to implement the feedback into my work.`,
+    hints: [`Opportunity`, `Actively Listen`, `Clarifying Questions`],
   },
 
   {
@@ -131,14 +162,16 @@ export const behavioralData = [
     - Task:
     - Action: To ensure a productive collaboration, I actively listened, sought common ground, and respected their perspectives. 
     - Result: Through effective collaboration and mutual respect, we successfully delivered our shared objectives. This experience taught me the importance of adaptability, empathy, and effective communication when working with team members who have different working styles or personalities.`,
+    hints: [`Actively Listened`, `Sought Common Ground`],
   },
 
   {
     questions: `Tell me about a time when you had to implement complex animations or transitions in a web application. How did you approach the implementation and ensure a smooth and visually engaging user experience?`,
     answers: `- Situation: In one of my personal projects I wanted to implement complex animation. The project was a music-based web app.
    - Task: In this app, I wanted to implement a circular slider.
-   - Action: I use the CSS transform property to style the slider element and to set the positioning in a circular manner. Additionally, I implemented JavaScript to handle the button click event and trigger the circular movement of the slider.
-   - Result: Finally, by carefully writing the styling and functionality code, I could successfully implement my desired animation.`,
+   - Action: I used the CSS transform property to style the slider element and to set the positioning in a circular manner. Additionally, I implemented JavaScript to handle the button click event and trigger the circular movement of the slider.
+   - Result: `,
+    hints: [`Music App`, `Circular Slider`, `CSS Transform And JavaScript`],
   },
 
   {
@@ -146,7 +179,8 @@ export const behavioralData = [
     answers: `- Situation: In my current project, one of the features required to use a third-party library. 
    - Task: To complete the feature I had to implement react-dropzone.
    - Action: I carefully reviewed the documentation of the library, and implemented error handling to address any compatibility issues. I also took help from stackoverflow and github to solve specific integration challenges.
-   - Result: Through a systematic approach to address compatibility issues and ensure smooth integration, I successfully incorporated third-party library into the application.`,
+   - Result: Through a systematic approach, I successfully incorporated third-party library into the application.`,
+    hints: [`React-Dropzone`, `Documentation`, `Error Handling`, `Stackoverflow And Github`],
   },
 
   {
@@ -155,6 +189,7 @@ export const behavioralData = [
    - Task: In such kind of situation the main challenge is to identify the root cause and implement a prompt resolution.
    - Action: I utilized browser developer tools, debuggers, and logging to pinpoint the issue. I reproduced the bug and validate the fix before deploying it to production.
    - Result: By quickly identifying and addressing the bug, I restored full functionality and improved the user experience, preventing further disruptions.`,
+    hints: [`Order Shipment`, `Pinpoint Issue Using Devtool`, `Reproduce And Validate Before Deploying`],
   },
 
   {
@@ -163,6 +198,7 @@ export const behavioralData = [
    - Task: Therefore, I continuously try to keep pace with rapidly changing technologies by investing time and effort in learning and gaining expertise. 
    - Action: I regularly read industry blogs to stay informed. I also try to get ideas from my colleagues and seniors through healthy discussions.  I experiment with new frameworks or techniques on personal projects and apply them to relevant parts of professional projects.
    - Result: By proactively seeking knowledge and applying it to projects, I tried to stay up-to-date with the latest technologies and frameworks.`,
+    hints: [`Try To Keep Pace With`, `Industry Blog`, `Experimentation With Personal Projects`, `Relevant Part In Professional Projects`],
   },
 
   {
@@ -171,6 +207,7 @@ export const behavioralData = [
    - Task: The challenge is to create a consistent user experience across various devices and resolutions.
    - Action: I use media queries, fluid layouts, and flexible elements to ensure responsiveness. I conduct thorough testing using different dimensions in dev tools and real devices to identify and resolve any layout or usability issues.
    - Result: By implementing responsive design techniques and thorough testing, I deliver a user-friendly experience across all devices.`,
+    hints: [`Media Queries`, `Fluid Layout`, `Flexible Element`, `Devtool And Real Device`],
   },
 
   {
@@ -179,6 +216,7 @@ export const behavioralData = [
    - Task: 
    - Action: To facilitate knowledge sharing and advocating best practices, I organized knowledge-sharing sessions, or prepared documentation to explain the benefits of specific practices or trends. I also encouraged open discussions and addressed any questions or concerns.
    - Result: By doing these, we collectively improved our front-end development approach.`,
+    hints: [`Knowledge Sharing Session`, `Prepare Document`, `Open Discussion`],
   },
 
   {
@@ -320,6 +358,26 @@ Result:`,
   {
     questions: `What is something that you had to push for in your previous projects?`,
     answers: `In one of my previous projects, I noticed that the codebase had become quite bloated and challenging to maintain. I advocated for a refactoring process to improve code quality, readability, and maintainability`,
+  },
+
+  {
+    questions: `What is the most constructive feedback you have received in your career?`,
+    answers: `During the initial days of my current workplace, my team leader pointed out that I could be more assertive and proactive in expressing my ideas during team discussions and meetings.`,
+  },
+
+  {
+    questions: `If this were your first annual review with our company, what would I be telling you right now?`,
+    answers: `In my first annual review, you would likely acknowledge my attention to detail and precision in my work.`,
+  },
+
+  {
+    questions: `What aspects of your work are most often criticized?`,
+    answers: `One aspect of my work that has been occasionally criticized is my tendency to work without taking enough breaks. My team leader suggested me to take enough break so that my brain gets enough time to refresh and think about a solution from a different perspective.`,
+  },
+
+  {
+    questions: `What strengths do you think are most important for your job position? `,
+    answers: `The strengths most important for my job position include proficiency in JavaScript, expertise in frontend frameworks, and a keen eye for detail in UI/UX design.`,
   },
 ];
 
