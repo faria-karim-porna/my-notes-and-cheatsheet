@@ -44,7 +44,7 @@ body {
 }
 
 .sidebar-list {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 150px);
     overflow: auto;
 }
 
@@ -233,5 +233,29 @@ body {
 }
 
 .sidebar-fixed {
+    padding: 10px 20px;
+}
+
+.todo-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+.todo-list>div {
+    background-color: rgb(247, 242, 242);
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 725px;
+    overflow: auto;
+}
+
+.todo-task {
+    background-color: white;
+    border-radius: 10px;
+    min-height: 50px;
+    margin: 10px 0px;
     padding: 10px 20px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import { Accordion } from "../common/Accordion";
-import { CodeBlock } from "../common/Codeblock";
+import { Accordion } from "../../common/Accordion";
+import { CodeBlock } from "../../common/Codeblock";
 
 const CheatSheetBackendNodeJsComponent = () => {
   return (
