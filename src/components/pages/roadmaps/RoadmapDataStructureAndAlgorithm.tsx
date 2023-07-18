@@ -1,9 +1,8 @@
 import React from "react";
-import { Accordion } from "../common/Accordion";
-
-import { Block } from "../common/Block";
-import { UncheckList } from "../common/UncheckList";
-import { CheckList } from "../common/CheckList";
+import { Block } from "../../common/Block";
+import { Accordion } from "../../common/Accordion";
+import { UncheckList } from "../../common/UncheckList";
+import { CheckList } from "../../common/CheckList";
 
 const RoadmapDataStructureAndAlgorithmComponent = () => {
   return (
@@ -217,9 +216,56 @@ const RoadmapDataStructureAndAlgorithmComponent = () => {
         </Accordion>
       </Accordion>
       <Accordion outer="12. Sorting">
-        <Accordion outer="Now"></Accordion>
-        <Accordion outer="Later"></Accordion>
-        <Accordion outer="Latest"></Accordion>
+        <Accordion outer="Now">
+          <UncheckList>
+            <div>Bubble Sort</div>
+            <div>Recursive Bubble Sort</div>
+            <div>Selection Sort</div>
+            <div>Insertion Sort</div>
+            <div>Recursive Insertion Sort</div>
+            <div>Quick Sort</div>
+            <div>3-Way QuickSort (Dutch National Flag)</div>
+            <div>Iterative Quick Sort</div>
+            <div>Merge Sort</div>
+            <div>Iterative Merge Sort</div>
+            <div>Heap Sort</div>
+            <div>Counting Sort</div>
+            <div>Radix Sort</div>
+            <div>Bucket Sort</div>
+            <div>ShellSort</div>
+          </UncheckList>
+        </Accordion>
+        <Accordion outer="Later">
+          <UncheckList>
+            <div>Quick Sort on Singly Linked List</div>
+            <div>Quick Sort on Doubly Linked List</div>
+            <div>Merge Sort for Linked Lists</div>
+            <div>Merge Sort for Doubly Linked List </div>
+            <div>3-way Merge Sort</div>
+            <div>Binary Insertion Sort</div>
+            <div>Pigeonhole Sort</div>
+            <div>Cycle Sort</div>
+          </UncheckList>
+        </Accordion>
+        <Accordion outer="Latest">
+          <UncheckList>
+            <div>Tim Sort</div>
+            <div>Comb Sort</div>
+            <div>Cocktail Sort</div>
+            <div>Strand Sort</div>
+            <div>Bitonic Sort</div>
+            <div>Pancake sorting</div>
+            <div>BogoSort or Permutation Sort</div>
+            <div>Gnome Sort</div>
+            <div>Sleep Sort - The King of Laziness / Sorting while Sleeping</div>
+            <div>Structure Sorting (By Multiple Rules) in C++</div>
+            <div>Stooge Sort</div>
+            <div>Tag Sort (To get both sorted and original)</div>
+            <div>Tree Sort</div>
+            <div>Cartesian Tree Sorting</div>
+            <div>Odd-Even Sort / Brick Sort</div>
+          </UncheckList>
+        </Accordion>
       </Accordion>
       <Accordion outer="13. Bit Manipulation"></Accordion>
       <Accordion outer="14. Number Theory"></Accordion>
