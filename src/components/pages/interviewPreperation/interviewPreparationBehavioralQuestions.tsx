@@ -4,22 +4,25 @@ import { behavioralData } from "../../../data/interviewPreparation/behavioralDat
 import { Block } from "../../common/Block";
 import { useState } from "react";
 import { Hints } from "../../common/Hints";
+import { SubBlock } from "../../common/SubBlock";
 
 const InterviewPreparationBehavioralQuestionsComponent = () => {
   const data = behavioralData;
   return (
     <>
-      <Block title="✨ Tips And Tricks">
-        <div>1. Try To Give Answer Using STAR Method</div>
-        <div>
-          2. In STAR S = Situation : Give an example of a team/project/feature/a person who is aligned with the situation of the question.
-        </div>
-        <div>3. In STAR T = Task : Give an example of what you are supposed to do/why the situation arises.</div>
-        <div>
-          4. In STAR A = Action : Give an example of what you have done in that situation and show your problem-solving skills/ teamwork/
-          adaptability/ effective communication skill/ leadership skill.
-        </div>
-        <div>5. In STAR R = Result : Tell whether you have succeeded or failed. If failed give example of your learning.</div>
+      <Block>
+        <SubBlock title="✨ Tips And Tricks">
+          <div>Try To Give Answer Using STAR Method</div>
+          <div>
+            In STAR S = Situation : Give an example of a team/project/feature/a person who is aligned with the situation of the question.
+          </div>
+          <div>In STAR T = Task : Give an example of what you are supposed to do/why the situation arises.</div>
+          <div>
+            In STAR A = Action : Give an example of what you have done in that situation and show your problem-solving skills/ teamwork/
+            adaptability/ effective communication skill/ leadership skill.
+          </div>
+          <div>In STAR R = Result : Tell whether you have succeeded or failed. If failed give example of your learning.</div>
+        </SubBlock>
       </Block>
       <div>
         <div>BehavioralQuestions Interview Preparation</div>

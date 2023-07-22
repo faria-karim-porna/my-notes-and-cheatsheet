@@ -3,19 +3,22 @@ import { Block } from "../../common/Block";
 import { Accordion } from "../../common/Accordion";
 import { UncheckList } from "../../common/UncheckList";
 import { CheckList } from "../../common/CheckList";
+import { SubBlock } from "../../common/SubBlock";
 
 const RoadmapDataStructureAndAlgorithmComponent = () => {
   return (
     <>
-      <Block title="💥 Topics To Be Noted Down:">
-        <div>1. Steps To Implement Each Data Structure/Algorithm</div>
-        <div>2. Dry Run Of Each Data Structure/Algorithm</div>
-        <div>3. Advantage Of Each Data Structure/Algorithm</div>
-        <div>4. Disadvantage Of Each Of The Data Structure/Algorithm</div>
-        <div>5. Time Complexity Of Each Data Structure/Algorithm</div>
-        <div>6. Space Complexity Of Each Data Structure/Algorithm</div>
-        <div>7. When To Use Which Data Structure/Algorithm</div>
-        <div>8. At Least Three Approach Of Each Problems</div>
+      <Block>
+        <SubBlock title="💥 Topics To Be Noted Down:">
+          <div>Steps To Implement Each Data Structure/Algorithm</div>
+          <div>Dry Run Of Each Data Structure/Algorithm</div>
+          <div>Advantage Of Each Data Structure/Algorithm</div>
+          <div>Disadvantage Of Each Of The Data Structure/Algorithm</div>
+          <div>Time Complexity Of Each Data Structure/Algorithm</div>
+          <div>Space Complexity Of Each Data Structure/Algorithm</div>
+          <div>When To Use Which Data Structure/Algorithm</div>
+          <div>At Least Three Approach Of Each Problems</div>
+        </SubBlock>
       </Block>
       <Accordion outer="1. Basics">
         <Accordion outer="Now">

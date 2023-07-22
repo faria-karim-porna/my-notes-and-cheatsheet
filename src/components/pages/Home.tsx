@@ -9,6 +9,7 @@ import { UncheckList } from "../common/UncheckList";
 import { CheckList } from "../common/CheckList";
 import { Tags } from "../common/Tags";
 import { Block } from "../common/Block";
+import { SubBlock } from "../common/SubBlock";
 
 const HomeComponent = () => {
   return (
@@ -44,10 +45,12 @@ const HomeComponent = () => {
       <Tags>Not Started</Tags>
       <Tags>Progress</Tags>
       <Tags>Done</Tags>
-      <Block title="Main Block">
-        <div>hello</div>
-        <div>hello</div>
-        <div>hello</div>
+      <Block>
+        <SubBlock title="Main Block">
+          <div>hello</div>
+          <div>hello</div>
+          <div>hello</div>
+        </SubBlock>
       </Block>
     </>
   );
