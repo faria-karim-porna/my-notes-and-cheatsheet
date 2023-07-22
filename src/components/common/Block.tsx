@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, ReactNode } from "react";
 
 type BlockProps = {
   title: string;
@@ -10,7 +10,11 @@ const BlockComponent = (props: React.PropsWithChildren<BlockProps>) => {
     <div className="block my-4">
       <h4>{title}</h4>
       <hr />
-      <div>{children}</div>
+      {Array.isArray(children) ? (
+        (children as ReactNode[])?.map((child: ReactNode, index: number) => <div className="py-1">{child}</div>)
+      ) : (
+        <div className="py-1">{children}</div>
+      )}
     </div>
   );
 };
