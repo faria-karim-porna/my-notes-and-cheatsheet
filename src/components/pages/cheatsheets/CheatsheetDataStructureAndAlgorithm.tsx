@@ -2,26 +2,31 @@ import React from "react";
 import { Block } from "../../common/Block";
 import { Accordion } from "../../common/Accordion";
 import { UncheckList } from "../../common/UncheckList";
+import { SubBlock } from "../../common/SubBlock";
 
 const CheatsheetDataStructureAndAlgorithmComponent = () => {
   return (
     <>
-      <Block title="💥 Topics To Be Noted Down:">
-        <div>1. Steps To Implement Each Data Structure/Algorithm</div>
-        <div>2. Dry Run Of Each Data Structure/Algorithm</div>
-        <div>3. Code Of Each Data Structure/Algorithm</div>
-        <div>4. Time Complexity Of Each Data Structure/Algorithm</div>
-        <div>5. Space Complexity Of Each Data Structure/Algorithm</div>
-        <div>6. Advantage Of Each Data Structure/Algorithm</div>
-        <div>7. Disadvantage Of Each Of The Data Structure/Algorithm</div>
-        <div>8. When To Use Which Data Structure/Algorithm</div>
-        <div>9. At Least Three Approach Of Each Problems</div>
-        <div>10. Real Life Examples Of Each Problems</div>
-        <div>11. LeetCode List Of Each Problems</div>
-        <div>12. Special Question And Tips</div>
-      </Block>
-      <Block title="❗ Important Resources:">
-        <div>1. Apna College</div>
+      <Block>
+        <SubBlock title="💥 Topics To Be Noted Down:">
+          <div>Steps To Implement Each Data Structure/Algorithm</div>
+          <div>Dry Run Of Each Data Structure/Algorithm</div>
+          <div>Code Of Each Data Structure/Algorithm</div>
+          <div>Time Complexity Of Each Data Structure/Algorithm</div>
+          <div>Space Complexity Of Each Data Structure/Algorithm</div>
+          <div>Advantage Of Each Data Structure/Algorithm</div>
+          <div>Disadvantage Of Each Of The Data Structure/Algorithm</div>
+          <div>When To Use Which Data Structure/Algorithm</div>
+          <div>At Least Three Approach Of Each Problems</div>
+          <div>Real Life Examples Of Each Problems</div>
+          <div>LeetCode List Of Each Problems</div>
+          <div>Special Question And Tips</div>
+        </SubBlock>
+        <SubBlock title="❗ Important Resources:">
+          <div>Apna College</div>
+        </SubBlock>
+
+        
       </Block>
       <Accordion outer="Apna College Videos">
         <Accordion outer="Take Notes">

@@ -1,20 +1,10 @@
-import React, { useState, useEffect, ReactNode } from "react";
+import React, { ReactNode } from "react";
 
-type BlockProps = {
-  title: string;
-};
-
-const BlockComponent = (props: React.PropsWithChildren<BlockProps>) => {
-  const { title, children } = props;
+const BlockComponent = (props: React.PropsWithChildren) => {
+  const { children } = props;
   return (
-    <div className="block my-4">
-      <h4>{title}</h4>
-      <hr />
-      {Array.isArray(children) ? (
-        (children as ReactNode[])?.map((child: ReactNode, index: number) => <div className="py-1">{child}</div>)
-      ) : (
-        <div className="py-1">{children}</div>
-      )}
+    <div className="block">
+      {Array.isArray(children) ? (children as ReactNode[])?.map((child: ReactNode, index: number) => child) : children}
     </div>
   );
 };
