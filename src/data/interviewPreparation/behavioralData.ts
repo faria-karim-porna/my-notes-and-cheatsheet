@@ -35,96 +35,126 @@ export const behavioralData = [
     ],
   },
 
-  //   {
-  //     questions: `Tell me about a time when you faced a difficult technical problem. How did you approach it?`,
-  //     answers: `-Situation:
-  //     - Task:
-  //     - Action: Whenever I develop complex features, I often encounter technical problems . When I faced with a challenging technical problem, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference.
-  //     -Result: `,
-  //     hints: [
-  //       `Root Cause`,
-  //       `Research`,
-  //       `Break Down`,
-  //       `Input From Colleagues`,
-  //       `Documentation`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you faced a difficult technical problem. How did you approach it?`,
+    ],
+    answers: [
+      `- Situation: In our profession, we sometimes face technical problems during the development of complex features. `,
+      `- Task:`,
+      `- Action: To deal with such situations, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference.`,
+      `- Result: `,
+    ],
+    hints: [
+      `Root Cause`,
+      `Research`,
+      `Break Down`,
+      `Input From Colleagues`,
+      `Documentation`,
+    ],
+  },
 
-  //   {
-  //     questions: `Describe a situation where you had to work under pressure to meet a project deadline.`,
-  //     answers: `- Situation: Few months back I was working on a tax related project.
-  //     - Task: In that project, we had to deliver a feature within a very short amount of time.
-  //     - Action: To cope with the pressure, we focused on essential tasks, eliminated non-essential elements. We distributed our work based on our strength. I prioritized tasks,  communicated with the team to ensure everyone was on the same page, and leveraged my problem-solving skills to find efficient solutions.
-  //     - Result: By doing these, we successfully delivered the project on time.`,
-  //     hints: [
-  //       `Tax Related Project`,
-  //       `Eliminate Non Essentials`,
-  //       `Distribute Work`,
-  //       `Prioritize`,
-  //       `Communication`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Describe a situation where you had to work under pressure to meet a project deadline.`,
+    ],
+    answers: [
+      `- Situation: A few months ago, I was working on a tax-related project.`,
+      `- Task: In that project, we had to deliver a feature within a very short amount of time.`,
+      `- Action: To cope with the pressure, we focused on essential tasks and eliminated non-essential elements. We distributed our work based on our strengths. I prioritized tasks,  communicated with the team to ensure everyone was on the same page, and leveraged my problem-solving skills to find efficient solutions.`,
+      `- Result: By doing these, we successfully delivered that feature on time.`,
+    ],
+    hints: [
+      `Tax Related Project`,
+      `Eliminate Non Essentials`,
+      `Distribute Work`,
+      `Prioritize`,
+      `Communication`,
+    ],
+  },
 
-  //   {
-  //     questions: `Can you share an experience when you had to handle conflicting requirements from stakeholders or clients?`,
-  //     answers: `- Situation: In one of the features of my current project,  I encountered conflicting requirements from different stakeholders
-  //     - Task: regarding the design and functionality of a web app.
-  //     - Action: To address this, I initiated meetings with my team lead and other team members. By giving proper examples I made them understand the complexity of the design and the challenges we will face within the given time limitation. Then I presented compromise solutions that met everyone's requirements.
-  //     - Result: This approach helped resolve conflicts, maintain stakeholder satisfaction, and keep the project on track.`,
-  //     hints: [
-  //       `Task Is Design And Functionality`,
-  //       `Initiate Meeting`,
-  //       `Give Example`,
-  //       `Present Solution`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Can you share an experience when you had to handle conflicting requirements from stakeholders or clients?`,
+    ],
+    answers: [
+      `- Situation: In one of the features of my current project,  I encountered a similar situation.`,
+      `- Task: regarding the design and functionality of a web app.`,
+      `- Action: To address this, I initiated meetings with my team lead and other team members. By giving proper examples I made them understand the complexity of the design and the challenges we will face within the given time limitation. Then I presented compromise solutions that met everyone's requirements.`,
+      `- Result: This approach helped resolve conflicts and maintain stakeholder satisfaction.`,
+    ],
+    hints: [
+      `Task Is Design And Functionality`,
+      `Initiate Meeting`,
+      `Give Example`,
+      `Present Solution`,
+    ],
+  },
 
-  //   {
-  //     questions: `How do you handle a situation when you are assigned a task that you are not familiar with?`,
-  //     answers: `- Situation:
-  //     - Task:
-  //     - Action: When assigned an unfamiliar task, I consider it as an opportunity to learn and grow. I start by researching and studying relevant documentation or seeking guidance from team members.
-  //     - Result: `,
-  //     hints: [`Opportunity`, `Research`, `Seek Guidance`],
-  //   },
+  {
+    questions: [
+      `How do you handle a situation when you are assigned a task that you are not familiar with?`,
+    ],
+    answers: [
+      `- Situation:`,
+      `- Task:`,
+      `- Action: I will consider it as an opportunity to learn and grow. I start by researching and studying relevant documentation or seeking guidance from team members.`,
+      `- Result: `,
+    ],
+    hints: [`Opportunity`, `Research`, `Seek Guidance`],
+  },
 
-  //   {
-  //     questions: `Describe a time when you worked on a project as part of a team. How did you contribute to the team's success?`,
-  //     answers: `- Situation:
-  //     - Task:
-  //     - Action: In a team project, I contributed to the team's success by participating in collaborative discussions, sharing my ideas, and listening to others' perspectives, completing tasks that are assigned to me and also supporting teammates in areas where they needed assistance.
-  //     - Result: `,
-  //     hints: [
-  //       `In Discussion`,
-  //       `By Sharing Ideas`,
-  //       `By Completing Task`,
-  //       `By Supporting`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Describe a time when you worked on a project as part of a team. How did you contribute to the team's success?`,
+    ],
+    answers: [
+      `- Situation:`,
+      `- Task:`,
+      `- Action: In a team project, I contributed to the team's success by participating in collaborative discussions, sharing my ideas, listening to others' perspectives, completing tasks that were assigned to me and also supporting teammates in areas where they needed assistance.`,
+      `- Result: `,
+    ],
+    hints: [
+      `In Discussion`,
+      `By Sharing Ideas`,
+      `By Completing Task`,
+      `By Supporting`,
+    ],
+  },
 
-  //   {
-  //     questions: `Why did you choose Front-End Development as your career?`,
-  //     answers: `I love the creative and artistic aspect of designing functional user interfaces in front-end development. It's a rewarding and exciting career. It blends my creativity, technical skills, and passion for problem-solving.`,
-  //     hints: [`Artistic`, `Rewarding And Exciting`, `Blends`],
-  //   },
+  {
+    questions: [`Why did you choose Front-End Development as your career?`],
+    answers: [
+      `I love the creative and artistic aspect of designing functional user interfaces in front-end development. It's a rewarding and exciting career. It blends my creativity, technical skills, and passion for problem-solving.`,
+    ],
+    hints: [`Artistic`, `Rewarding And Exciting`, `Blends`],
+  },
 
-  //   {
-  //     questions: `How many years you have been professionally working as a Javascript engineer?`,
-  //     answers: `I have been professionally working as a Javascript engineer for more than 2 years.`,
-  //     hints: [`More Than 2`],
-  //   },
+  {
+    questions: [
+      `How many years you have been professionally working as a Javascript engineer?`,
+    ],
+    answers: [`For almost 3 years.`],
+    hints: [`Almost 3 years`],
+  },
 
-  //   {
-  //     questions: `What are the challenges faced by the Front-end Development?`,
-  //     answers: `Front-end development challenges include cross-browser compatibility, responsive design, performance optimization, and staying up-to-date with evolving technologies.`,
-  //     hints: [`Cross Browser`, `Responsive`, `Performance`, `Up To Date`],
-  //   },
+  {
+    questions: [`What are the challenges faced by the Front-end Development?`],
+    answers: [
+      `I think the challenges include cross-browser compatibility, responsive design, performance optimization, and staying up-to-date with evolving technologies.`,
+    ],
+    hints: [`Cross Browser`, `Responsive`, `Performance`, `Up To Date`],
+  },
 
-  //   {
-  //     questions: `Provide links to the projects that you worked on and felt proud of it.`,
-  //     answers: `I felt proud of my thesis project which is a machine learning-based project that aimed to predict uttered words based solely on lip movement without any sound. We used technologies like OpenCV, moviepy, and lstm to do this project.`,
-  //     hints: [`Thesis`, `Uttered`, `Technologies Used`],
-  //   },
+  {
+    questions: [
+      `Provide links to the projects that you worked on and felt proud of it.`,
+    ],
+    answers: [
+      `I felt proud of my thesis project which is a machine learning-based project. It aimed to predict uttered words based solely on lip movement without any sound. In this project, we used technologies like OpenCV, MoviePy, and LSTM to do this project.`,
+    ],
+    hints: [`Thesis`, `Uttered`, `Technologies Used`],
+  },
 
   //   {
   //     questions: `How would you respond if a colleague interrupted you while you were in the middle of an assignment?`,
