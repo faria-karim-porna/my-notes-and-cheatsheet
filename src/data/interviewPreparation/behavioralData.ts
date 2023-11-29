@@ -1,33 +1,31 @@
 export const behavioralData = [
   {
     questions: `Tell us something about yourself which is not mentioned in your cv.`,
-    answers: `Yeah sure. Thank you for the opportunity to share more about myself. I am Faria. Currently, I am working as a Software Engineer at Kaz Software where I am involved in testing and debugging code, implementing best coding practices, and ensuring the software is scalable and efficient. 
+    answers: `Yeah sure. I am Faria. Currently, I am working as a Software Engineer at Kaz Software where I am involved in testing and debugging code, implementing best coding practices, and ensuring the software is scalable and efficient. 
 
-    I have been working here since March 2021. I have joined here as an associate software engineer. Recently I got promoted. 
+    I have started my career with this company. I have been working here for almost 3 years.
     
-    In my current company, I have mostly been involved in front-end development for a significant portion of the time. In the span of 2 years, I have been involved in implementing many new features and also have been part of the significant enhancements of the existing features. I mostly used react.js, redux, and typescript to accomplish the tasks.
+    In my career, I have mostly been involved in front-end development for a significant portion of the time. In the span of 3 years, I have been involved in implementing many new features and also have been part of the significant enhancements of the existing features. I mostly used react.js, redux, and typescript to accomplish the tasks.
     
     Additionally, till now I have done code reviews for the backend part of the application and also have worked on performance improvements and query optimization.
+
+    I was also part of two AI-based projects. One was related to image processing, and the other one was related to prompt engineering.
         
-    Although I have worked relatively less in the backend field in my career so far, but I have used many backend technologies like Laravel, Django, flask, and MySQL for the learning purpose in many of my personal projects. In those projects, I have implemented CRUD operations and also implemented robust authentication and authorization systems.
+    Although I have worked relatively less in the backend field in my career so far, but I have used many backend technologies like Laravel, Django, flask, and MySQL for learning purposes in many of my personal projects.
     
-    Although I have a basic understanding of various backend technologies, I am mostly familiar with Node.js, Express.js and Mongodb.
+    I am mostly familiar with Node.js, Express.js and MongoDB.
         
     I have completed my graduation from North South University in the year 2020. I have achieved the highest “Summa Cum Laude” prestige from my university for having an excellent CGPA.
-        
-    In my free time, I love to watch Indian and South Indian movies. Movies that are based on student lives are my most favorite such as 3 idiots, chichore, vaathi, etc.
-        
+            
     My hobby is doing illustration and animation kind of stuff using PowerPoint. I just love this tool. Every creative and artistic kind of thing always fascinates me.
     
     Yeah, that's pretty much about me.`,
     hints: [
-      `Thank You`,
       `Office Joining`,
       `Front-end In Job`,
       `Backend In Job`,
       `Backend In General`,
       `Education`,
-      `Free Time`,
       `Hobby`,
       `Ending`,
     ],
@@ -39,7 +37,13 @@ export const behavioralData = [
     - Task: 
     - Action: Whenever I develop complex features, I often encounter technical problems . When I faced with a challenging technical problem, I first analyzed the problem to understand its root cause. Then, I researched potential solutions. I break down the whole problem into smaller parts and try to solve each part separately. I sought input from colleagues if needed, and implemented the most suitable solution. I also documented the process for future reference.
     -Result: `,
-    hints: [`Root Cause`, `Research`, `Break Down`, `Input From Colleagues`, `Documentation`],
+    hints: [
+      `Root Cause`,
+      `Research`,
+      `Break Down`,
+      `Input From Colleagues`,
+      `Documentation`,
+    ],
   },
 
   {
@@ -48,7 +52,13 @@ export const behavioralData = [
     - Task: In that project, we had to deliver a feature within a very short amount of time. 
     - Action: To cope with the pressure, we focused on essential tasks, eliminated non-essential elements. We distributed our work based on our strength. I prioritized tasks,  communicated with the team to ensure everyone was on the same page, and leveraged my problem-solving skills to find efficient solutions. 
     - Result: By doing these, we successfully delivered the project on time.`,
-    hints: [`Tax Related Project`, `Eliminate Non Essentials`, `Distribute Work`, `Prioritize`, `Communication`],
+    hints: [
+      `Tax Related Project`,
+      `Eliminate Non Essentials`,
+      `Distribute Work`,
+      `Prioritize`,
+      `Communication`,
+    ],
   },
 
   {
@@ -57,7 +67,12 @@ export const behavioralData = [
     - Task: regarding the design and functionality of a web app.  
     - Action: To address this, I initiated meetings with my team lead and other team members. By giving proper examples I made them understand the complexity of the design and the challenges we will face within the given time limitation. Then I presented compromise solutions that met everyone's requirements. 
     - Result: This approach helped resolve conflicts, maintain stakeholder satisfaction, and keep the project on track.`,
-    hints: [`Task Is Design And Functionality`, `Initiate Meeting`, `Give Example`, `Present Solution`],
+    hints: [
+      `Task Is Design And Functionality`,
+      `Initiate Meeting`,
+      `Give Example`,
+      `Present Solution`,
+    ],
   },
 
   {
@@ -75,7 +90,12 @@ export const behavioralData = [
     - Task: 
     - Action: In a team project, I contributed to the team's success by participating in collaborative discussions, sharing my ideas, and listening to others' perspectives, completing tasks that are assigned to me and also supporting teammates in areas where they needed assistance.
     - Result: `,
-    hints: [`In Discussion`, `By Sharing Ideas`, `By Completing Task`, `By Supporting`],
+    hints: [
+      `In Discussion`,
+      `By Sharing Ideas`,
+      `By Completing Task`,
+      `By Supporting`,
+    ],
   },
 
   {
@@ -117,7 +137,14 @@ export const behavioralData = [
   {
     questions: `What are your Biggest Strengths and Weaknesses?`,
     answers: `First, I want to start with my strengths. I am a responsible person. I always value other people's time and contribution. I am also a passionate person. I don’t stop until I am done. I am a curious person as well. I love to keep learning. On the other hand, if it comes to weaknesses, then I have to say that I tend to be a perfectionist. Sometimes I put a lot of effort on very small details. Sometimes I become impatient to complete the work very quickly. I am a self critic. I very often feel that it is possible to do far better work from my side. So I spend too much time reviewing and revising work.`,
-    hints: [`Responsible`, `Passionate`, `Curious`, `Perfectionist`, `Impatient`, `Self Critic`],
+    hints: [
+      `Responsible`,
+      `Passionate`,
+      `Curious`,
+      `Perfectionist`,
+      `Impatient`,
+      `Self Critic`,
+    ],
   },
 
   {
@@ -147,7 +174,10 @@ export const behavioralData = [
     - Task:
     - Action: To manage effectively, I prioritized tasks based on deadlines and importance,, and then organized my time accordingly.
     - Result:`,
-    hints: [`Prioritize On Deadlines And Importance`, `Organized Time Accordingly`],
+    hints: [
+      `Prioritize On Deadlines And Importance`,
+      `Organized Time Accordingly`,
+    ],
   },
 
   {
@@ -180,7 +210,12 @@ export const behavioralData = [
    - Task: To complete the feature I had to implement react-dropzone.
    - Action: I carefully reviewed the documentation of the library, and implemented error handling to address any compatibility issues. I also took help from stackoverflow and github to solve specific integration challenges.
    - Result: Through a systematic approach, I successfully incorporated third-party library into the application.`,
-    hints: [`React-Dropzone`, `Documentation`, `Error Handling`, `Stackoverflow And Github`],
+    hints: [
+      `React-Dropzone`,
+      `Documentation`,
+      `Error Handling`,
+      `Stackoverflow And Github`,
+    ],
   },
 
   {
@@ -189,7 +224,11 @@ export const behavioralData = [
    - Task: In such kind of situation the main challenge is to identify the root cause and implement a prompt resolution.
    - Action: I utilized browser developer tools, debuggers, and logging to pinpoint the issue. I reproduced the bug and validate the fix before deploying it to production.
    - Result: By quickly identifying and addressing the bug, I restored full functionality and improved the user experience, preventing further disruptions.`,
-    hints: [`Order Shipment`, `Pinpoint Issue Using Devtool`, `Reproduce And Validate Before Deploying`],
+    hints: [
+      `Order Shipment`,
+      `Pinpoint Issue Using Devtool`,
+      `Reproduce And Validate Before Deploying`,
+    ],
   },
 
   {
@@ -198,7 +237,12 @@ export const behavioralData = [
    - Task: Therefore, I continuously try to keep pace with rapidly changing technologies by investing time and effort in learning and gaining expertise. 
    - Action: I regularly read industry blogs to stay informed. I also try to get ideas from my colleagues and seniors through healthy discussions.  I experiment with new frameworks or techniques on personal projects and apply them to relevant parts of professional projects.
    - Result: By proactively seeking knowledge and applying it to projects, I tried to stay up-to-date with the latest technologies and frameworks.`,
-    hints: [`Try To Keep Pace With`, `Industry Blog`, `Experimentation With Personal Projects`, `Relevant Part In Professional Projects`],
+    hints: [
+      `Try To Keep Pace With`,
+      `Industry Blog`,
+      `Experimentation With Personal Projects`,
+      `Relevant Part In Professional Projects`,
+    ],
   },
 
   {
@@ -207,7 +251,12 @@ export const behavioralData = [
    - Task: The challenge is to create a consistent user experience across various devices and resolutions.
    - Action: I use media queries, fluid layouts, and flexible elements to ensure responsiveness. I conduct thorough testing using different dimensions in dev tools and real devices to identify and resolve any layout or usability issues.
    - Result: By implementing responsive design techniques and thorough testing, I deliver a user-friendly experience across all devices.`,
-    hints: [`Media Queries`, `Fluid Layout`, `Flexible Element`, `Devtool And Real Device`],
+    hints: [
+      `Media Queries`,
+      `Fluid Layout`,
+      `Flexible Element`,
+      `Devtool And Real Device`,
+    ],
   },
 
   {

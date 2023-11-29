@@ -97,14 +97,14 @@ body {
     width: fit-content;
 }
 
-.que-voice button {
+.que-voice .text-to-speech-text-area{
     border: 1px solid red !important;
     padding: 10px 15px;
     border-radius: 10px;
     background-color: rgb(255, 0, 0, 0.25) !important;
 }
 
-.ans-voice button {
+.ans-voice .text-to-speech-text-area{
     border: 1px solid green !important;
     padding: 10px 15px;
     border-radius: 10px;

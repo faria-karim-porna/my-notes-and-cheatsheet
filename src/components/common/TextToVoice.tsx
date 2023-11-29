@@ -15,19 +15,29 @@ const TextToVoiceComponent = (props: TextToVoiceProps) => {
   };
   return (
     <>
-      <div className={`${className} my-4 d-flex align-items-center text-to-speech-container`}>
-        <Speech
-          text={text}
+      <div
+        className={`${className} my-4 d-flex align-items-center text-to-speech-container`}
+      >
+        <div className="text-to-speech-text-area">{text}</div>
+        {/* <Speech
+          text={`hello </br> World`}
           voice="Google UK English Female"
           pitch="1"
           rate="1"
           volume="1"
           lang="en-GB"
           textAsButton={viewText || shouldAlwaysView}
-        />
+        /> */}
         {!shouldAlwaysView ? (
-          <div onClick={() => viewHandler()} className="mx-4 text-to-speech-view-buttons">
-            {viewText ? <i className="fa fa-eye-slash"></i> : <i className="fa fa-eye"></i>}
+          <div
+            onClick={() => viewHandler()}
+            className="mx-4 text-to-speech-view-buttons"
+          >
+            {viewText ? (
+              <i className="fa fa-eye-slash"></i>
+            ) : (
+              <i className="fa fa-eye"></i>
+            )}
           </div>
         ) : null}
       </div>
