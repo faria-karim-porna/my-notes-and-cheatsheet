@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Speech from "react-speech";
+import React, { useState, useEffect } from "react";
 
 type TextToVoiceProps = {
   className?: string;
@@ -13,21 +12,49 @@ const TextToVoiceComponent = (props: TextToVoiceProps) => {
   const viewHandler = () => {
     setViewText(!viewText);
   };
+
+  const synth = window.speechSynthesis;
+
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  useEffect(() => {
+    setVoices(synth.getVoices());
+  }, []);
+
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const speakHandler = () => {
+    const utterThis = new SpeechSynthesisUtterance(text);
+    utterThis.voice = voices[5];
+    if (isPlaying) {
+      synth.cancel();
+    } else {
+      synth.speak(utterThis);
+    }
+
+    utterThis.onend = () => {
+      setIsPlaying(false);
+    };
+
+    setIsPlaying(!isPlaying);
+  };
   return (
     <>
       <div
         className={`${className} my-4 d-flex align-items-center text-to-speech-container`}
       >
         <div className="text-to-speech-text-area">{text}</div>
-        {/* <Speech
-          text={`hello </br> World`}
-          voice="Google UK English Female"
-          pitch="1"
-          rate="1"
-          volume="1"
-          lang="en-GB"
-          textAsButton={viewText || shouldAlwaysView}
-        /> */}
+        <div
+          onClick={() => {
+            speakHandler();
+          }}
+          className="mx-4 text-to-speech-view-buttons"
+        >
+          {isPlaying ? (
+            <i className="fa fa-volume-off"></i>
+          ) : (
+            <i className="fa fa-volume-up"></i>
+          )}
+        </div>
         {!shouldAlwaysView ? (
           <div
             onClick={() => viewHandler()}
