@@ -14,14 +14,22 @@ const InterviewPreparationBehavioralQuestionsComponent = () => {
         <SubBlock title="✨ Tips And Tricks">
           <div>Try To Give Answer Using STAR Method</div>
           <div>
-            In STAR S = Situation : Give an example of a team/project/feature/a person who is aligned with the situation of the question.
+            In STAR S = Situation : Give an example of a team/project/feature/a
+            person who is aligned with the situation of the question.
           </div>
-          <div>In STAR T = Task : Give an example of what you are supposed to do/why the situation arises.</div>
           <div>
-            In STAR A = Action : Give an example of what you have done in that situation and show your problem-solving skills/ teamwork/
+            In STAR T = Task : Give an example of what you are supposed to
+            do/why the situation arises.
+          </div>
+          <div>
+            In STAR A = Action : Give an example of what you have done in that
+            situation and show your problem-solving skills/ teamwork/
             adaptability/ effective communication skill/ leadership skill.
           </div>
-          <div>In STAR R = Result : Tell whether you have succeeded or failed. If failed give example of your learning.</div>
+          <div>
+            In STAR R = Result : Tell whether you have succeeded or failed. If
+            failed give example of your learning.
+          </div>
         </SubBlock>
       </Block>
       <div>
@@ -31,7 +39,11 @@ const InterviewPreparationBehavioralQuestionsComponent = () => {
       <hr />
       {data.map((queAndAns, index) => (
         <>
-          <TextToVoice className="que-voice" text={`${index + 1}. ${queAndAns.questions}`} shouldAlwaysView={true} />
+          <TextToVoice
+            className="que-voice"
+            text={[`${index + 1}. ${queAndAns.questions[0]}`]}
+            shouldAlwaysView={true}
+          />
           <TextToVoice className="ans-voice" text={queAndAns.answers} />
           <Hints hints={queAndAns.hints} />
         </>
@@ -40,4 +52,6 @@ const InterviewPreparationBehavioralQuestionsComponent = () => {
   );
 };
 
-export const InterviewPreparationBehavioralQuestions = React.memo(InterviewPreparationBehavioralQuestionsComponent);
+export const InterviewPreparationBehavioralQuestions = React.memo(
+  InterviewPreparationBehavioralQuestionsComponent
+);

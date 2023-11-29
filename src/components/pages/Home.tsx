@@ -20,8 +20,15 @@ const HomeComponent = () => {
   }`}
       </CodeBlock>
       <CodeBlock language={"html"}>{`<div>hello world</div>`}</CodeBlock>
-      <TextToVoice className="que-voice" text="What is your name?" shouldAlwaysView={true} />
-      <TextToVoice className="ans-voice" text="Hello this is Faria Karim Porna." />
+      <TextToVoice
+        className="que-voice"
+        text={["What is your name?"]}
+        shouldAlwaysView={true}
+      />
+      <TextToVoice
+        className="ans-voice"
+        text={["Hello this is Faria Karim Porna."]}
+      />
       <VoiceToText />
 
       <Accordion outer="hello world">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 type TextToVoiceProps = {
   className?: string;
-  text?: string;
+  text?: string[];
   shouldAlwaysView?: boolean;
 };
 
@@ -23,7 +23,8 @@ const TextToVoiceComponent = (props: TextToVoiceProps) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const speakHandler = () => {
-    const utterThis = new SpeechSynthesisUtterance(text);
+    const utterText = text?.join(" ");
+    const utterThis = new SpeechSynthesisUtterance(utterText);
     utterThis.voice = voices[5];
     if (isPlaying) {
       synth.cancel();
@@ -42,7 +43,14 @@ const TextToVoiceComponent = (props: TextToVoiceProps) => {
       <div
         className={`${className} my-4 d-flex align-items-center text-to-speech-container`}
       >
-        <div className="text-to-speech-text-area">{text}</div>
+        <div className="text-to-speech-text-area">
+          {text?.map((eachParagraph, index) => (
+            <div>
+              <div>{eachParagraph}</div>
+              {index !== text.length - 1 ? <br /> : null}
+            </div>
+          ))}
+        </div>
         <div
           onClick={() => {
             speakHandler();
