@@ -44,12 +44,14 @@ const TextToVoiceComponent = (props: TextToVoiceProps) => {
         className={`${className} my-4 d-flex align-items-center text-to-speech-container`}
       >
         <div className="text-to-speech-text-area">
-          {text?.map((eachParagraph, index) => (
-            <div>
-              <div>{eachParagraph}</div>
-              {index !== text.length - 1 ? <br /> : null}
-            </div>
-          ))}
+          {text?.map((eachParagraph, index) =>
+            shouldAlwaysView || viewText ? (
+              <div>
+                <div>{eachParagraph}</div>
+                {index !== text.length - 1 ? <br /> : null}
+              </div>
+            ) : null
+          )}
         </div>
         <div
           onClick={() => {
