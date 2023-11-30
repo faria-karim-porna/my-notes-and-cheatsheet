@@ -353,7 +353,9 @@ export const behavioralData = [
 
   {
     questions: [
-      `Tell me about a time when you had to educate and guide team members or stakeholders on front-end development best practices or emerging trends. How did you facilitate knowledge sharing and adoption of these practices?`,
+      [
+        `Tell me about a time when you had to educate and guide team members or stakeholders on front-end development best practices or emerging trends. How did you facilitate knowledge sharing and adoption of these practices?`,
+      ],
     ],
     answers: [
       `- Situation:`,
@@ -364,108 +366,175 @@ export const behavioralData = [
     hints: [`Knowledge Sharing Session`, `Prepare Document`, `Open Discussion`],
   },
 
-  //   {
-  //     questions: `Describe a situation where you had to work on a project with strict performance or SEO requirements. How did you optimize the front end to achieve the desired performance and search engine visibility?`,
-  //     answers: `- Situation:
-  //    - Task:
-  //    - Action: To optimize the performance, I optimized code, reduced image sizes, and utilized lazy loading to improve page load speed. For SEO, I implemented structured data, optimized meta tags, and ensured semantic HTML.
-  //    - Result: By prioritizing performance and SEO best practices, I achieved a high-performing application that ranked well in search engine results.`,
-  //   },
+  {
+    questions: [
+      `Describe a situation where you had to work on a project with strict performance or SEO requirements. How did you optimize the front end to achieve the desired performance and search engine visibility?`,
+    ],
+    answers: [
+      `- Situation:`,
+      `- Task:`,
+      `- Action: To optimize the performance, I optimized code, reduced image sizes, and utilized lazy loading to improve page load speed. For SEO, I implemented structured data, optimized meta tags, and ensured semantic HTML.`,
+      `- Result:`,
+    ],
+    hints: [
+      `Code Optimization`,
+      `Reducing Image Size`,
+      `Utilizing Lazy Loading`,
+      `Meta Tags`,
+      `Semantic HTML`,
+    ],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you had to work on a project with limited design specifications or wireframes. How did you ensure a cohesive and visually appealing user interface without explicit guidance?`,
-  //     answers: `- Situation:
-  //    - Task:
-  //    - Action: To handle this situation, I collaborated closely with designers and stakeholders to understand project requirements. I created prototypes and obtained feedback early in the development process to iterate and refine the design.
-  //    - Result: By actively interacting with stakeholders and using an iterative design process, we achieved a user interface that aligned with project goals.`,
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you had to work on a project with limited design specifications or wireframes. How did you ensure a cohesive and visually appealing user interface without explicit guidance?`,
+    ],
+    answers: [
+      `- Situation:`,
+      `- Task:`,
+      `- Action: To handle this situation, I collaborated closely with designers and stakeholders to understand project requirements. I created prototypes and obtained feedback early in the development process to iterate and refine the design.`,
+      `- Result:`,
+    ],
+    hints: [`Team Collaboration`, `Prototype Design`, `Early Feedback`],
+  },
 
-  //   {
-  //     questions: `If someone has a different viewpoint to do a project like a different programming language, how would handle this situation?`,
-  //     answers: `- Situation:
-  //    - Task:
-  //    - Action: To handle this situation, I would initiate an open discussion with the team, weighing the pros and cons of each approach, considering project requirements, scalability, and team expertise.
-  //    - Result: By engaging in collaborative decision-making, we can reach a consensus that best aligns with the project's goals and ensures successful implementation.`,
-  //   },
+  {
+    questions: [
+      `If someone has a different viewpoint to do a project like a different programming language, how would you handle this situation?`,
+    ],
+    answers: [
+      `- Situation:`,
+      `- Task:`,
+      `- Action: To handle this situation, I would initiate an open discussion with the team, taking into account various factors such as the pros and cons of each approach, project requirements, scalability, and team expertise.`,
+      ` - Result:`,
+    ],
+    hints: [`Initiate Discussion`, `Taking Into Account`],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you had to work on a project with tight deadlines and limited resources. How did you manage the situation?`,
-  //     answers: `- Situation: I have never faced this kind of situation yet.
-  //    - Task:
-  //    - Action: But If I had to face it, I would conduct a thorough project analysis, identify essential tasks, and allocate resources strategically. I would also maintained open communication with the team to ensure everyone remained focused and motivated.
-  //    - Result:`,
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you had to work on a project with tight deadlines and limited resources. How did you manage the situation?`,
+    ],
+    answers: [
+      `- Situation: I faced similar situation to implement file manager in a project.`,
+      `- Task:`,
+      `- Action: To manage this, I conducted a thorough project analysis, identified essential tasks, and allocated resources strategically.`,
+      `- Result:`,
+    ],
+    hints: [`Project Analysis`, `Strategically Resource Allocation`],
+  },
 
-  //   {
-  //     questions: `Share an example of a complex technical problem you faced and how you approached the troubleshooting and debugging process.`,
-  //     answers: `- Situation: Recently, I faced a complex technical problem in the order shipment feature of our project.
-  //    - Task:
-  //    - Action: I utilized debugging tools, reviewed logs, and conducted step-by-step testing to isolate the problematic component. I also collaborated with other team members to gain different perspectives on the issue.
-  //    - Result:`,
-  //   },
+  {
+    questions: [
+      `Describe a time when you had to refactor a large codebase. How did you ensure the process was smooth, and what strategies did you employ to minimize disruption?`,
+    ],
+    answers: [
+      `- Situation:`,
+      `- Task:`,
+      `- Action: Whenever I had to refactor a large codebase, I used to divide the whole project into several components. Then, I reviewed the code of the components one by one and identified the code which needed to be refactored. After reviewing a component I immediately refactor the code of that component.`,
+      `- Result:`,
+    ],
+    hints: [`Reviewing Components One By One`],
+  },
 
-  //   {
-  //     questions: `Describe a time when you had to refactor a large codebase. How did you ensure the process was smooth, and what strategies did you employ to minimize disruption?`,
-  //     answers: `- Situation:
-  //    - Task:
-  //    - Action: Whenever I had to refactor a large codebase, I used to divide into several components. Then, I reviewed the code of the components one by one and indentified the code which need to be refactored. After reviewing a component  I immediatly refactor the code of that component.
-  //    - Result: By taking a gradual approach I successfully refactored the codebase, enhancing maintainability and reducing potential risks.`,
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you faced resistance from team members or stakeholders in adopting a new technology or software development practice. How did you convince them of its benefits?`,
+    ],
+    answers: [
+      `- Situation: I have never faced this kind of situation.`,
+      `- Task:`,
+      `- Action: But If I had to, I would organize presentations and share case studies to showcase the benefits and potential positive impact.`,
+      `- Result:`,
+    ],
+    hints: [`No`, `Organize Presentation`, `Case Studies`],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you faced resistance from team members or stakeholders in adopting a new technology or software development practice. How did you convince them of its benefits?`,
-  //     answers: `- Situation: I have never faced this kind of situation.
-  //    - Task:
-  //    - Action: But If I had to, I would organize presentations and share case studies to showcase the benefits and potential positive impact.
-  //    - Result: .`,
-  //   },
+  {
+    questions: [
+      `Share an example of a time when you had to balance the need for code quality and delivery speed. How did you make decisions to ensure both aspects were addressed effectively?`,
+    ],
+    answers: [
+      `- Situation: During the development of new features, I have faced many times this kind of situation.`,
+      `- Task:`,
+      `- Action:  I usually follow an iterative approach. I used to break down the project into manageable tasks. I prioritize each manageable task and then allocate time according to the difficulty level. After finishing a task, I test and review my code. After that, I refactor my code according to the necessity.  I always follow the same coding convention throughout the first while writing code for a specific task for the first attempt.`,
+      `- Result: Thus, I ensure the both aspects.`,
+    ],
+    hints: [
+      `Manageable Tasks`,
+      `Allocate Time`,
+      `Test And Review`,
+      `Refactor If Necessity`,
+    ],
+  },
 
-  //   {
-  //     questions: `Share an example of a time when you had to balance the need for code quality and delivery speed. How did you make decisions to ensure both aspects were addressed effectively?`,
-  //     answers: `- Situation: During the development of new features, I have faced many times this kind of situation.
-  //    - Task:
-  //    - Action:  I follow an iterative approach. I used to break down the project into manageable tasks. I first priotize each managable task and then allocate time according to the difficulty level. After finishing a task, I test and review my code immediately. After that I refactor my code according to the necessity.  I always follow the same coding convention thorughout the first while writing code for a specific task for the first attempt.
-  //    - Result: By prioritizing task and code quality, I ensure the both aspects.`,
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you had to mentor or coach a junior team member. How did you approach their development and provide guidance?`,
+    ],
+    answers: [
+      `- Situation: In my previous project I had to mentor a junior team member.`,
+      `- Task: The responsibility was to guide him and support him if he needed any help.`,
+      `- Action: At the beginning of the day I gave him some tasks to complete. After he had finished the given task, I provided him with some constructive feedback. I also used to suggest him useful resources to accomplish his task. If he stuck in any task, we used to do pair programming also.`,
+      `- Result:`,
+    ],
+    hints: [
+      `Give Guidance`,
+      `Assigned Task`,
+      `Provide Feedback`,
+      `Suggest Resources`,
+      `Pair Programming`,
+    ],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you had to mentor or coach a junior team member. How did you approach their development and provide guidance?`,
-  //     answers: `- Situation: In my previous project I had to mentor a junior team memeber.
-  //    - Task: The responsibility was to give him guidance and support him if he needs any help.
-  //    - Action: At the beginning of the day I gave him some tasks to complete. After he had finished the given task, I provided him some constructive feedback. I also used to suggest him useful resources to accomplish his task. If he stucked in any task, we used to do pair programming also.
-  //    - Result: `,
-  //   },
+  {
+    questions: [
+      `Share an example of a time when you had to handle a difficult client or stakeholder who had unrealistic expectations or constantly changing requirements. How did you manage their expectations and ensure project success?`,
+    ],
+    answers: [
+      `- Situation: I've never needed to do that. Because our team lead usually handles stakeholders and clients.`,
+      `- Task:`,
+      `- Action: If I had to handle it, I would set a realistic timeline according to the client's requirements and would make them understand the drawbacks of unrealistic expectations.  I would conduct regular meetings with stakeholders to get their continuous feedback. I would also provide timely updates.`,
+      `- Result:`,
+    ],
+    hints: [
+      `No`,
+      `Realistic Timeline`,
+      `Make Them Understand`,
+      `Meeting`,
+      `Timely Update`,
+    ],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you faced challenges in ensuring cross-browser compatibility for a web application. How did you address these challenges?`,
-  //     answers: `- Situation: Cross-browser compatibility issue is one of the most common issues a developer usually faces.
-  //     - Task: To ensure the application functioned seamlessly across different browsers.
-  //     - Action: To address these issues, I conducted thorough browser testing, CSS prefixing to ensure consistent behavior across different browsers. Additionally, I utilized polyfills for unsupported features.
-  //     - Result:`,
-  //   },
+  {
+    questions: [
+      `What do you know about this role "Frontend Focused Full Stack Developer"?`,
+    ],
+    answers: [
+      `This role focuses on frontend development with some backend exposure. It requires proficiency in frontend frameworks, responsive design, and collaboration with backend teams.`,
+    ],
+    hints: [`Backend Exposure`, `Frameworks`, `Responsive Design`],
+  },
 
-  //   {
-  //     questions: `Share an example of a time when you had to handle a difficult client or stakeholder who had unrealistic expectations or constantly changing requirements. How did you manage their expectations and ensure project success?`,
-  //     answers: `- Situation: I've never needed to do that. Because our team lead usually handles stakeholders and clients.
-  //     - Task:
-  //     - Action: If I had to handle it, I would set a realistic timeline according to the client's requirements and would make them understand the drawback of unrealistic expectations.  I would establish regular meetings with stakeholders to get their continuous feedback. I would also provide timely updates.
-  //     - Result:`,
-  //   },
+  {
+    questions: [`What are you looking for in your next role?`],
+    answers: [
+      `In my next role, I am looking for challenging and interesting projects so that I can utilize and expand my front-end development skills. I seek a collaborative team environment where I can continue to learn and grow as a developer.`,
+    ],
+    hints: [
+      `Challenging And Interesting Projects`,
+      `Utilize And Expand`,
+      `Collaborative Environment`,
+    ],
+  },
 
-  //   {
-  //     questions: `What do you know about this role "Frontend Focused Full Stack Developer"?`,
-  //     answers: `The "Frontend Focused Full Stack Developer" role focuses on frontend development with some backend exposure. It requires proficiency in frontend frameworks, responsive design, and collaboration with backend teams.`,
-  //   },
-
-  //   {
-  //     questions: `What are you looking for in your next role?`,
-  //     answers: `In my next role, I am looking for challenging and interesting projects so that I can utilize and expand my front-end development skills. I seek a collaborative team environment where I can contribute innovative ideas and continue to learn and grow as a developer.`,
-  //   },
-
-  //   {
-  //     questions: `What project are you currently working on?`,
-  //     answers: `Currently, I am working on an ERP (Enterprise Resource Planning)-based web application. It deals with order-related data.`,
-  //   },
+  {
+    questions: [`What project are you currently working on?`],
+    answers: [
+      `Currently, I am working on an ERP (Enterprise Resource Planning)-based web application. It deals with order-related data. Side by side, I am also doing an AI-based project which does modifications to the image based on a given prompt.`,
+    ],
+    hints: [`ERP`, `Order Related`, `AI`],
+  },
 
   //   {
   //     questions: `What is the most challenging aspect of your current project? `,
