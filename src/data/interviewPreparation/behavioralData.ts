@@ -156,151 +156,213 @@ export const behavioralData = [
     hints: [`Thesis`, `Uttered`, `Technologies Used`],
   },
 
-  //   {
-  //     questions: `How would you respond if a colleague interrupted you while you were in the middle of an assignment?`,
-  //     answers: `If the interruption was urgent, I'd either address the task immediately or delegate it to another team member. Otherwise, I'd request my colleague to wait until I finish my current task, so I can provide my full attention for the best response.`,
-  //     hints: [`Address`, `Delegate`, `Request To Wait`, `Provide Full Attention`],
-  //   },
+  {
+    questions: [
+      `How would you respond if a colleague interrupted you while you were in the middle of an assignment?`,
+    ],
+    answers: [
+      `If the interruption was urgent, I'd either address the task immediately or delegate it to another team member. Otherwise, I'd request my colleague to wait until I finish my current task, so I can provide my full attention for the best response.`,
+    ],
+    hints: [`Address`, `Delegate`, `Request To Wait`, `Provide Full Attention`],
+  },
 
-  //   {
-  //     questions: `What are your salary expectations?`,
-  //     answers: `I expect a competitive salary reflecting my experience and responsibilities. In my opinion, a competitive salary motivates employees. However, work culture and growth opportunities matter too. But if I've to mention the figure, then I'd say 1000 USD.`,
-  //     hints: [`Experince And Responsibilities`, `However`, `Growth Opportunity`],
-  //   },
+  {
+    questions: [`What are your salary expectations?`],
+    answers: [
+      `I expect a competitive salary reflecting my experience and responsibilities. In my opinion, a competitive salary motivates employees. However, work culture and growth opportunities matter too. But if I've to mention the figure, then I'd say 1000 USD.`,
+    ],
+    hints: [`Experience And Responsibilities`, `However`, `Growth Opportunity`],
+  },
 
-  //   {
-  //     questions: `What are your Biggest Strengths and Weaknesses?`,
-  //     answers: `First, I want to start with my strengths. I am a responsible person. I always value other people's time and contribution. I am also a passionate person. I don’t stop until I am done. I am a curious person as well. I love to keep learning. On the other hand, if it comes to weaknesses, then I have to say that I tend to be a perfectionist. Sometimes I put a lot of effort on very small details. Sometimes I become impatient to complete the work very quickly. I am a self critic. I very often feel that it is possible to do far better work from my side. So I spend too much time reviewing and revising work.`,
-  //     hints: [
-  //       `Responsible`,
-  //       `Passionate`,
-  //       `Curious`,
-  //       `Perfectionist`,
-  //       `Impatient`,
-  //       `Self Critic`,
-  //     ],
-  //   },
+  {
+    questions: [`What are your Biggest Strengths and Weaknesses?`],
+    answers: [
+      `First, I want to start with my strengths. I am a responsible person. I always value other people's time and contribution. I am also a passionate person. I don’t stop until I am done. I am a curious person as well. I love to keep learning. On the other hand, if it comes to weaknesses, then I have to say that I tend to be a perfectionist. Sometimes I put a lot of effort into very small details. Sometimes I become impatient to complete the work very quickly. I am a self-critic. I very often feel that it is possible to do far better work from my side. So I spend too much time reviewing and revising work.`,
+    ],
+    hints: [
+      `Responsible`,
+      `Passionate`,
+      `Curious`,
+      `Perfectionist`,
+      `Impatient`,
+      `Self Critic`,
+    ],
+  },
 
-  //   {
-  //     questions: `What are your Long-Term Plans?`,
-  //     answers: `As a software engineer, I aim to build a successful career by expanding my expertise. I want to see myself as a technical lead who can help many people and make a major impact on society by contributing to complex and large-scale projects.`,
-  //     hints: [`Expand Expertise`, `Technical Lead`],
-  //   },
+  {
+    questions: [`What are your Long-Term Plans?`],
+    answers: [
+      `As a software engineer, I aim to build a successful career by expanding my expertise. I want to see myself as a technical lead who can help many people and make a major impact on society by contributing to complex and large-scale projects.`,
+    ],
+    hints: [`Expand Expertise`, `Technical Lead`],
+  },
 
-  //   {
-  //     questions: `Can you recall an instance where you had to explain a technical concept to a non-technical person?`,
-  //     answers: `While explaining a technical concept to a non-technical person, I focused on simplifying the language and I also focused on using relatable examples. Visual aids, diagrams, or demonstrations were helpful tools to convey the concept effectively.`,
-  //     hints: [`Simplify`, `Examples`, `Visual Aids`, `Diagram`],
-  //   },
+  {
+    questions: [
+      `Can you recall an instance where you had to explain a technical concept to a non-technical person?`,
+    ],
+    answers: [
+      `I don't think I have faced such a situation. If I face, I will focus on simplifying the language and I also focus on using relatable examples. Visual aids, diagrams, or demonstrations are helpful tools to convey the concept effectively. So I will use them.`,
+    ],
+    hints: [`No`, `Simplify`, `Examples`, `Visual Aids`, `Diagram`],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you faced a setback or failure in a project. How did you handle it?`,
-  //     answers: `- Situation: In one of the features of my current project I encountered a failure in delivering the feature on time.
-  //     - Task:
-  //     - Action: To handle it, I acknowledged the situation, took responsibility for my part, and analyzed the root causes to learn from the experience. I sought feedback from teammates or supervisors to gain different perspectives and identify areas for improvement.
-  //     - Result: I then adjusted my approach, made necessary changes, and used the setback as a valuable learning opportunity.`,
-  //     hints: [`Not On Time`, `Take Responsibility`, `Root Cause`, `Feedback`],
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you faced a setback or failure in a project. How did you handle it?`,
+    ],
+    answers: [
+      `- Situation: Encountered a setback when implementing a complex feature.`,
+      `- Task:`,
+      `- Action: To handle it, I diagnosed the root cause, collaborated with colleagues and iteratively addressed smaller issues.`,
+      `- Result: By adapting strategies, and applying learned lessons,  I successfully delivered the project.`,
+    ],
+    hints: [
+      `Complex Feature`,
+      `Root Cause`,
+      `Collaborated`,
+      `Addressed`,
+      `Success`,
+    ],
+  },
 
-  //   {
-  //     questions: `Describe a situation where you had to juggle multiple priorities or tasks simultaneously.`,
-  //     answers: `- Situation: In my current project, there was a situation where multiple tasks or tickets demanded my attention.
-  //     - Task:
-  //     - Action: To manage effectively, I prioritized tasks based on deadlines and importance,, and then organized my time accordingly.
-  //     - Result:`,
-  //     hints: [
-  //       `Prioritize On Deadlines And Importance`,
-  //       `Organized Time Accordingly`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Describe a situation where you had to juggle multiple priorities or tasks simultaneously.`,
+    ],
+    answers: [
+      `- Situation: A few days ago, there was a situation where multiple tasks or tickets demanded my attention.`,
+      `- Task:`,
+      `- Action: To manage effectively, I prioritized tasks based on deadlines and importance, and then organized my time accordingly.`,
+      `- Result:`,
+    ],
+    hints: [
+      `Demanded`,
+      `Prioritize On Deadlines And Importance`,
+      `Organized Time Accordingly`,
+    ],
+  },
 
-  //   {
-  //     questions: `How do you handle constructive feedback or criticism from colleagues or supervisors?`,
-  //     answers: `I view constructive feedback as an opportunity for growth and improvement. I actively listen to the feedback. I avoid taking it personally. I ask clarifying questions to gain a deeper understanding and actively seek ways to implement the feedback into my work.`,
-  //     hints: [`Opportunity`, `Actively Listen`, `Clarifying Questions`],
-  //   },
+  {
+    questions: [
+      `How do you handle constructive feedback or criticism from colleagues or supervisors?`,
+    ],
+    answers: [
+      `I view constructive feedback as an opportunity for growth and improvement. I actively listen to the feedback. I ask clarifying questions to gain a deeper understanding and actively try to implement the feedback into my work.`,
+    ],
+    hints: [`Opportunity`, `Actively Listen`, `Clarifying Questions`],
+  },
 
-  //   {
-  //     questions: `Can you share an experience where you successfully collaborated with a team member with a different working style or personality?`,
-  //     answers: `- Situation: In a cross-functional project, I collaborated with a team member who had a different working style.
-  //     - Task:
-  //     - Action: To ensure a productive collaboration, I actively listened, sought common ground, and respected their perspectives.
-  //     - Result: Through effective collaboration and mutual respect, we successfully delivered our shared objectives. This experience taught me the importance of adaptability, empathy, and effective communication when working with team members who have different working styles or personalities.`,
-  //     hints: [`Actively Listened`, `Sought Common Ground`],
-  //   },
+  {
+    questions: [
+      `Can you share an experience where you successfully collaborated with a team member with a different working style or personality?`,
+    ],
+    answers: [
+      `- Situation: In a cross-functional project, I collaborated with a team member who had a different working style.`,
+      `- Task:`,
+      `- Action: To ensure a productive collaboration, I actively listened, sought common ground, and respected their perspectives.`,
+      `- Result: Through effective collaboration and mutual respect, we successfully delivered our shared objectives. We also gained some knowledge from each other`,
+    ],
+    hints: [`Actively Listened`, `Sought Common Ground`],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you had to implement complex animations or transitions in a web application. How did you approach the implementation and ensure a smooth and visually engaging user experience?`,
-  //     answers: `- Situation: In one of my personal projects I wanted to implement complex animation. The project was a music-based web app.
-  //    - Task: In this app, I wanted to implement a circular slider.
-  //    - Action: I used the CSS transform property to style the slider element and to set the positioning in a circular manner. Additionally, I implemented JavaScript to handle the button click event and trigger the circular movement of the slider.
-  //    - Result: `,
-  //     hints: [`Music App`, `Circular Slider`, `CSS Transform And JavaScript`],
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you had to implement complex animations or transitions in a web application. How did you approach the implementation and ensure a smooth and visually engaging user experience?`,
+    ],
+    answers: [
+      `- Situation: In one of my personal projects I wanted to implement complex animation. The project was a music-based web app.`,
+      ` - Task: In this app, I wanted to implement a circular slider.`,
+      ` - Action: I used the CSS transform property to style the slider element and to set the positioning in a circular manner. Additionally, I implemented JavaScript to handle the button click event and trigger the circular movement of the slider.`,
+      ` - Result: `,
+    ],
+    hints: [`Music App`, `Circular Slider`, `CSS Transform And JavaScript`],
+  },
 
-  //   {
-  //     questions: `Share an experience when you had to integrate third-party APIs or libraries into a web application. How did you handle any challenges or compatibility issues that arose during the integration process?`,
-  //     answers: `- Situation: In my current project, one of the features required to use a third-party library.
-  //    - Task: To complete the feature I had to implement react-dropzone.
-  //    - Action: I carefully reviewed the documentation of the library, and implemented error handling to address any compatibility issues. I also took help from stackoverflow and github to solve specific integration challenges.
-  //    - Result: Through a systematic approach, I successfully incorporated third-party library into the application.`,
-  //     hints: [
-  //       `React-Dropzone`,
-  //       `Documentation`,
-  //       `Error Handling`,
-  //       `Stackoverflow And Github`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Share an experience when you had to integrate third-party APIs or libraries into a web application. How did you handle any challenges or compatibility issues that arose during the integration process?`,
+    ],
+    answers: [
+      `- Situation: In my current project, one of the features required to use a third-party library.`,
+      `- Task: which is react-dropzone.`,
+      `- Action: I carefully reviewed the documentation of the library, and implemented error handling to address any compatibility issues. I also took help from Stackoverflow and GitHub to solve specific integration challenges.`,
+      `- Result: Through a systematic approach, I successfully incorporated a third-party library into the application.`,
+    ],
+    hints: [
+      `React-Dropzone`,
+      `Documentation`,
+      `Error Handling`,
+      `StackOverflow And GitHub`,
+    ],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you had to troubleshoot and fix a critical front-end bug that impacted the functionality or user experience. How did you approach the debugging process and ensure a timely resolution?`,
-  //     answers: `- Situation: Two years back I faced a similar kind of situation during the implementation of order shipment functionality.
-  //    - Task: In such kind of situation the main challenge is to identify the root cause and implement a prompt resolution.
-  //    - Action: I utilized browser developer tools, debuggers, and logging to pinpoint the issue. I reproduced the bug and validate the fix before deploying it to production.
-  //    - Result: By quickly identifying and addressing the bug, I restored full functionality and improved the user experience, preventing further disruptions.`,
-  //     hints: [
-  //       `Order Shipment`,
-  //       `Pinpoint Issue Using Devtool`,
-  //       `Reproduce And Validate Before Deploying`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you had to troubleshoot and fix a critical front-end bug that impacted the functionality or user experience. How did you approach the debugging process and ensure a timely resolution?`,
+    ],
+    answers: [
+      `- Situation: Two years back I faced a similar kind of situation during the implementation of order shipment functionality.`,
+      `- Task: `,
+      `- Action: I utilized browser developer tools, debuggers, and logging to pinpoint the issue. I reproduced the bug and validated the fix before deploying it to production.`,
+      `- Result: By quickly identifying and addressing the bug, I restored full functionality and improved the user experience, preventing further disruptions.`,
+    ],
+    hints: [
+      `Order Shipment`,
+      `Pinpoint Issue Using Devtool`,
+      `Reproduce And Validate Before Deploying`,
+      `Preventing Further Disruptions`,
+    ],
+  },
 
-  //   {
-  //     questions: `Share an example of a time when you had to stay up-to-date with the latest front-end technologies, frameworks, or best practices. How did you incorporate them into your work and ensure continuous improvement?`,
-  //     answers: `- Situation: I believe it is crucial to stay up-to-date with new technologies in our field.
-  //    - Task: Therefore, I continuously try to keep pace with rapidly changing technologies by investing time and effort in learning and gaining expertise.
-  //    - Action: I regularly read industry blogs to stay informed. I also try to get ideas from my colleagues and seniors through healthy discussions.  I experiment with new frameworks or techniques on personal projects and apply them to relevant parts of professional projects.
-  //    - Result: By proactively seeking knowledge and applying it to projects, I tried to stay up-to-date with the latest technologies and frameworks.`,
-  //     hints: [
-  //       `Try To Keep Pace With`,
-  //       `Industry Blog`,
-  //       `Experimentation With Personal Projects`,
-  //       `Relevant Part In Professional Projects`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Share an example of a time when you had to stay up-to-date with the latest front-end technologies, frameworks, or best practices. How did you incorporate them into your work and ensure continuous improvement?`,
+    ],
+    answers: [
+      `- Situation: I believe it is crucial to stay up-to-date with new technologies in our field.`,
+      `- Task: Therefore, I continuously try to keep pace with rapidly changing technologies by investing time and effort in learning and gaining expertise.`,
+      `- Action: I regularly read industry blogs to stay informed. I also try to get ideas from my colleagues and seniors through healthy discussions.  I experiment with new frameworks or techniques on personal projects and apply them to relevant parts of professional projects.`,
+      `- Result:`,
+    ],
+    hints: [
+      `Try To Keep Pace With`,
+      `Industry Blog`,
+      `Experimentation With Personal Projects`,
+      `Relevant Part In Professional Projects`,
+    ],
+  },
 
-  //   {
-  //     questions: `Describe a situation where you had to work on a responsive web design project that needed to adapt to various screen sizes and devices. How did you approach the development and testing process to ensure a consistent and user-friendly experience?`,
-  //     answers: `- Situation: When working on a responsive web design project for multiple screen sizes and devices,
-  //    - Task: The challenge is to create a consistent user experience across various devices and resolutions.
-  //    - Action: I use media queries, fluid layouts, and flexible elements to ensure responsiveness. I conduct thorough testing using different dimensions in dev tools and real devices to identify and resolve any layout or usability issues.
-  //    - Result: By implementing responsive design techniques and thorough testing, I deliver a user-friendly experience across all devices.`,
-  //     hints: [
-  //       `Media Queries`,
-  //       `Fluid Layout`,
-  //       `Flexible Element`,
-  //       `Devtool And Real Device`,
-  //     ],
-  //   },
+  {
+    questions: [
+      `Describe a situation where you had to work on a responsive web design project that needed to adapt to various screen sizes and devices. How did you approach the development and testing process to ensure a consistent and user-friendly experience?`,
+    ],
+    answers: [
+      `- Situation:`,
+      `- Task`,
+      `- Action: I usually use media queries, fluid layouts, and flexible elements to ensure responsiveness. I conduct thorough testing using different dimensions in dev tools and real devices to identify and resolve any layout or usability issues.`,
+      `- Result:`,
+    ],
+    hints: [
+      `Media Queries`,
+      `Fluid Layout`,
+      `Flexible Element`,
+      `Devtool And Real Device`,
+    ],
+  },
 
-  //   {
-  //     questions: `Tell me about a time when you had to educate and guide team members or stakeholders on front-end development best practices or emerging trends. How did you facilitate knowledge sharing and adoption of these practices?`,
-  //     answers: `- Situation:
-  //    - Task:
-  //    - Action: To facilitate knowledge sharing and advocating best practices, I organized knowledge-sharing sessions, or prepared documentation to explain the benefits of specific practices or trends. I also encouraged open discussions and addressed any questions or concerns.
-  //    - Result: By doing these, we collectively improved our front-end development approach.`,
-  //     hints: [`Knowledge Sharing Session`, `Prepare Document`, `Open Discussion`],
-  //   },
+  {
+    questions: [
+      `Tell me about a time when you had to educate and guide team members or stakeholders on front-end development best practices or emerging trends. How did you facilitate knowledge sharing and adoption of these practices?`,
+    ],
+    answers: [
+      `- Situation:`,
+      `- Task:`,
+      `- Action: To do this, I organized knowledge-sharing sessions, or prepared documentation to explain the benefits of specific practices or trends. I also encouraged my team to do open discussions and question and answer sessions`,
+      `- Result:`,
+    ],
+    hints: [`Knowledge Sharing Session`, `Prepare Document`, `Open Discussion`],
+  },
 
   //   {
   //     questions: `Describe a situation where you had to work on a project with strict performance or SEO requirements. How did you optimize the front end to achieve the desired performance and search engine visibility?`,
