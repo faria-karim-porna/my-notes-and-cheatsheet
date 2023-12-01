@@ -536,63 +536,117 @@ export const behavioralData = [
     hints: [`ERP`, `Order Related`, `AI`],
   },
 
-  //   {
-  //     questions: `What is the most challenging aspect of your current project? `,
-  //     answers: `The most challenging aspect of my current project is ensuring seamless integration between the frontend and backend components while maintaining optimal performance and scalability.`,
-  //   },
+  {
+    questions: [
+      `What is the most challenging aspect of your current project? `,
+    ],
+    answers: [
+      `The most challenging aspect of my current project is ensuring seamless integration between the frontend and backend components while maintaining optimal performance and scalability.`,
+    ],
+    hints: [`Seamless Integration`, `Optimal Performance And Scalability`],
+  },
 
-  //   {
-  //     questions: `What was the most difficult bug that you fixed in the past 6 months?`,
-  //     answers: `In the past 6 months, the most difficult bug I fixed was related to data inconsistency. It happened because of a mismatch in the cache data.`,
-  //   },
+  {
+    questions: [
+      `What was the most difficult bug that you fixed in the past 6 months?`,
+    ],
+    answers: [
+      `In the past 6 months, the most difficult bug I fixed was related to data inconsistency. It happened because of a mismatch in the cache data.`,
+    ],
+    hints: [`Data Inconsistency`, `Cache`],
+  },
 
-  //   {
-  //     questions: `What are you excited about?`,
-  //     answers: `I am excited about the opportunities to learn and grow as a software engineer, working on innovative projects and collaborating with talented teams.`,
-  //   },
+  {
+    questions: [`What are you excited about?`],
+    answers: [
+      `I am excited about the opportunities to learn and grow as a software engineer, working on innovative features and collaborating with talented teams.`,
+    ],
+    hints: [`Learn`, `Work On Innovative Features`],
+  },
 
-  //   {
-  //     questions: `What frustrates you?`,
-  //     answers: `Unclear project requirements can be frustrating and impact project timelines. And also encountering complex bugs or technical challenges that require extensive troubleshooting and debugging`,
-  //   },
+  {
+    questions: [`What frustrates you?`],
+    answers: [
+      `Unclear project requirements can be frustrating and impact project timelines.`,
+    ],
+    hints: [`Unclear Project Requirements`],
+  },
 
-  //   {
-  //     questions: `Tell me about a time you had a disagreement with your manager.`,
-  //     answers: `Situation: During a project, I had a disagreement with my manager on the best approach for implementing a new feature.
-  // Task:
-  // Action: We resolved it through open communication, discussing user needs, and evaluating project goals to find a suitable compromise.
-  // Result:`,
-  //   },
+  {
+    questions: [
+      `Tell me about a time you had a disagreement with your manager.`,
+    ],
+    answers: [
+      `- Situation: I have never faced such a situation.`,
+      `- Task:`,
+      `- Action: If I had to, I would try to resolve it through open communication, discussing user needs, and evaluating project goals to find a suitable compromise.`,
+      `- Result:`,
+    ],
+    hints: [`Open Discussion`, `User Needs`, `Suitable Compromise`],
+  },
 
-  //   {
-  //     questions: `What does your best day of work look like?`,
-  //     answers: `My best day of work involves engaging in meaningful tasks, collaborating with a supportive team, seeing significant progress on projects, solving complex problems, and receiving positive feedback for my contributions. Additionally, having the opportunity to learn something new makes it even more fulfilling.`,
-  //   },
+  {
+    questions: [`What does your best day of work look like?`],
+    answers: [
+      `My best day of work involves engaging in meaningful tasks, collaborating with a supportive team, seeing significant progress on projects, solving complex problems, and receiving positive feedback for my contributions. Additionally, having the opportunity to learn something new makes it even more fulfilling.`,
+    ],
+    hints: [
+      `Meaningful Tasks`,
+      `Collaborating`,
+      `Solving`,
+      `Positive Feedback`,
+      `Contribution`,
+      `Learning`,
+    ],
+  },
 
-  //   {
-  //     questions: `What is something that you had to push for in your previous projects?`,
-  //     answers: `In one of my previous projects, I noticed that the codebase had become quite bloated and challenging to maintain. I advocated for a refactoring process to improve code quality, readability, and maintainability`,
-  //   },
+  {
+    questions: [
+      `What is something that you had to push for in your previous projects?`,
+    ],
+    answers: [
+      `In one of my previous projects, I noticed that the codebase had become quite bloated and challenging to maintain. I advocated for a refactoring process to improve code quality, readability, and maintainability`,
+    ],
+    hints: [`Bloated`, `Refactoring`],
+  },
 
-  //   {
-  //     questions: `What is the most constructive feedback you have received in your career?`,
-  //     answers: `During the initial days of my current workplace, my team leader pointed out that I could be more assertive and proactive in expressing my ideas during team discussions and meetings.`,
-  //   },
+  {
+    questions: [
+      `What is the most constructive feedback you have received in your career?`,
+    ],
+    answers: [
+      `During the initial days of my career, my team leader pointed out that I could be more assertive and proactive in expressing my ideas during team discussions and meetings.`,
+    ],
+    hints: [`Assertive And Proactive`, `Team Discussion`],
+  },
 
-  //   {
-  //     questions: `If this were your first annual review with our company, what would I be telling you right now?`,
-  //     answers: `In my first annual review, you would likely acknowledge my attention to detail and precision in my work.`,
-  //   },
+  {
+    questions: [
+      `If this were your first annual review with our company, what would I be telling you right now?`,
+    ],
+    answers: [
+      `I think you would likely acknowledge my attention to detail and precision in my work.`,
+    ],
+    hints: [`Acknowledge`, `Detail`, `Precision`],
+  },
 
-  //   {
-  //     questions: `What aspects of your work are most often criticized?`,
-  //     answers: `One aspect of my work that has been occasionally criticized is my tendency to work without taking enough breaks. My team leader suggested me to take enough break so that my brain gets enough time to refresh and think about a solution from a different perspective.`,
-  //   },
+  {
+    questions: [`What aspects of your work are most often criticized?`],
+    answers: [
+      `One aspect of my work that has been occasionally criticized is my tendency to work without taking enough breaks. My team leader suggested me to take enough breaks so that my brain gets enough time to refresh and think about a solution from a different perspective.`,
+    ],
+    hints: [`Tendency Towards No Break`, `Refresh`, `Different Perspective`],
+  },
 
-  //   {
-  //     questions: `What strengths do you think are most important for your job position? `,
-  //     answers: `The strengths most important for my job position include proficiency in JavaScript, expertise in frontend frameworks, and a keen eye for detail in UI/UX design.`,
-  //   },
+  {
+    questions: [
+      `What strengths do you think are most important for your job position? `,
+    ],
+    answers: [
+      `I think the most important to have proficiency in JavaScript, expertise in frontend frameworks, and a keen eye for detail in UI/UX design`,
+    ],
+    hints: [`Proficiency`, `JavaScript`, `Framework`, `Keen Eye`, `UX/UI`],
+  },
 ];
 
 //===
