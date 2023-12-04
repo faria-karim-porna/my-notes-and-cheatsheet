@@ -36,6 +36,26 @@ export const behavioralData = [
   },
 
   {
+    questions: [`Where do you live?`],
+    answers: [`At present, I live in Basabo.`],
+    hints: [`Basabo`],
+  },
+
+  {
+    questions: [`Who is there in your family?`],
+    answers: [`There is my mom and my elder brother in my family, `],
+    hints: [`Mom`, `Elder Brother`],
+  },
+
+  {
+    questions: [`What are they doing?`],
+    answers: [
+      ` My mom is a housewife and my brother is actively seeking employment.`,
+    ],
+    hints: [`Housewife`, `Seeking Employment`],
+  },
+
+  {
     questions: [
       `Tell me about a time when you faced a difficult technical problem. How did you approach it?`,
     ],
@@ -647,47 +667,90 @@ export const behavioralData = [
     ],
     hints: [`Proficiency`, `JavaScript`, `Framework`, `Keen Eye`, `UX/UI`],
   },
+
+  {
+    questions: [`Where do you use ChatGPT in your day to day life?`],
+    answers: [
+      `I use ChatGPT at times to restructure code, switch code between languages, and solve programming problems.`,
+    ],
+    hints: [`Refactor`, `Language Switching`, `Solve`],
+  },
+
+  {
+    questions: [`Do you have any plans for higher study?`],
+    answers: [
+      `
+      No, currently, I'm focused on gaining practical experience and advancing my skills through hands-on projects in the field.`,
+    ],
+    hints: [`Gaining Experience`, `Advancing Skill`, `Hands On`],
+  },
+
+  {
+    questions: [`What is your salary expectation?`],
+    answers: [
+      `
+      In my perspective, a competitive salary works as a motivation for the employees. But if I have to mention the number, then based on my versatile skills, hard work and prior experience in the job field, I would say 2.5 lac.`,
+    ],
+    hints: [`Motivation`, `Skill`, `Hard Work`, `Prior Experience`],
+  },
+
+  {
+    questions: [
+      `For example there is a situation, where product owner and stakeholders have different perspective but stakeholder is correct. How will you handle this kind of situation?`,
+    ],
+    answers: [
+      `
+      I'd create a wireframe or visual representation based on the stakeholder's perspective to illustrate their insights. This can facilitate a clearer understanding and encourage alignment between the product owner and stakeholders.`,
+    ],
+    hints: [`WireFrame`, `Clearer Understanding`, `Alignment`],
+  },
+
+  {
+    questions: [`Why do you want more salary?`],
+    answers: [
+      `I want a higher salary because I've gained more skills and experience since my last job. I believe my current value is higher in the job market, and I want fair compensation for that.`,
+    ],
+    hints: [`Gained More`, `Fair Compensation`],
+  },
+
+  {
+    questions: [`Why should we hire you?`],
+    answers: [
+      `Because I am self-motivated and a curious person. I like to learn new techs and tools. I have the flexibility to adapt myself to new technologies and challenges. I bring a strong combination of skills and experience that directly match the requirements of the role. `,
+    ],
+    hints: [`Self Motivated`, `Techs`, `Match Requirements`],
+  },
+
+  {
+    questions: [`Why do you want to switch your current job?`],
+    answers: [
+      `I want to explore new challenges and opportunities for professional growth. I also prefer working remotely for a better work-life balance and contribute effectively from any location.`,
+    ],
+    hints: [`New Challenges`, `Remote Job`, `Any Location`],
+  },
+
+  {
+    questions: [`What are the tools/frameworks you learned recently?`],
+    answers: [`Recently I have learned Next.js and Jest`],
+    hints: [`Next.js`, `Jest`],
+  },
+
+  {
+    questions: [`What would your siblings say about you?`],
+    answers: [
+      `I think they would say I am a hard working and passionate person.`,
+    ],
+    hints: [`Hard Working`, `Passionate`],
+  },
 ];
 
 //===
-
-// Where do you use ChatGPT in your day to day life?
-
-// For example there is a situation, where product owner and stakeholders have different perspective but stakeholder is CheatSheetFrontendReactJs. How will you handle this kind of situation?
 
 // what you have worked on before?
 //  what your favorite tech is?
 //  what tools you love ?
 // what your work experience has been like?
 
-// ===
-// Q: Where do you live?
-// A: At present, I live in Basabo.
-// ==========================================
-// Q: Who is there in your family?
-// A: In my family, there is my mom and my elder brother.
-// ==========================================
-// Q: What are they doing?
-// A: My mom is a housewife and my brother is searching for a job.
-// ==========================================
-// Q: Why did you apply here?
-// A: Because welldev has a reputation as a multinational company. I have heard a lot of praise about the culture here. Here hard work is always valued. The seniors and colleagues here are very cooperative. Different kinds of technologies are dealing here which is quite interesting.
-// ==========================================
-
-// Q: Why should we hire you?
-// A: Because I am self-motivated and a curious person. I like to learn new techs and tools. As welldev deals with different types of technologies and I have  worked in different technologies ,  so I have the flexibility to adopt myself with new technologies and challenge.  I guess we both will gel well. And overall my skills are aligned with the requirements. I was involved in competitive programming. I love to do problem solving. I have previous experience in rest api, react.js, oop. Mostly I am ready to take all the responsibilities. I am hopeful that I have the ability to prove myself as an important asset to the company.
-// ==========================================
-// Q: Do you have any plans for higher study?
-// A: I don’t have any plans because I like practical stuffs more than theoretical studies and researches. I think things can be learnt quickly by implementing them. Although because of my CGPA it may seem like I put focus on theoretical stuffs but it is not like that. Actually I understood what my teachers teaches really well. I think I should utilize the things that I am good at. That's why I got good score in the theoretical topics. Moreover I always did contribution on my academic projects. I never wanted to be the person who did nothing in the project but only made her present on the day of submission.
-// ==========================================
-// Q: What are the tools/frameworks you learned recently?
-// A: Recently I have learned typescript and redux based tools like redux toolkit, redux, redux thunk.
-// ==========================================
-// Q: What is your salary expectation?
-// A: In my perspective, a competitive salary works as a motivation for the employees. But if I have to mention the number, then based on my versatile skills, hard work and prior experience in the job field, I would say 50 thousand.
-// ==========================================
-// Q: What would your siblings say about you?
-// A: I think they would say I am a hard working and passionate person.
 // ==========================================
 // Q: What will be the three positive and negative things that your brother will tell about you if he were asked?
 // A: I think he would say about my positive sides that I am a hardworking, studious and honest person. And about my negative side he would say that sometimes I take a lot of pressure unnecessarily and I am very straight forward and emotional.
@@ -716,8 +779,7 @@ export const behavioralData = [
 // Q: What technologies have you used in your best project?
 // A: To split the videos based on uttered words and to convert them into frames we used movie.pyn We used keras tensorflow to build the model. Opencv and facial landmark is used to track the lip movement. We used geometric shape of lip to extract feature and lstm is used as language model.
 // ==========================================
-// Q: Why do you want to switch your current job?
-// A: I have thoroughly enjoyed working for my employer and I have achieved some great things whilst I have been there. I must say my colleagues and senior were very friendly and helpful there. They have guided me well as a fresher. There was a work life balance in my previous company. But suddenly because of some personal reasons, I have to shift my home. And now my office location has become far away from my home.
+
 // ==========================================
 // Q: Why do you want to switch your career path from Engineering to executive role?
 // A: Although I am from an Engineering background but apart from this I was always interested in sales and marketing. Actually I am not switching my career path rather I am contributing more to the society by adding one more career path.
@@ -728,5 +790,3 @@ export const behavioralData = [
 // Q: Why do you want to do part time job?
 // A: Part time work allows me the time to pursue the many interests I have including sales and software development.
 // ==========================================
-// Q: Why do you want more salary?
-// A: See, as how I see it since I have diverse skillset and have the ability to adopt different technologies and I have performed really well in my previous company and learned a lot of things. I I would continue to do that here as well  so I think It's an investment worth making.
