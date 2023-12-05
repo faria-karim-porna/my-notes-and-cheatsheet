@@ -841,6 +841,104 @@ export const behavioralData = [
   },
 
   {
+    questions: [`What are your career goals?`],
+    answers: [
+      `My career goal is to develop my skills and expertise in my field, take on more responsibilities and contribute to meaningful projects. Ultimately, I aim to grow into a leadership role where I can make a significant and positive impact within the organization.`,
+    ],
+    hints: [
+      `Develop Expertise`,
+      `More Responsibility`,
+      `Leadership`,
+      `Significant Impact`,
+    ],
+  },
+
+  {
+    questions: [`What’s your greatest accomplishment?`],
+    answers: [
+      `One of my greatest accomplishments is completing a challenging project ahead of schedule and showcasing my ability to deliver high-quality results under pressure.`,
+    ],
+    hints: [
+      `Completing Project`,
+      `Ahead Of Schedule`,
+      `High Quality Result`,
+      `Under Pressure`,
+    ],
+  },
+
+  {
+    questions: [`How do you handle conflict?`],
+    answers: [
+      `I handle conflict by promoting open communication, actively listening to different perspectives, and working collaboratively to find mutually beneficial solutions.`,
+    ],
+    hints: [`Promote Open Communication`, `Listen`, `Collaborative`],
+  },
+
+  {
+    questions: [`How do you handle stress?`],
+    answers: [
+      `I manage stress by prioritizing tasks, taking short breaks, and maintaining a positive mindset. This helps me stay focused and perform effectively under pressure.`,
+    ],
+    hints: [`Prioritize Work`, `Short Break`, `Focused`],
+  },
+
+  {
+    questions: [`What are you most proud of?`],
+    answers: [
+      `I'm most proud of consistently overcoming challenges in my work, finding efficient solutions, and delivering high-quality work, showcasing my ability to handle pressure.`,
+    ],
+    hints: [`Overcoming Challenges`, `Efficient Solution`, `Handle Pressure`],
+  },
+
+  {
+    questions: [`What are you passionate about?`],
+    answers: [
+      `I love using technology to solve problems. It could be developing software solutions or exploring new technologies. Continuous learning is something I find exciting and fulfilling.`,
+    ],
+    hints: [`Solve Problems`, `Explore Tech`, `Learning`],
+  },
+
+  {
+    questions: [`How would you describe yourself?`],
+    answers: [
+      `I am a dedicated and adaptable professional who enjoys taking on challenges, collaborating with others, and continuously seeking opportunities for improvement.`,
+    ],
+    hints: [`Adaptable`, `Enjoy Taking Challenge`, `Seek Improvement`],
+  },
+
+  {
+    questions: [`What motivates you?`],
+    answers: [
+      `The opportunity to solve challenging problems and make a meaningful impact on projects motivates me.`,
+    ],
+    hints: [`Challenging Problem`, `Meaningful Impact`],
+  },
+
+  {
+    questions: [`What are you looking for in a job?`],
+    answers: [
+      `I'm looking for a job that aligns with my skills and values, offers growth opportunities, and provides a positive and collaborative work environment.`,
+    ],
+    hints: [`Skill Alignment`, `Growth Opportunities`, `Positive Env`],
+  },
+
+  {
+    questions: [`Do you have any questions for us?`],
+    answers: [
+      `Can you tell me what kind of tools and technologies the team uses for their work? Do you have any plans to use any other tools or technologies in the future?`,
+    ],
+    hints: [`What Tech`, `Any Other Tech`],
+  },
+
+  {
+    questions: [`What makes you unique?`],
+    answers: [
+      `I'm adaptable, learn things fast, and pay attention to details.`,
+    ],
+    hints: [`Adaptability`, `Quick Learning`, `Detail Oriented`],
+  },
+
+  {
     questions: [
       `Why do you want to switch your career path from Engineering to executive role?`,
     ],
