@@ -742,6 +742,141 @@ export const behavioralData = [
     ],
     hints: [`Hard Working`, `Passionate`],
   },
+
+  {
+    questions: [
+      `What would be the three positive and negative things that your brother would tell about you if he were asked?`,
+    ],
+    answers: [
+      `I think he would say about my positive sides that I am a hardworking, studious and honest person. And about my negative side, he would say that sometimes I take a lot of pressure unnecessarily and I am very straightforward and emotional.`,
+    ],
+    hints: [
+      `Hard Working`,
+      `Studious`,
+      `Honest`,
+      `Pressure`,
+      `Straight`,
+      `Emotional`,
+    ],
+  },
+
+  {
+    questions: [`How long have you been working?`],
+    answers: [`I have been working for almost 3 years in my current company.`],
+    hints: [`Almost 3`],
+  },
+
+  {
+    questions: [`What have you done so far?`],
+    answers: [
+      `I've contributed to various projects in my current company. I have collaborated with team members to design and implement software solutions. I've also participated in code reviews, resolving bugs, and implementing new features and manual testing.`,
+    ],
+    hints: [`Various Projects`, `Collaborate`, `Participated`],
+  },
+
+  {
+    questions: [`Do you prefer to work in a team or solo?`],
+    answers: [
+      `Both of the areas have different advantages. The advantage of teamwork is that many large-scale projects can be completed in a relatively short amount of time due to work sharing. There is a scope for sharing knowledge with others in teamwork. Because of the involvement of many people, team members get guidance and help. It is possible to create something innovative by combining the strong skills of the team members. On the other hand, a person can do whatever he thinks is beneficial if he is doing everything all alone. He can make decisions quickly. No one has to take the responsibility of team management.`,
+    ],
+    hints: [
+      `Knowledge Sharing`,
+      `Guidance`,
+      `Quick Decision`,
+      `No Team Management`,
+    ],
+  },
+
+  {
+    questions: [`What are the 3 positive sides of programming?`],
+    answers: [
+      `I think there is a scope for showing creativity in programming. It is possible to ease people’s lives by developing innovative software. There is a scope for always learning even without getting bored.`,
+    ],
+    hints: [`Creativity`, `Ease Life`, `Always Learning`],
+  },
+
+  {
+    questions: [`Which programming language do you like most?`],
+    answers: [
+      `It depends on the type of project. If the project is a web app or mobile app then I will prefer Javascript. Because it is possible to build interactive UI very easily using JavaScript. On the other hand for the data science-based project, I will prefer Python. Because it has many built-in functions and libraries which are very helpful in implementing data science-based functionality.`,
+    ],
+    hints: [`JavaScript`, `Web App`, `Python`, `Built-in Data Science`],
+  },
+
+  {
+    questions: [`Tell us about your best project.`],
+    answers: [
+      `My best project was my thesis project. During the time of implementation of this project, I have faced a lot of challenges. It was mainly a machine learning-based project by which we were trying to predict the uttered word without any sound only based on lip movement. To build this project, our motive was to help the mute people.`,
+    ],
+    hints: [`Thesis`, `Uttered`, `Mute`],
+  },
+
+  {
+    questions: [`What kind of challenges do you have faced in this project?`],
+    answers: [
+      `The first challenge I faced was about the dataset. We were dealing with a Bengali-based audiovisual dataset. Unfortunately, we have not found any related dataset. To solve this problem we have built our own dataset by using movie.py. The source of raw data was news presentations. The next challenge we faced was about dataset representation and mapping output with input. As we were working on a video dataset of variable length, so found it very challenging. We have cut each video into frames. Then we grouped all the frames which belong to the same video. After that, we grouped videos based on their output labels. To make the number of frames equal for each video we used zero padding to our feature vector.`,
+    ],
+    hints: [
+      `No Audio Visual Dataset`,
+      `Cut Into Frame`,
+      `Group Same Video`,
+      `Group Label`,
+      `Zero Padding`,
+    ],
+  },
+
+  {
+    questions: [`What technologies have you used in your best project?`],
+    answers: [
+      `To split the videos based on uttered words and to convert them into frames we used Movie.py. We used Keras tensorflow to build the model. Opencv and facial landmarks are used to track lip movement. We used the geometric shape of the lip to extract features and LSTM is used as a language model.`,
+    ],
+    hints: [
+      `Movie.py`,
+      `Keras`,
+      `Tensorflow`,
+      `OpenCV`,
+      `Facial Landmark`,
+      `LSTM`,
+    ],
+  },
+
+  {
+    questions: [
+      `Why do you want to switch your career path from Engineering to executive role?`,
+    ],
+    answers: [
+      `Although I am from an Engineering background apart from this I was always interested in sales and marketing. I am not switching my career path rather I am contributing more to society by adding one more career path.`,
+    ],
+    hints: [`contributing More To Society`, `One More Career Path`],
+  },
+
+  {
+    questions: [
+      `Why should we hire you even if you are from a different background?`,
+    ],
+    answers: [
+      `I think it is a kind of art to be proficient in sales. According to me, it is a must to have a good sales strategy for any company to stand out in the marketplace and grab the attention of the targeted customers. Though my background is different, I offer a unique viewpoint and varied skills that bring fresh ideas and creative problem-solving to the team. I'm adaptable, eager to learn, and can make meaningful contributions to the organization. I was a general member of NSU CEC where I worked as a volunteer in one of their events. So I know better how to handle and communicate with people with patience. Eye-catching designs in ads boost sales, and my PowerPoint presentation skills will provide an extra advantage in achieving that. I think my different background will not create any problems rather it will add an extra benefit to it.`,
+    ],
+    hints: [
+      `Good Sales Strategy`,
+      `Grab Attention`,
+      `Unique Viewpoint`,
+      `Creative Problem Solving`,
+      `Adaptable`,
+      `Volunteer`,
+      `Communicate`,
+      `Eye-catching Design`,
+      `Powerpoint Presentation`,
+    ],
+  },
+
+  {
+    questions: [`Why do you want to do a part-time job?`],
+    answers: [
+      `Part-time work allows me the time to pursue the many interests I have including sales and software development.`,
+    ],
+    hints: [`Pursue The Many Interests`],
+  },
 ];
 
 //===
