@@ -279,12 +279,18 @@ body {
   padding: 10px 20px;
 }
 
+.hints-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .hints {
   background-color: rgb(0, 255, 255, 0.5);
   border: 1px solid aqua;
   border-radius: 10px;
   margin: 10px 5px;
   padding: 2px 5px;
+  text-wrap: nowrap;
 }
 
 .hints-button {
