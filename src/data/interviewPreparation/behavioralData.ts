@@ -939,6 +939,180 @@ export const behavioralData = [
   },
 
   {
+    questions: [`What’s the most recent book you’ve read?`],
+    answers: [
+      `
+I don't read books, but I stay updated on the latest information and trends in technology and programming through online resources and articles.`,
+    ],
+    hints: [`Don't`, ` Online Resources`, `Articles`],
+  },
+
+  {
+    questions: [
+      `If you could describe yourself in two words what would they be?`,
+    ],
+    answers: [`Adaptable and Creative`],
+    hints: [`Adaptable`, `Creative`],
+  },
+
+  {
+    questions: [`What most turns you off in a job?`],
+    answers: [
+      `Micromanagement and unclear expectations, lack of opportunities and a negative work environment are major turn-offs in a job for me.`,
+    ],
+    hints: [
+      `Micromanagement`,
+      `Unclear Expectations`,
+      `Less Opportunities`,
+      `Negative Env`,
+    ],
+  },
+
+  {
+    questions: [`If you were a billionaire, what would you do with your time?`],
+    answers: [
+      `If I had a lot of money, I'd help poor people. I'd also spend more time with my family, ensuring they have everything they need.`,
+    ],
+    hints: [`Poor People`, `Family`],
+  },
+
+  {
+    questions: [
+      `What are you prepared to do with an employee who refuses to be a team player?`,
+    ],
+    answers: [
+      `I would talk with the person to understand his/her thoughts. If needed, I'd provide guidance on the importance of teamwork and its impact on overall productivity. If the behaviour persists, I might set clear rules and do team activities. If needed, I'd follow the company rules to make sure everyone works well together.`,
+    ],
+    hints: [`Talk`, `Guidance`, `Following Rules`],
+  },
+
+  {
+    questions: [
+      `If you were given the opportunity, would you take my job from me?`,
+    ],
+    answers: [
+      `No, My goal is to contribute and work together, not replace or compete for positions.`,
+    ],
+    hints: [`No`, `Contribute`, `Work Together`],
+  },
+
+  {
+    questions: [
+      `On a scale of 1-10, with 1 being a hard worker and 10 being smart, where would you rate yourself?`,
+    ],
+    answers: [
+      `
+I don't rate myself like that. I think it's important to work hard and make smart choices to do well.`,
+    ],
+    hints: [`Don't Rate`, `Both`],
+  },
+
+  {
+    questions: [`How do you define success?`],
+    answers: [
+      `Success, to me, reaching goals and helping the team, all while learning and doing things well.`,
+    ],
+    hints: [`Goal`, `Help Team`, `Learn`, `Done Well`],
+  },
+
+  {
+    questions: [
+      `How do you describe your analytical skill? Good, average or bad.`,
+    ],
+    answers: [
+      `I would describe my analytical skills as good. I'm able to analyze situations, identify patterns, and make smart decisions.`,
+    ],
+    hints: [`Good`, `Identify Pattern`, `Smart Decision`],
+  },
+
+  {
+    questions: [`What is your philosophy of selling?    `],
+    answers: [
+      `My selling philosophy revolves around understanding the customer's needs, building trust, and providing solutions that truly help them. It's about making lasting relationships rather than just selling something.`,
+    ],
+    hints: [
+      `Revolves`,
+      `Customer`,
+      `Trust`,
+      `Need`,
+      `Provide Solution`,
+      `Relationships`,
+    ],
+  },
+
+  {
+    questions: [`Are you good at multitasking?`],
+    answers: [
+      `Yes, I can handle multiple tasks simultaneously. I can efficiently manage and prioritize multiple tasks to ensure they are completed effectively and on time.`,
+    ],
+    hints: [`Yes`, `Prioritize`, `On time`],
+  },
+
+  {
+    questions: [`Are you self-motivated/a self-starter?`],
+    answers: [
+      `Yes, I am self-motivated/a self-starter. I take initiative and stay driven to achieve goals and meet deadlines.`,
+    ],
+    hints: [`Yes`, `Initiative`, `Stay Driven`],
+  },
+
+  {
+    questions: [`What’s an animal you most admire/relate to?`],
+    answers: [
+      `I might be like a hummingbird, always in motion and tirelessly seeking nectar, just like in software engineering where I stay active, learn a lot, and adapt quickly.`,
+    ],
+    hints: [`Humming Bird`, `In Motion`, `Tireless`],
+  },
+
+  {
+    questions: [`What do you want to accomplish?`],
+    answers: [
+      `I aim to contribute efficiently to problem-solving in various domains of software development. I want to make the software work well and help users.`,
+    ],
+    hints: [`Contribute In Problem Solving`, `Help Users`],
+  },
+
+  {
+    questions: [`What is your work style?`],
+    answers: [
+      `I work like a step-by-step process, sorting through information to give helpful responses. Think of it like solving a puzzle using what I know about software stuff.`,
+    ],
+    hints: [`Step-By-Step`, `Sort Through`, `Like Puzzle`, `Known Stuff`],
+  },
+
+  {
+    questions: [`Who’s your mentor?`],
+    answers: [
+      `I don't have a specific mentor. I learn from a diverse range of sources. I try to learn something from every person.`,
+    ],
+    hints: [`No Specific`, `Diverse Source`],
+  },
+
+  {
+    questions: [`What are your hobbies and interests?`],
+    answers: [
+      `I like to do animation and illustration kind of stuff using PowerPoint`,
+    ],
+    hints: [`Animation And Illustration`],
+  },
+
+  {
+    questions: [`What is your favorite website?`],
+    answers: [
+      `I often visit Hashnode for insightful articles on diverse tech topics. It's a great platform for learning and staying updated on tech trends.`,
+    ],
+    hints: [`Hashnode`, `Learn`, `Upto Date`],
+  },
+
+  {
+    questions: [`What makes you uncomfortable?`],
+    answers: [
+      `I may feel uneasy when there are unclear project requirements, but I address this by seeking clarification and collaborating closely with the team.`,
+    ],
+    hints: [`Unclear Requirements`, `Clarification`, `Collaboration`],
+  },
+
+  {
     questions: [
       `Why do you want to switch your career path from Engineering to executive role?`,
     ],
@@ -983,43 +1157,4 @@ export const behavioralData = [
 //  what your favorite tech is?
 //  what tools you love ?
 // what your work experience has been like?
-
-// ==========================================
-// Q: What will be the three positive and negative things that your brother will tell about you if he were asked?
-// A: I think he would say about my positive sides that I am a hardworking, studious and honest person. And about my negative side he would say that sometimes I take a lot of pressure unnecessarily and I am very straight forward and emotional.
-// ==========================================
-// Q: How long have you been working?
-// A: I have been working for 6 months in my current company.
-// ==========================================
-// Q: What have you done so far?
-// A: In my current company I am working on one of the most large scale based project of our company which is mainly ERP based project. So far I have done manual testing, fixed the bugs on the code, done some sort of refactoring, created new components like drag and drop based file uploader, search  bar with dropdown options.
-// ==========================================
-// Q: Do you prefer to work in team or solo?
-// A: Actually both of the areas have different advantages. The advantage of teamwork is that many large scale projects can be completed in a relatively short amount of time due to work sharing. There is a scope of sharing knowledge with others in a team work. Because of involvement of many people, team members get guidance and help. It is possible to create something innovative by combining the strong skills of the team members. On the other hand, a person can do whatever he thinks is beneficial if he is doing everything all alone. He can takes decision quickly. No one has to take the responsibility of team management.
-// ==========================================
-// Q: What are the 3 positive sides of programming?
-// A: I think there is a scope of showing creativity in programming. It is possible to ease people’s life by developing innovative softwares. There is a scope of always learning even without getting bored.
-// ==========================================
-// Q: Which programming language do you like most?
-// A: Actually it depends on the type of projects. If the project is a web app or mobile app then I will prefer Javascript. Because it is possible to build interactive UI very easily using js. I think no other programming languages can beat js in this area. There are many efficient and helpful frontend frameworks which are written in js. On the otherhand for the data science based project, I will prefer python. Because there are many built in functions and libraries which are very helpful to implement data science based functionality. There are many machine learning frameworks in python like tensorflow, pytorch, scikit learn, keras. Another language I want to mention for game development and computer based app development is C#. This language is very popular for this two area.
-// ==========================================
-// Q: Tell us about your best project?
-// A: My best project was my thesis project. Durning the time of implementation of this project I have faced a lot of challenges. It was mainly a machine learning based project by which we were trying to predict the uttered word without any sound only based on lip movement. To build this project, our motive was to help the mute people.
-// ==========================================
-// Q: What kind of challenges do you have faced in this project?
-// A: The first challenge which I have faced was about dataset. Actually we were dealing with Bengali based audiovisual dataset. But unfortunately we have not found any related dataset. To solve this problem we have built our own dataset by using movie.py. The source of raw data was news presentations. Next challenge which we faced was about dataset representation and mapping output with input. As we were working on video dataset of variable length, so found it really very challenging. We have cutted each videos into frames. Then we grouped together all the frames which belong to the same video. After that we grouped videos based on their output labels. To make the number of frames equal for each video we used zero padding to our feature vector.
-// ==========================================
-// Q: What technologies have you used in your best project?
-// A: To split the videos based on uttered words and to convert them into frames we used movie.pyn We used keras tensorflow to build the model. Opencv and facial landmark is used to track the lip movement. We used geometric shape of lip to extract feature and lstm is used as language model.
-// ==========================================
-
-// ==========================================
-// Q: Why do you want to switch your career path from Engineering to executive role?
-// A: Although I am from an Engineering background but apart from this I was always interested in sales and marketing. Actually I am not switching my career path rather I am contributing more to the society by adding one more career path.
-// ==========================================
-// Q: Why should we hire you even you are from different background?
-// A: I think it is a kind of art to be proficient in sales. According to me it is a must to have a good sales strategy for any company to standout in the marketplace and to grab the attention of the targeted customers. As I was a student of CSE department and most of your courses are based on different framework and Computer based technologies So I have well enough idea about the customers demands and expectations. Moreover few months ago I have completed an online based course. Though the course was about web development but being a student of an online based educational community I know how a well organised course structure can be beneficial for the both ends supplier and customer. Durning my varsity days I was involved in various extra curriculum activities. I was a general member of NSU CEC where I worked as a volunteer in one of their events. So I know better how to handle and communicate people with patience. I am quite interested in designing. I love to do designing using powerpoint. I think good and eye-catching designing in the advertisements  helps to accelerate the sales. In my company I have also create a presentation video on its 17th anniversary using powerpoint. I think my different background will not create any problem for the sale rather it will add an extra benefit to it.
-// ==========================================
-// Q: Why do you want to do part time job?
-// A: Part time work allows me the time to pursue the many interests I have including sales and software development.
 // ==========================================
