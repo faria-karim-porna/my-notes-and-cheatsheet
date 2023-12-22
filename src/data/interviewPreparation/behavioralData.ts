@@ -1113,6 +1113,194 @@ I don't rate myself like that. I think it's important to work hard and make smar
   },
 
   {
+    questions: [`On a scale of 1-10, how aggressive are you?`],
+    answers: [
+      `I'm not aggressive; I prefer a collaborative and communicative approach. I believe in finding solutions as a team.`,
+    ],
+    hints: [`No`, `Collaborative`, `Communicative`],
+  },
+
+  {
+    questions: [`If you could have a superpower, what would it be?`],
+    answers: [
+      `I don't have wants, but if I could pick a superpower, I'd pick the ability to instantly access and understand all information to assist more effectively.`,
+    ],
+    hints: [`Instantly Access`, `Understand All Information`],
+  },
+
+  {
+    questions: [`Can you easily build rapport?`],
+    answers: [
+      `Yes, I'm good at making positive connections by talking clearly and working together.`,
+    ],
+    hints: [`Yes`, `Talking Clearly`, `Working Together`],
+  },
+
+  {
+    questions: [`How do you think other people think of you?`],
+    answers: [
+      `I believe others perceive me as detail-oriented and curious who is always eager to learn new things to contribute effectively in a team environment.`,
+    ],
+    hints: [`Detail-oriented`, `Curious About Learning`],
+  },
+
+  {
+    questions: [
+      `What do you see yourself in 10 years, and how did you get there?`,
+    ],
+    answers: [
+      `In 10 years, I see myself as an experienced software engineer leading innovative projects. I'll get there by learning new things, staying updated on industry trends, and taking on challenging tasks to grow in my career.`,
+    ],
+    hints: [
+      `Leading Innovative Projects`,
+      `Learning`,
+      `Staying Updated`,
+      `Taking On Challenges`,
+    ],
+  },
+
+  {
+    questions: [`Do you prefer Quality or Quantity?`],
+    answers: [
+      `I prioritize quality over quantity in software development, focusing on delivering robust and efficient code. I like making sure our software works really well, even if it means doing a bit less. It's better to have a few strong features than a bunch of shaky ones.`,
+    ],
+    hints: [
+      `Quality`,
+      `Robust And Efficient Code`,
+      `Doing A Bit Less`,
+      `Bunch Of Shaky Ones`,
+    ],
+  },
+
+  {
+    questions: [`What areas need improvement? `],
+    answers: [
+      `I need to get better at taking notes when I learn new stuff. It'll help me remember things and understand them more easily.`,
+    ],
+    hints: [`Taking Notes`, `Learn New Things`],
+  },
+
+  {
+    questions: [`Do you like constant change?`],
+    answers: [
+      `I'm comfortable with constant change. It helps me learn and stay up-to-date, which I find exciting and essential for professional growth.`,
+    ],
+    hints: [`I'm Comfortable`, `Learn`, `Up-to-date`, `Exciting`],
+  },
+
+  {
+    questions: [`How do you communicate when you are unsatisfied?`],
+    answers: [
+      `I express my concerns openly and constructively, aiming to find solutions collaboratively. I think, clear communication helps address issues effectively which is helpful for team work.`,
+    ],
+    hints: [`Concern`, `Openly`, `Constructively`, `Address Issue`],
+  },
+
+  {
+    questions: [`What core value of the organization most resonates with you?`],
+    answers: [
+      `The organization's commitment to innovation is important to me. I enjoy finding creative solutions to problems. The organization's commitment to employee satisfaction is also crucial for me. A happy and motivated team contributes to a positive work environment and overall success.`,
+    ],
+    hints: [
+      `Commitment To Innovation`,
+      `Creative Solution`,
+      `Commitment To Employee Satisfaction`,
+      `Happy And Motivated`,
+    ],
+  },
+
+  {
+    questions: [`Do you find it difficult to talk to and meet new people?`],
+    answers: [
+      `I'm an ambivert, so I can adapt to different social situations. While I appreciate alone time for focused work, I also enjoy engaging with new people and working collaboratively when needed.`,
+    ],
+    hints: [`Ambivert`, `Alone Time For Focus`, `Collaboration When Needed`],
+  },
+
+  {
+    questions: [`What does integrity mean to you?`],
+    answers: [
+      `Integrity, to me, means always being honest and doing the right thing, even when no one is watching. It's about having strong moral principles in both work and life.`,
+    ],
+    hints: [`Even When No One Is Watching`, `Having Moral Principles`],
+  },
+
+  {
+    questions: [`How will you achieve a work/life balance?`],
+    answers: [
+      `I plan to achieve a good work/life balance by setting clear boundaries, prioritizing tasks, and taking breaks when needed.`,
+    ],
+    hints: [`setting Clear Boundaries`, `Prioritizing`, `Breaks`],
+  },
+
+  {
+    questions: [
+      `What is the most competitive thing you did last week that wasn’t related to work`,
+    ],
+    answers: [
+      `A few months ago, I actively participated in Hacktoberfest, contributing to open-source projects by submitting quality pull requests. It was a great opportunity to collaborate with the community and enhance my coding skills.`,
+    ],
+    hints: [`Hacktoberfest`, `Collaborate With The Community`],
+  },
+
+  {
+    questions: [`What gets you out of bed in the morning?`],
+    answers: [
+      `The excitement of facing new challenges, learning new things and implementing something creative is what gets me up in the morning.`,
+    ],
+    hints: [`New Challenges`, `Learning`, `Implementing Creativity`],
+  },
+
+  {
+    questions: [
+      `Would you say you are a person who loves to win or hates to lose?`,
+    ],
+    answers: [
+      `I'm more someone who loves to win. The joy of achieving goals and overcoming challenges is a big motivator for me.`,
+    ],
+    hints: [`Win`, `Overcoming Challenges`, `Motivator`],
+  },
+
+  {
+    questions: [`What is your biggest regret?`],
+    answers: [
+      `I don't have big regrets, If I could change something, I'd have been more disciplined about learning new things within a proper time frame.`,
+    ],
+    hints: [`Disciplined About Learning New Things`, `Time Frame`],
+  },
+
+  {
+    questions: [`What is your management style?`],
+    answers: [
+      `I avoid micromanaging. I trust my team, give clear goals, and let them tackle tasks in their way. I talk to everyone and guide them a bit. It fosters a more independent and efficient work environment.`,
+    ],
+    hints: [
+      `avoid micromanaging`,
+      `Trust`,
+      `Clear Goals`,
+      `Talk To Everyone`,
+      `Guide`,
+      `Independent And Efficient`,
+    ],
+  },
+
+  {
+    questions: [`Who is your hero? / Who is your biggest inspiration?`],
+    answers: [
+      `My hero is my mom because of her kindness and hard work. She's always been there for others, and her dedication to making things better inspires me every day.`,
+    ],
+    hints: [
+      `My Mom`,
+      `Kindness`,
+      `Hard Work`,
+      `Been There For Others`,
+      `Dedication`,
+      `Things Better`,
+      `Inspires`,
+    ],
+  },
+
+  {
     questions: [
       `Why do you want to switch your career path from Engineering to executive role?`,
     ],
