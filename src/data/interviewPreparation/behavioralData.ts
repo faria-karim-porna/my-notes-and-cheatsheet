@@ -1301,6 +1301,283 @@ I don't rate myself like that. I think it's important to work hard and make smar
   },
 
   {
+    questions: [`Would you like to work overtime or odd hours?`],
+    answers: [
+      `I am open to occasional overtime if it aligns with project deadlines, but I prioritize efficient work during regular hours to maintain a healthy work-life balance.`,
+    ],
+    hints: [`Occasional Overtime`, `Prioritize Regular Hours`],
+  },
+
+  {
+    questions: [`What is more important to you: the money or the work?`],
+    answers: [
+      `I believe both meaningful work and fair compensation are crucial for job satisfaction and overall well-being. Finding fulfilment in the work I do is essential for my job satisfaction. I want to contribute meaningfully and grow professionally. Simultaneously, fair compensation is vital to acknowledge the value of my skills and efforts. Fair compensation is a motivational factor for me. So both are equally important.`,
+    ],
+    hints: [
+      `Both`,
+      `Job Satisfaction`,
+      `Well-being`,
+      `Fulfillment`,
+      `Acknowledge The Value Of Skills And Efforts`,
+      `Motivational Factor`,
+    ],
+  },
+
+  {
+    questions: [
+      `Assume you are hired, then how long would you expect to work for us?`,
+    ],
+    answers: [
+      `I'm looking for a long-term commitment, as long as the job keeps me interested and there are chances to learn and grow.`,
+    ],
+    hints: [
+      `Long-term Commitment`,
+      `Interesting`,
+      `Chances To Learn And Grow.`,
+    ],
+  },
+
+  {
+    questions: [`How would you rate yourself on a scale of 1 to 10?`],
+    answers: [
+      `I'd give myself 7 out of 10, backed by my experience in different fields and a continuous eagerness to learn and improve.`,
+    ],
+    hints: [`7`, `Backed`, `Different Fields`, `Learn And Improve.`],
+  },
+
+  {
+    questions: [`What are your achievements in life?`],
+    answers: [
+      `I've solved tricky problems by thinking creatively, worked well in teams to achieve goals with a 95% success rate, enhanced skills through ongoing learning, achieved a 10% performance improvement, and earned the prestigious distinction of summa cum laude through dedicated academic achievement.`,
+    ],
+    hints: [
+      `Tricky Problems`,
+      `95% Success Rate`,
+      `Ongoing Learning`,
+      `10% Performance Improvement`,
+      `Summa Cum Laude`,
+    ],
+  },
+
+  {
+    questions: [`Would you lie for the company?`],
+    answers: [
+      `I prioritize honesty and transparency. I believe in open communication to address challenges and find solutions collaboratively.`,
+    ],
+    hints: [
+      `Prioritize Transparency`,
+      `Open Communication`,
+      `Address Challenges`,
+    ],
+  },
+
+  {
+    questions: [`How do you get to know about our company?`],
+    answers: [
+      `I learned about your company through online research and exploring your website`,
+    ],
+    hints: [`Online Research`, `Exploring Website`],
+  },
+
+  {
+    questions: [
+      `What is the difference between confidence and overconfidence?`,
+    ],
+    answers: [
+      `Confidence is being aware of own's capability. Overconfidence is when you think you're better than you are and underestimate the problem.`,
+    ],
+    hints: [`Aware Of Capability`, `Think Better Than You Are`],
+  },
+
+  {
+    questions: [`What is the difference between smart work and hard work?`],
+    answers: [
+      `Smart work involves finding efficient and effective ways to achieve goals. Hard work is putting in a lot of effort and time. Balancing both is often key to success.`,
+    ],
+    hints: [
+      `Efficient And Effective Ways`,
+      `A Lot Of Effort And Time`,
+      `Balancing`,
+    ],
+  },
+
+  {
+    questions: [
+      `Just imagine that you have enough money to retire right now. Would you?`,
+    ],
+    answers: [
+      `No, I'd still want to use my skills and knowledge. Maybe I'd try new things or focus on what I really enjoy, but I'd like to stay active and purposeful.`,
+    ],
+    hints: [`No`, `Skills And Knowledge`, `New Things`],
+  },
+
+  {
+    questions: [
+      `Don't you think that you are overqualified for this position?`,
+    ],
+    answers: [
+      `I believe my skills align well with the job requirements, and I'm enthusiastic about contributing to the team's success.`,
+    ],
+    hints: [`Skills Align Well With The Job Requirements`, `Enthusiastic`],
+  },
+
+  {
+    questions: [`Do you have any blind spot?`],
+    answers: [
+      `I strive for self-improvement, so I actively seek feedback to identify and address any blind spots in my skills or approach.`,
+    ],
+    hints: [`Self-improvement`, `Seek Feedback`, `Identify`],
+  },
+
+  {
+    questions: [`What is the disappointment in your life?`],
+    answers: [
+      `I've faced challenges and setbacks, but I view them as opportunities to learn and grow. Rather than dwelling on disappointments, I focus on finding positive solutions.`,
+    ],
+    hints: [`As Opportunities`, `No Dwelling On Disappointments`],
+  },
+
+  {
+    questions: [`What makes you angry?`],
+    answers: [
+      `I get frustrated when there's a lack of clarity or inefficient processes that hinder productivity. I prefer organized and transparent workflows to work effectively.`,
+    ],
+    hints: [`Lack Of Clarity`],
+  },
+
+  {
+    questions: [
+      `What was the most difficult decision you have made in your past life?`,
+    ],
+    answers: [
+      `I haven't faced major difficulties in decision-making so far. I think about things carefully and try to choose what's best for me.`,
+    ],
+    hints: [`No`, `Think About Things Carefully`],
+  },
+
+  {
+    questions: [
+      `As you said, internet surfing is your hobby. Which site do you surf mostly?`,
+    ],
+    answers: [
+      `I focus on enhancing my programming skills by exploring coding platforms like Hashnode, Medium, GitHub and Stack Overflow. I also take help from YouTube and ChatGPT.`,
+    ],
+    hints: [`Hashnode`, `Medium`, `GitHub`, `Stack Overflow`, `ChatGPT`],
+  },
+
+  {
+    questions: [`What was the biggest mistake of your life?`],
+    answers: [
+      `In the early stage of my career I underestimated a project's complexity and timeline, I consider this as my biggest mistake to date.`,
+    ],
+    hints: [`Early Stage`, `Underestimated Project's Complexity And Timeline`],
+  },
+
+  {
+    questions: [`Do you have any reference?`],
+    answers: [
+      `Certainly, I can provide professional references upon request who can speak to my skills and work ethic.`,
+    ],
+    hints: [`Certainly`, `Upon Request`],
+  },
+
+  {
+    questions: [`How do you deal with an angry or irritated customer?`],
+    answers: [
+      `I stay calm, listen carefully to what they're upset about, and try to find a way to fix the problem so they feel better.`,
+    ],
+    hints: [`Stay Calm`, `Listen Carefully`],
+  },
+
+  {
+    questions: [`What is your greatest fear?`],
+    answers: [
+      `My main concern is falling behind in tech advancements. I address it by staying updated, learning, and embracing new challenges.`,
+    ],
+    hints: [`Falling Behind`, `Tech Advancements`],
+  },
+
+  {
+    questions: [`Explain the difference between group and team?`],
+    answers: [
+      `A group is people with similar interests, while a team is a group that works together on a shared goal, using each person's skills. Teams collaborate more closely than groups.`,
+    ],
+    hints: [`Similar Interests`, `Works Together On A Shared Goal`],
+  },
+
+  {
+    questions: [`What will you do if you don't get this position?`],
+    answers: [
+      `I'll seek feedback, enhance my skills, and apply to other roles that match my expertise and career objectives.`,
+    ],
+    hints: [`Seek Feedback`, `Enhance My Skills`, `Apply To Other Roles`],
+  },
+
+  {
+    questions: [`Would you like to relocate or travel for the company?`],
+    answers: [
+      `I'm not keen on relocating but am open to occasional travel for the job if needed.`,
+    ],
+    hints: [`No For Relocating`, `Occasional Travel If Needed.`],
+  },
+
+  {
+    questions: [`What makes you happy?`],
+    answers: [
+      `Learning new technologies and achieving milestones in coding bring me joy. It's fulfilling to constantly expand my knowledge and contribute to successful projects.`,
+    ],
+    hints: [`Learning New Technologies`, `Achieving Milestones`],
+  },
+
+  {
+    questions: [
+      `Is there anything which makes you different from other candidates?`,
+    ],
+    answers: [
+      `My unique combination of technical skills, adaptability to new challenges, and a strong commitment to continuous learning sets me apart.`,
+    ],
+    hints: [
+      `Unique Combination Of Technical Skills`,
+      `Adaptability`,
+      `Continuous Learning`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe the three things that are most important for you in a job?`,
+    ],
+    answers: [
+      `I like jobs that challenge me and keep me learning. A team that values open communication and cooperation is crucial. I want chances to learn more and advance in my career.`,
+    ],
+    hints: [`Challenge`, `Cooperation`, `Learn`],
+  },
+
+  {
+    questions: [`On a scale of one to ten, rate me as an interviewer?`],
+    answers: [
+      `I appreciate the opportunity and found the interview insightful, so I'd rate the interview positively. I believe there was a good exchange of information.`,
+    ],
+    hints: [`Insightful`, `Rate Positively`, `Good Exchange Of Information`],
+  },
+
+  {
+    questions: [`Do you have any questions for me?`],
+    answers: [
+      `Sure! I'd like to know what kind of technologies the team uses and if there are plans to use new ones.`,
+    ],
+    hints: [`Sure`, `What Kind Of Technologies`, `Plans To Use New Ones`],
+  },
+
+  {
+    questions: [
+      `Describe a bad experience you had working with your ex-employer`,
+    ],
+    answers: [`I haven't had negative experiences with past employers.`],
+    hints: [`No`],
+  },
+
+  {
     questions: [
       `Why do you want to switch your career path from Engineering to executive role?`,
     ],
