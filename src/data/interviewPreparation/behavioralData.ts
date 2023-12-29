@@ -1578,6 +1578,224 @@ I don't rate myself like that. I think it's important to work hard and make smar
   },
 
   {
+    questions: [`Describe a time when you had to adapt to a change at work.`],
+    answers: [
+      `I swiftly adapted when I was assigned to a new project. I learned new things systematically, collaborated with the team, and successfully completed the task.`,
+    ],
+    hints: [
+      `Swiftly Adapted `,
+      `New Project`,
+      `Learned Systematically`,
+      `Collaborated`,
+    ],
+  },
+
+  {
+    questions: [`Describe a time when you delegated tasks to team-mates.`],
+    answers: [
+      `Once, with a tight deadline, I gave tasks to teammates based on their strengths. We kept checking in to make sure everything went well, and we finished the project successfully.`,
+    ],
+    hints: [
+      `Tight Deadline`,
+      `Strengths`,
+      `Kept Checking In`,
+      `Everything Went Well`,
+    ],
+  },
+
+  {
+    questions: [`Describe when you were blamed for somebody else’s mistake.`],
+    answers: [
+      `I haven't been in that situation. We prioritize open communication to address mistakes and find solutions collaboratively.`,
+    ],
+    hints: [
+      `No`,
+      `Open Communication`,
+      `Address Mistakes`,
+      `Solutions`,
+      `Collaboratively`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a new suggestion that you had made to your supervisor.`,
+    ],
+    answers: [
+      `I suggested to use the same coding style for better reading and do code reviews to keep our code clean. My supervisor liked the idea, and it helped make our code better.`,
+    ],
+    hints: [`Same Coding Style`, `Code Reviews`],
+  },
+
+  {
+    questions: [
+      `Describe a situation where you persuaded a person to do something he wasn’t willing to.`,
+    ],
+    answers: [
+      `I convinced a junior team member to patiently perform manual testing, stressing the importance of covering all cases thoroughly. He initially hesitated but later recognized the value of being a keen observer for better results.`,
+    ],
+    hints: [
+      `Convinced`,
+      `Junior`,
+      `Manual Testing`,
+      `Stressing Importance On Cases`,
+      `Keen Observer`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a situation where you had to convince someone to see things your way.`,
+    ],
+    answers: [
+      `I suggested to use the same coding style for better reading and do code reviews to keep our code clean. My supervisor liked the idea, and it helped make our code better.`,
+    ],
+    hints: [`Same Coding Style`, `Code Reviews`],
+  },
+
+  {
+    questions: [
+      `Describe a time in your job when you faced problems that tested your coping skills.`,
+    ],
+    answers: [
+      `I encountered a challenging situation when a critical project deadline was moved up unexpectedly. I stayed calm, reorganized priorities, and collaborated closely with the team to meet the new timeline successfully.`,
+    ],
+    hints: [
+      `Deadline`,
+      `Moved Up`,
+      `Calm`,
+      `Reorganized Priorities`,
+      `Collaborated`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a time when you went above and beyond the call of duty to get a job done.`,
+    ],
+    answers: [
+      `Once, we had a complex feature to finish, so I worked extra hours to make sure it succeeded. It doesn't happen often, but it helped us complete the feature on time, and the team appreciated it.`,
+    ],
+    hints: [`Complex Feature`, `Extra Hours`, `Not Often`],
+  },
+
+  {
+    questions: [`Tell me about an incident you are ashamed of speaking about.`],
+    answers: [
+      `I don't have incidents that make me feel ashamed. I focus on learning from experiences and improving.`,
+    ],
+    hints: [`No`, `Learning From Experiences`, `Improving`],
+  },
+
+  {
+    questions: [`How do you set goals? Give an example.`],
+    answers: [
+      `I create goals that are clear and achievable. I plan to learn new things by breaking them into small tasks, I create a roadmap by outlining specific milestones, scheduling dedicated time in my routine, and picking easy-to-understand resources. For instance, I aimed to learn a new programming language in the next two months by dedicating an hour each day to practice and completing online tutorials. I planned to complete each milestone by following the specific roadmap.`,
+    ],
+    hints: [
+      `Clear`,
+      `Achievable`,
+      `Breaking`,
+      `Small Tasks`,
+      `Roadmap`,
+      `Outlining Milestones`,
+      `Easy-to-understand Resources`,
+      `Programming Language`,
+      `Next 2 Months`,
+      `1 Hour`,
+    ],
+  },
+
+  {
+    questions: [`Take me to the time you set a goal and achieved it. `],
+    answers: [
+      `I wanted to learn Django for a Hackathon. I studied Django for a month, and used it to build the project in the competition.`,
+    ],
+    hints: [`Django`, `Hackathon`, `Build Project`],
+  },
+
+  {
+    questions: [
+      `Tell me a decision that other team members or colleagues didn’t like. How did you implement it?`,
+    ],
+    answers: [
+      `I proposed a change in our coding style to improve consistency. I shared a detailed plan with examples, conducted a team meeting to address concerns, and collaborated to gradually implement the updates with proper documentation.`,
+    ],
+    hints: [
+      `Coding Style`,
+      `Consistency`,
+      `Detailed Plan`,
+      `Gradually Implement`,
+      `Proper Documentation.`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a project or situation that best illustrates your analytical skills. What did you do?`,
+    ],
+    answers: [
+      `I checked the project carefully which I am currently working on and found 70% of the problems. I fixed them, ensuring a more robust and reliable software with a substantial reduction in bugs.`,
+    ],
+    hints: [
+      `Checked Project`,
+      `Found 70% Problems`,
+      `Fixed`,
+      `Reduction In Bugs.`,
+    ],
+  },
+
+  {
+    questions: [
+      `If you have inherited a customer, tell me about that experience. What steps did you take to establish rapport with them? What did you do to gain their trust?`,
+    ],
+    answers: [
+      `When I inherited a customer, I started by listening to their concerns and understanding their needs. I established regular communication, providing updates on progress and being transparent about challenges. By consistently delivering on commitments and addressing issues promptly, I built trust and demonstrated my dedication to their satisfaction.`,
+    ],
+    hints: [
+      `Listening`,
+      `Understanding`,
+      `Communication`,
+      `Providing Updates`,
+      `Challenges`,
+      `Addressing Issues `,
+      `Dedication`,
+    ],
+  },
+
+  {
+    questions: [
+      `How have you managed a previous situation in which your client changed the brief or “moved the goalposts”?`,
+    ],
+    answers: [
+      `When the client changed what they wanted, I talked to them to understand the new ideas. I looked at how it might affect our plans and talked about any issues. We worked together to find solutions, so the project could still be successful.`,
+    ],
+    hints: [
+      `Talked To`,
+      `Looked At`,
+      `Affect`,
+      `Plans And Talked Issues.`,
+      `Worked Together`,
+      `Successful`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a time when you went above and beyond to ensure a customer received the best possible service from you and the organization. What was their response?`,
+    ],
+    answers: [
+      `I once took the initiative to create a helpful tutorial video for customers who were facing challenges with a feature. They appreciated the effort, and their feedback reflected increased satisfaction with our service.`,
+    ],
+    hints: [
+      `Tutorial Video`,
+      `Challenges With Feature`,
+      `Appreciated`,
+      `Satisfaction`,
+    ],
+  },
+
+  {
     questions: [
       `Why do you want to switch your career path from Engineering to executive role?`,
     ],
