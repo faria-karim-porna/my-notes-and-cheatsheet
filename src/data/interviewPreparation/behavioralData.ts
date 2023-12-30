@@ -1797,6 +1797,246 @@ I don't rate myself like that. I think it's important to work hard and make smar
 
   {
     questions: [
+      `Tell me about a recent successful speech or presentation you gave.`,
+    ],
+    answers: [
+      `I spoke at an event about Hacktoberfest. I made it easy to understand, used visuals, and encouraged everyone to join in. Many people got excited and participated in the event.`,
+    ],
+    hints: [`Hacktoberfest`, `Easy`, `Used Visuals`, `Encouraged`],
+  },
+
+  {
+    questions: [
+      `Tell me about a time when you had to use your written communication skills to convey an important message.`,
+    ],
+    answers: [
+      `I craft detailed reports after every few weeks to communicate project updates and key information to stakeholders, ensuring everyone is on the same page and moving forward effectively.`,
+    ],
+    hints: [
+      `Detailed Reports`,
+      `After Every Few Weeks`,
+      `Project Updates`,
+      `Key Information`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a situation when you had to think quickly on your feet.`,
+    ],
+    answers: [
+      `During a live demo, a problem came up. I fixed it on the spot, so the presentation went well.`,
+    ],
+    hints: [`Live Demo`, `Fixed On The Spot`, `Well.`],
+  },
+
+  {
+    questions: [`Describe a situation when you had to be creative.`],
+    answers: [
+      `Simplified complex feature requirements by breaking them down into manageable steps, making the implementation straightforward and user-friendly.`,
+    ],
+    hints: [
+      `Simplified Feature`,
+      `Break Down`,
+      `Manageable Steps`,
+      `User-friendly.`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a situation when you had to use your communication skills.`,
+    ],
+    answers: [
+      `During our daily scrum,  I talk about what I was doing, discuss my next plan, inform any challenges, and collaborate with colleagues to keep everyone informed and on track.`,
+    ],
+    hints: [`Scrum`, `Doing`, `Next Plan`, `Inform Challenges`, `Collaborate`],
+  },
+
+  {
+    questions: [
+      `Can you share an example of a project or task that did not go as planned? What challenges did you face, and how did you adapt to the unexpected circumstances?`,
+    ],
+    answers: [
+      `Once, a project faced delays due to unexpected tech issues. I reorganized tasks, communicated openly with the team, and adjusted timelines to get things back on track.`,
+    ],
+    hints: [`Tech Issues`, `Reorganized`, `Communicated`, `Adjusted Timelines`],
+  },
+
+  {
+    questions: [
+      `Share an instance when you had to handle a dissatisfied or upset customer or client.`,
+    ],
+    answers: [
+      `Once, a customer was not fully satisfied with the completion of the feature. I listened carefully, empathized with their frustration, and promptly offered a solution. Through effective communication and resolution, we turned the situation around, and the customer left satisfied.`,
+    ],
+    hints: [`Feature`, `Listened`, `Empathized`, `Offered Solution`],
+  },
+
+  {
+    questions: [
+      `How would you explain the internet to someone who has no clue what it is?`,
+    ],
+    answers: [
+      `The internet is like a vast network of information. It lets you connect with others, find answers, and share things, all through your computer or phone.`,
+    ],
+    hints: [
+      `Network Of Information`,
+      `Connect Others`,
+      `Find`,
+      `Share`,
+      `Computer`,
+    ],
+  },
+
+  {
+    questions: [
+      `What would you spend your time doing if working was not necessary?`,
+    ],
+    answers: [
+      `If work wasn't needed, I'd spend time pursuing hobbies, learning new things, and enjoying quality time with family and friends.`,
+    ],
+    hints: [`Hobbies`, `Learning Things`, `With Family And Friends`],
+  },
+
+  {
+    questions: [`Do you prefer learning or earning?`],
+    answers: [
+      `I value both, but learning is my preference. It opens doors to new opportunities and makes the earning part more fulfilling.`,
+    ],
+    hints: [`Both`, ` Preference`, `More Fulfilling`],
+  },
+
+  {
+    questions: [
+      `If you got this job, what prank would you pull on your manager?`,
+    ],
+    answers: [
+      `I believe in maintaining a professional and respectful workplace, so I wouldn't engage in pranks that may disrupt team dynamics or harm relationships.`,
+    ],
+    hints: [
+      `No`,
+      `Professional`,
+      `Respectful`,
+      `Disrupt`,
+      `Harm Relationships.`,
+    ],
+  },
+
+  {
+    questions: [`Are you incompetent and Lazy?`],
+    answers: [
+      `No, I am dedicated and hard-working, always striving for excellence in my work.`,
+    ],
+    hints: [`No,`, `Dedicated`, `Hard-working,`],
+  },
+
+  {
+    questions: [
+      `Have you ever done something professionally, risked a lot, and failed? What was it? What made you take the risk, and what did you take away from it?`,
+    ],
+    answers: [
+      `No, I haven't taken a professional risk that resulted in failure yet. I value careful planning and analysis before making decisions to minimize potential setbacks.`,
+    ],
+    hints: [`No`, `Careful Planning`, `Analysis`],
+  },
+
+  {
+    questions: [
+      `Pick an app from your phone’s home screen. What do you like about it? What do you dislike about it?`,
+    ],
+    answers: [
+      `I appreciate LinkedIn for connecting with professionals, but I wish the job search filters were more customizable for a tailored job-seeking experience.`,
+    ],
+    hints: [
+      `LinkedIn`,
+      `Connecting`,
+      `Job Search`,
+      `Customizable `,
+      `Tailored `,
+    ],
+  },
+
+  {
+    questions: [
+      `What do you think are the three qualities to work at Google? To make the interviewer believe that you are eager to learn more and invest yourself in the firm, you need to show them that you are aware of GOOGLE’s ideals and attributes when answering this question in a Google interview.`,
+    ],
+    answers: [
+      `Google values adaptability, curiosity and collaboration. I'm eager to embrace change, explore innovative solutions, share insights, and contribute to a diverse team.`,
+    ],
+    hints: [
+      `Adaptability`,
+      `Curiosity`,
+      `Collaboration`,
+      `Embrace Change`,
+      `Innovative`,
+      `Share`,
+      `Contribute`,
+    ],
+  },
+
+  {
+    questions: [
+      `If you were asked to lead a project outside of your area of expertise, what steps would you take to ensure its success?`,
+    ],
+    answers: [
+      `I'd start by understanding the project's requirements, leverage my team's expertise, and engage in continuous learning. Regular updates, feedback loops, and adapting methodologies would be key for success.`,
+    ],
+    hints: [
+      `Understand Requirements`,
+      `Leverage`,
+      `Continuous Learning`,
+      `Updates`,
+      `feedback Loops`,
+    ],
+  },
+
+  {
+    questions: [
+      `What steps would you take to address the under-performing team member?`,
+    ],
+    answers: [
+      `I'd talk to the team member to find out what's hard for them. Then, I'd help and give feedback. We'd make a plan together with clear goals and check in often.`,
+    ],
+    hints: [`Talk`, `Find Out`, `Help`, `Feedback`, `Plan Together`],
+  },
+
+  {
+    questions: [
+      `Can you describe a situation where your attention to detail helped you to identify and solve a problem?`,
+    ],
+    answers: [
+      `When coding a software module, I noticed a small typo in a variable name. Even though it seemed minor, it caused a bug. Because of that the data of a particular supplier is not showing. Fixing that little error stopped the problem.`,
+    ],
+    hints: [`Small Typo`, `Supplier Data Issue`],
+  },
+
+  {
+    questions: [
+      `Describe a situation where your strong communication skills helped persuade or influence others.`,
+    ],
+    answers: [
+      `In a meeting, I talked about a better way to write code. I showed how it was easier and saved time. My team agreed, and we started using the new method, making our work better and faster.`,
+    ],
+    hints: [`Meeting`, `Better Way To Code`, `Faster`],
+  },
+
+  {
+    questions: [`How do you deal with unexpected changes to deadlines?`],
+    answers: [
+      `I'd assess the impact of the changes on the project timeline and communicate promptly with the team and stakeholders. Then, I'd prioritize tasks, reorganize schedules if needed, and work efficiently to meet the revised deadline.`,
+    ],
+    hints: [
+      `Assess`,
+      `Communicate Team And Stakeholders`,
+      `Prioritize`,
+      `Reorganize Schedules`,
+      `Revised`,
+    ],
+  },
+
+  {
+    questions: [
       `Why do you want to switch your career path from Engineering to executive role?`,
     ],
     answers: [
