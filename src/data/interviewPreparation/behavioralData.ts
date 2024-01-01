@@ -2036,6 +2036,315 @@ I don't rate myself like that. I think it's important to work hard and make smar
   },
 
   {
+    questions: [`Why did you choose your major in college?`],
+    answers: [
+      `I chose computer science because I love solving puzzles and the endless possibilities it offers for creating impactful and efficient solutions.`,
+    ],
+    hints: [`Puzzles`, `Endless Possibilities`, `Impactful`],
+  },
+
+  {
+    questions: [
+      `Explain what if you realize at deadline time that a report you wrote to your supervisor is not to the par?`,
+    ],
+    answers: [
+      `If I see the report isn't good enough near the deadline, I'll fix it fast, making sure it's much better and meets what's expected before handing it in.`,
+    ],
+    hints: [`Fix It Fast`, `Better`, `Expected`],
+  },
+
+  {
+    questions: [
+      `Explain how would you deal with a co-worker at work with whom you are not able to build a successful working relationship?`,
+    ],
+    answers: [
+      `I'd initiate open communication, understand their perspective, and collaborate on finding common ground.`,
+    ],
+    hints: [`Communication`, `Perspective`, `Collaborate`, `Common Ground`],
+  },
+
+  {
+    questions: [
+      `How would you deal with the work that is criticized by your boss or supervisor?`,
+    ],
+    answers: [
+      `I'd appreciate the feedback, learn from it, and proactively discuss improvements with my boss.`,
+    ],
+    hints: [`Appreciate`, `Learn`, `Discuss Improvements`],
+  },
+
+  {
+    questions: [
+      `Explain what you will do when work comes to a standstill because your colleagues and team leads are not present to answer a few important questions?`,
+    ],
+    answers: [
+      `I'd document the unanswered questions, seek guidance from available resources or documentation, and prioritize tasks that can be advanced without immediate input. If critical decisions are required, I'd communicate the situation to higher management for guidance.`,
+    ],
+    hints: [
+      `Document`,
+      `Resources`,
+      `Prioritize`,
+      `Immediate Input`,
+      `Higher Management`,
+    ],
+  },
+
+  {
+    questions: [
+      `Mention what are the emotional intelligence or EQ is commonly split into?`,
+    ],
+    answers: [
+      `EQ is commonly split into interpersonal (relationships with others) and intrapersonal (self-awareness and self-regulation) skills.`,
+    ],
+    hints: [
+      `Interpersonal`,
+      `Relationships With Others`,
+      `Intrapersonal`,
+      `Self-Awareness`,
+      `Self-Regulation`,
+    ],
+  },
+
+  {
+    questions: [
+      `Mention what are some strategies you can employ to develop your self-control?`,
+    ],
+    answers: [
+      `To develop self-control, I will practice mindfulness techniques, set clear goals, and create a structured environment.`,
+    ],
+    hints: [`Mindfulness`, `Goals`, `Structured Environment`],
+  },
+
+  {
+    questions: [
+      `Mention what are the two factors that may be responsible for resistance to change?`,
+    ],
+    answers: [
+      `Resistance to change may stem from fear of the unknown and loss of control over the familiar.`,
+    ],
+    hints: [`Fear Of The Unknown`, `Loss Of Control Over The Familiar`],
+  },
+
+  {
+    questions: [`Explain what personal competence is about?`],
+    answers: [
+      `Personal competence involves self-awareness and self-management skills, enabling individuals to navigate their emotions, handle stress, and maintain a positive and adaptable mindset in various situations.`,
+    ],
+    hints: [
+      `Self-Awareness`,
+      `Self-Management Skills`,
+      `Navigating Emotions`,
+      `Handle Stress`,
+      `Positive`,
+      `Adaptable`,
+      `Situations`,
+    ],
+  },
+
+  {
+    questions: [
+      `Tell us about a situation when you had to cope with a colleague’s behavior which bothered you. Shed light on circumstances and how did you tackle them?`,
+    ],
+    answers: [
+      `In a collaborative project, a colleague consistently missed deadlines, impacting the team's progress. I was a bit worried about him and also about the project. I initiated a private conversation, expressing concern and seeking to understand their challenges. Together, we established clearer expectations, and I offered support,  making our teamwork stronger.`,
+    ],
+    hints: [
+      `Missed Deadlines`,
+      `Private Conversation`,
+      `Concern`,
+      `Understand Challenges`,
+      `Expectations`,
+      `Support`,
+      `Stronger`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a scenario where you had to use your “power of persuasion” to make your team members see thin`,
+    ],
+    answers: [
+      `Convinced team to adopt a new coding standard by highlighting that it makes our work easier to understand and work together on. I did this by explaining its benefits and showing examples.`,
+    ],
+    hints: [
+      `Coding Standard`,
+      `Understand`,
+      `Work Together`,
+      `Explain`,
+      `Examples`,
+    ],
+  },
+
+  {
+    questions: [
+      `Often you are required to detect how a person is actually feeling or thinking. Have you been in such situations where you had to size up the person? This will show us your ability of “read” people.`,
+    ],
+    answers: [
+      `Yes, during meetings, I observed non-verbal cues like body language and facial expressions to gauge team members' feelings. This helped me talk to them better and make sure everyone was on the same page.`,
+    ],
+    hints: [
+      `Yes`,
+      `Meetings`,
+      `Body Language`,
+      `Expressions`,
+      `Gauge`,
+      `Talk Better`,
+      `Same Page`,
+    ],
+  },
+
+  {
+    questions: [
+      `How do you handle a colleague or a supervisor who is not a good listener?`,
+    ],
+    answers: [
+      `I patiently summarize key points and share them in a clear, concise manner to ensure understanding. If needed, I send a follow-up email to make sure we're on the same page and avoid any confusion.`,
+    ],
+    hints: [`Summarize Key Points`, `Concise`, `Follow-Up Email`, `Confusion`],
+  },
+
+  {
+    questions: [
+      `Has there been a situation where you overspent time in planning rather than execution?`,
+    ],
+    answers: [
+      `Yes, I once spent too much time planning a feature during the initial days of my career. Now, I focus on finding a good balance between planning and doing the actual work to be more efficient.`,
+    ],
+    hints: [`Yes`, `Feature`, `Initial Days Of My Career`, `Good Balance`],
+  },
+
+  {
+    questions: [
+      `What are some techniques of planning for a project? How do you use them?`,
+    ],
+    answers: [
+      `I use a method called sprints where I make a to-do list, break down tasks into smaller steps, and set deadlines. This helps me stay organized and focused on completing the project step by step, ensuring things get done on time.`,
+    ],
+    hints: [
+      `Sprints`,
+      `To-Do List`,
+      `Break Down`,
+      `Set Deadlines.`,
+      `Organized`,
+      `Focused`,
+      `On Time`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a situation where you used your creativity in a project to complete it on time?`,
+    ],
+    answers: [
+      `In a tight deadline, I creatively made things easier without losing any functionality and we finished the project on time.`,
+    ],
+    hints: [`Easier`, `Without Losing Functionality`],
+  },
+
+  {
+    questions: [
+      `Some ideas come from hard work, some come from intuition. Describe a case where you came up with an idea using both hard work and intuition`,
+    ],
+    answers: [
+      `While working hard on debugging a complex issue, my intuition guided me to implement a different approach and change the code, making it work better. It was a mix of hard work and a hunch that helped solve the issue.`,
+    ],
+    hints: [`Hard On Debugging`, `Different Approach`],
+  },
+
+  {
+    questions: [`Give us an example that shows you are adaptable and flexible`],
+    answers: [
+      `When I got a new project with a different tech, I didn't stress. I learned the new stuff, adapted my skills, and smoothly integrated it into the project. I'm quick to embrace changes and make them work.`,
+    ],
+    hints: [
+      `New Project`,
+      `Didn't Stress`,
+      `Learn`,
+      `Skills`,
+      `Integrated`,
+      `Embrace Changes`,
+    ],
+  },
+
+  {
+    questions: [
+      `Provide examples that show us that you can deal with a wide array of colleagues, circumstances or environments`,
+    ],
+    answers: [
+      `In my last job, I worked well with different teams, from small groups to big ones. I adapted easily to different work situations, showing that I can handle various colleagues and environments in one company.`,
+    ],
+    hints: [`Different Teams`, `Small Groups`, `Big Ones`],
+  },
+
+  {
+    questions: [
+      `Tell us about a time when there was some bad blood between two employees and you had to act as a mediator or a buffer between them.`,
+    ],
+    answers: [
+      `Fortunately, I haven't faced such a situation directly, but if it happens, I'd encourage them to talk openly and understand each other. I believe in creating a friendly team atmosphere to prevent problems in the first place.`,
+    ],
+    hints: [`I Haven't`, `Talk Openly`, `Understand`, `Friendly Atmosphere`],
+  },
+
+  {
+    questions: [
+      `Describe a situation where you took a wrong decision and the outcome was negative and counterproductive. How did you turn this around?`,
+    ],
+    answers: [
+      `I haven't messed up like that before, but If faced with such a scenario, I would leverage my problem-solving skills, seek guidance from experienced colleagues, and implement corrective actions to ensure continuous improvement and minimize adverse effects. I believe in learning from mistakes and making things better next time.`,
+    ],
+    hints: [
+      `I Haven't`,
+      `Leverage Skills`,
+      `Seek Guidance`,
+      `Corrective Actions`,
+      `Learn From Mistakes`,
+      `Better Next Time.`,
+    ],
+  },
+
+  {
+    questions: [
+      `Describe a scenario when you had obeyed the rules when you did not agree with them?`,
+    ],
+    answers: [
+      `I haven't encountered such a situation before. In my previous company, there was a strong emphasis on valuing everyone's opinions. If I held a different perspective, I could openly discuss it, fostering understanding among team members. Decisions were typically made based on the outcome of these discussions.`,
+    ],
+    hints: [
+      `I Haven't`,
+      `Emphasis On Valuing`,
+      `Different Perspective`,
+      `Fostering Understanding`,
+    ],
+  },
+
+  {
+    questions: [
+      `How will you conduct yourself if you would have given unreasonable responsibilities at work?`,
+    ],
+    answers: [
+      `I'd communicate openly about workload concerns, propose realistic timelines, and seek support or delegation if needed to maintain quality and meet deadlines.`,
+    ],
+    hints: [
+      `Communicate`,
+      `Concerns`,
+      `Realistic Timelines`,
+      `Seek Support`,
+      `Delegation`,
+    ],
+  },
+
+  {
+    questions: [
+      `Share a detail about yourself that you haven’t put on your resume.`,
+    ],
+    answers: [
+      `Outside work, I like to do illustration and animation using PowerPoint and I also love to explore creative stuff.`,
+    ],
+    hints: [`Illustration`, `Animation`, `Powerpoint`, `Explore Creativity`],
+  },
+
+  {
     questions: [
       `Why do you want to switch your career path from Engineering to executive role?`,
     ],
