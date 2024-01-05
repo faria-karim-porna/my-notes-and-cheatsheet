@@ -10,6 +10,7 @@ import { CheckList } from "../common/CheckList";
 import { Tags } from "../common/Tags";
 import { Block } from "../common/Block";
 import { SubBlock } from "../common/SubBlock";
+import { FilterDropdown } from "../common/FilterDropdown";
 
 const HomeComponent = () => {
   return (
@@ -59,6 +60,7 @@ const HomeComponent = () => {
           <div>hello</div>
         </SubBlock>
       </Block>
+      <FilterDropdown options={["Hello", "World"]} />
     </>
   );
 };

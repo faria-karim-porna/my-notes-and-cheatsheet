@@ -301,3 +301,36 @@ body {
 .vertical-divider {
   border: 0.5px solid rgb(0, 0, 0, 0.25);
 }
+
+.filter-dropdown {
+  border: 1px solid gray;
+  border-radius: 10px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.filter-dropdown:hover {
+  background-color: rgb(247, 242, 242);
+}
+
+.filter-dropdown-options {
+  box-shadow: 1px 3px 5px 3px rgb(220, 219, 219);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 200px;
+  overflow: auto;
+  max-height: 300px;
+}
+.filter-dropdown-option:hover {
+  background: rgb(247, 242, 242);
+}
+
+.filter-dropdown > div {
+  padding-left: 0.5rem;
+  font-weight: 600;
+}
+
+.filter-clear-button {
+  border-top: 1px solid rgb(214, 213, 213);
+  font-weight: 600;
+}
