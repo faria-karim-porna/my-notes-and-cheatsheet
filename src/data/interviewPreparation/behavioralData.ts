@@ -1,4 +1,6 @@
-export const behavioralData = [
+import { QuestionsAndAnswersType } from "../../types/questionsAndAnswersType";
+
+export const behavioralData: QuestionsAndAnswersType[] = [
   {
     questions: [
       `Tell us something about yourself which is not mentioned in your cv.`,

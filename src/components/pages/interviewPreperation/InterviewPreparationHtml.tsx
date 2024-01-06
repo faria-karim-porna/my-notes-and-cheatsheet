@@ -13,7 +13,11 @@ const InterviewPreparationHtmlComponent = () => {
       <hr />
       {data.map((queAndAns, index) => (
         <>
-          <TextToVoice className="que-voice" text={`${index + 1}. ${queAndAns.questions}`} shouldAlwaysView={true} />
+          <TextToVoice
+            className="que-voice"
+            text={[`${index + 1}. ${queAndAns.questions[0]}`]}
+            shouldAlwaysView={true}
+          />
           <TextToVoice className="ans-voice" text={queAndAns.answers} />
         </>
       ))}
@@ -21,4 +25,6 @@ const InterviewPreparationHtmlComponent = () => {
   );
 };
 
-export const InterviewPreparationHtml = React.memo(InterviewPreparationHtmlComponent);
+export const InterviewPreparationHtml = React.memo(
+  InterviewPreparationHtmlComponent
+);
