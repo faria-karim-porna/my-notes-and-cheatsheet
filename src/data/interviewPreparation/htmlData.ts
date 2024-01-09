@@ -432,9 +432,7 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `Yes. It is used to add sound or music files on the web page. There are three supported file formats for HTML 5 audio tag. mp3, WAV, Ogg. For example: <audio controls><source src="koyal.mp3" type="audio/mpeg"> Your browser does not support the html audio tag. </audio>`,
     ],
-    hints: [
-      `Yes. It is used to add sound or music files on the web page. There are three supported file formats for HTML 5 audio tag. mp3, WAV, Ogg. For example: <audio controls><source src="koyal.mp3" type="audio/mpeg"> Your browser does not support the html audio tag. </audio>`,
-    ],
+    hints: [`Yes`, `Add Sound/Music Files`, `mp3`, `Wav`, `Ogg`],
   },
 
   {
@@ -443,23 +441,29 @@ Your browser does not support the HTML5 canvas tag.
       `The progress tag is used to represent the progress of the task such as file uploads or form submissions. And the meter tag is used to measure data within a given range such as disk usage or battery level.`,
     ],
     hints: [
-      `The progress tag is used to represent the progress of the task such as file uploads or form submissions. And the meter tag is used to measure data within a given range such as disk usage or battery level.`,
+      `Progress Of Task`,
+      `File Uploads`,
+      `Form Submissions`,
+      `Measure Data In A Range`,
+      `Disk Usage`,
+      `Battery Level`,
     ],
   },
 
   {
     questions: [`What is the use of figure tag in HTML 5?`],
     answers: [
-      `The "<figure>* tag in HTML5 is used to encapsulate and represent self-contained content, such as images, illustrations, diagrams, or videos, along with an optional caption. It provides a semantic and structured way to group and describe content within a document. For example: <p>The Taj Mahal is widely recognized as "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage."</p>    
-      <figure>    
-        <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal"/>    
-      </figure>`,
+      `The <figure> tag in HTML5 is used to group together a piece of content, such as an images, illustrations, diagrams, or videos along with its related content, like a caption or description. It is particularly useful for semantically associating an image and its caption. For example: <figure>
+<img src="example.jpg" alt="An example image">
+  <figcaption>This is a caption for the image.</figcaption>
+</figure>
+`,
     ],
     hints: [
-      `The "<figure>* tag in HTML5 is used to encapsulate and represent self-contained content, such as images, illustrations, diagrams, or videos, along with an optional caption. It provides a semantic and structured way to group and describe content within a document. For example: <p>The Taj Mahal is widely recognized as "the jewel of Muslim art in India and one of the universally admired masterpieces of the world's heritage."</p>    
-      <figure>    
-        <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal"/>    
-      </figure>`,
+      `To Group Together A Piece Of Content With Its Related Content`,
+      `, Images, Illustrations, Diagrams, Or Videos`,
+      `Caption`,
+      `Semantic`,
     ],
   },
 
@@ -471,12 +475,7 @@ Your browser does not support the HTML5 canvas tag.
     <figcaption>Fig.1.1 - A front view of the great Taj Mahal in Agra.</figcaption>    
     </figure>`,
     ],
-    hints: [
-      `The <figcaption> element is used to provide a caption to an image. It is an optional tag. The <figcaption> element is used with <figure> element and it can be placed as the first or last child of the <figure> element. For example: <figure>    
-      <img src="htmlpages/images/tajmahal.jpg" alt="Taj Mahal"/>    
-    <figcaption>Fig.1.1 - A front view of the great Taj Mahal in Agra.</figcaption>    
-    </figure>`,
-    ],
+    hints: [`Caption To Image`, `Optional Tag`, `First/Last Child`],
   },
 
   {
@@ -484,9 +483,7 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `The <button> tag in HTML represents a clickable button on a webpage. It can be used to perform a specific function when clicked by the user. For example: <button name="button" type="button">Click Here</button> `,
     ],
-    hints: [
-      `The <button> tag in HTML represents a clickable button on a webpage. It can be used to perform a specific function when clicked by the user. For example: <button name="button" type="button">Click Here</button> `,
-    ],
+    hints: [`Clickable Button`, `Perform Function`, `Clicked By`],
   },
 
   {
@@ -495,7 +492,9 @@ Your browser does not support the HTML5 canvas tag.
       `The <details> and <summary> tags are used to create collapsible and expandable sections of content. The <details> tag defines the container for the collapsible content, while the <summary> tag provides a visible header or summary for the section. When the user clicks on the summary, the associated content expands or collapses.`,
     ],
     hints: [
-      `The <details> and <summary> tags are used to create collapsible and expandable sections of content. The <details> tag defines the container for the collapsible content, while the <summary> tag provides a visible header or summary for the section. When the user clicks on the summary, the associated content expands or collapses.`,
+      `Collapsible And Expandable`,
+      `Container For The Collapsible Content`,
+      `Visible Header/Summary`,
     ],
   },
 
@@ -523,25 +522,10 @@ Your browser does not support the HTML5 canvas tag.
     </label>  `,
     ],
     hints: [
-      `The <datalist> tag is used to provide a predefined list of options for an input field. It contains <option>- tags that define the selectable options. When a user click on an input field associated with a <datalist>, they presented with a dropdown of suggested options. For example: <label>Enter your favorite cricket player: Press any character
-      <br />
-      <input type="text" id="favCktPlayer" list="CktPlayers">
-      <datalist id="CktPlayers">
-      <option value="Sachin Tendulkar">
-      <option value="Brian Lara">
-      <option value="Jacques Kallis"> 
-      <option value="Ricky Ponting"> 
-      <option value="Rahul Dravid"> 
-      <option value="Shane Warne"> 
-      <option value="Rohit Sharma"> 
-      <option value="Donald Bradman"> 
-      <option value="Saurav Ganguly "> 
-      <option value="AB diVilliers"> 
-      <option value="Mahendra Singh Dhoni"> 
-      <option value="Adam Gilchrist">
-
-      </datalist>
-    </label>  `,
+      `Predefined List Of Options For An Input Field`,
+      `<option>`,
+      `Selectable Options`,
+      `Dropdown Of Suggested Options`,
     ],
   },
 
@@ -555,11 +539,14 @@ Your browser does not support the HTML5 canvas tag.
       <div id="footer"> to <footer>`,
     ],
     hints: [
-      `When migrating tags from HTML4 to HTML5, it is important to consider the semantic structure and replace deprecated or obsolete tags with their appropriate HTML5 counterparts. For example : <div id="header"> to	<header>
-      <div id="menu"> to <nav>
-      <div id="content"> to	<section>
-      <div id="post"> to <article>
-      <div id="footer"> to <footer>`,
+      `Semantic Structure`,
+      `Deprecated/Obsolete`,
+      `Counterparts`,
+      `<div id="header"> to	<header>`,
+      `<div id="menu"> to <nav>`,
+      `<div id="content"> to	<section>`,
+      `<div id="post"> to <article>`,
+      `<div id="footer"> to <footer>`,
     ],
   },
 
@@ -569,7 +556,11 @@ Your browser does not support the HTML5 canvas tag.
       `HTML5 will still work without the <!DOCTYPE html> declaration, but it is strongly recommended to include it at the beginning of the HTML document. The <!DOCTYPE html> declaration ensures that the browser interprets the document as HTML5 and follows the correct standards for rendering and parsing the code.`,
     ],
     hints: [
-      `HTML5 will still work without the <!DOCTYPE html> declaration, but it is strongly recommended to include it at the beginning of the HTML document. The <!DOCTYPE html> declaration ensures that the browser interprets the document as HTML5 and follows the correct standards for rendering and parsing the code.`,
+      `Yes`,
+      `Recommended`,
+      `Interprets`,
+      `Correct Standards`,
+      `Rendering And Parsing`,
     ],
   },
 
@@ -578,9 +569,7 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `It forces a user to fill text on the text field or text area before submitting the form. It is used for form validation. For Example: Name: <input type="text" name="name" required>`,
     ],
-    hints: [
-      `It forces a user to fill text on the text field or text area before submitting the form. It is used for form validation. For Example: Name: <input type="text" name="name" required>`,
-    ],
+    hints: [`Forces To Fill Text Before Submitting Form`, `Form Validation`],
   },
 
   {
@@ -588,9 +577,7 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `The new input types for form validation are email, URL, number, tel, and date. For example: <input type="email">`,
     ],
-    hints: [
-      `The new input types for form validation are email, URL, number, tel, and date. For example: <input type="email">`,
-    ],
+    hints: [`email`, `URL`, `number`, `tel`, `date`],
   },
 
   {
@@ -598,18 +585,19 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `<div> and <span> are both container elements, but they differ in their default behavior. <div> is a block-level element and <span> is an inline element.`,
     ],
-    hints: [
-      `<div> and <span> are both container elements, but they differ in their default behavior. <div> is a block-level element and <span> is an inline element.`,
-    ],
+    hints: [`Container Elements`, `Block-Level`, `Inline Element`],
   },
 
   {
     questions: [`How do you create a responsive webpage in HTML?`],
     answers: [
-      `To create a responsive webpage, CSS media queries can be used. Media queries allow to define different CSS rules for different screen sizes.`,
+      `To create a responsive webpage, viewport meta tag in the head of your HTML document, CSS media queries, CSS Grid or Flexbox, relative units like percentages or ems can be used.`,
     ],
     hints: [
-      `To create a responsive webpage, CSS media queries can be used. Media queries allow to define different CSS rules for different screen sizes.`,
+      `Viewport Meta Tag`,
+      `CSS Media Queries`,
+      `Grid/Flexbox`,
+      `Relative Units`,
     ],
   },
 
@@ -618,9 +606,7 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `The <form> tag provides a way to collect user input and submit it to a server. It acts as a container for form elements such as input fields, checkboxes, radio buttons, and buttons.`,
     ],
-    hints: [
-      `The <form> tag provides a way to collect user input and submit it to a server. It acts as a container for form elements such as input fields, checkboxes, radio buttons, and buttons.`,
-    ],
+    hints: [`Collect Input`, `Submit To Server`, `Container For Form Elements`],
   },
 
   {
@@ -631,7 +617,11 @@ Your browser does not support the HTML5 canvas tag.
       `To include external CSS files, <link> tag within the <head> section of the HTML document can be used. The <link> tag specifies the location and filename of the external CSS file. Similarly, for external JavaScript files, <script> tag can be used and the source file has to be specified using the src attribute. <script> tag can be placed either in the <head> or <body> section.`,
     ],
     hints: [
-      `To include external CSS files, <link> tag within the <head> section of the HTML document can be used. The <link> tag specifies the location and filename of the external CSS file. Similarly, for external JavaScript files, <script> tag can be used and the source file has to be specified using the src attribute. <script> tag can be placed either in the <head> or <body> section.`,
+      `<link>`,
+      `Within The <head>`,
+      `<script>`,
+      `src Attribute`,
+      `<head> / <body>`,
     ],
   },
 
@@ -640,9 +630,7 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `The alt attribute in the <img> tag is used to provide alternative text for an image. It serves as a text description of the image content, which is useful for users who cannot see the image or for SEO purposes.`,
     ],
-    hints: [
-      `The alt attribute in the <img> tag is used to provide alternative text for an image. It serves as a text description of the image content, which is useful for users who cannot see the image or for SEO purposes.`,
-    ],
+    hints: [`Alternative Text`, `Text Description`, `Blind`, `Seo Purposes`],
   },
 
   {
@@ -653,7 +641,12 @@ Your browser does not support the HTML5 canvas tag.
       `The <script> tag is used to include JavaScript code in an HTML document. <script> tag without any attribute, fetched and execute synchronously. It blocks the parsing and rendering of the HTML until it's loaded. The async attribute allows the script to be downloaded in parallel to parsing the page, and executed as soon as it is available even before parsing completes. It is used only for external scripts. It does not block the parsing and rendering of the HTML. The defer attribute almost similar as async but ensures that it executes only after the HTML parsing is complete.`,
     ],
     hints: [
-      `The <script> tag is used to include JavaScript code in an HTML document. <script> tag without any attribute, fetched and execute synchronously. It blocks the parsing and rendering of the HTML until it's loaded. The async attribute allows the script to be downloaded in parallel to parsing the page, and executed as soon as it is available even before parsing completes. It is used only for external scripts. It does not block the parsing and rendering of the HTML. The defer attribute almost similar as async but ensures that it executes only after the HTML parsing is complete.`,
+      `Without -> Fetched And Execute Synchronously`,
+      `Blocks`,
+      ` Parsing And Rendering Of Html`,
+      `Async -> Parallel`,
+      `Non Block`,
+      `Defer -> After`,
     ],
   },
 
@@ -667,11 +660,9 @@ Your browser does not support the HTML5 canvas tag.
 </ul>`,
     ],
     hints: [
-      `Data attributes, denoted by the data-* format. It is used to store custom data private to the page or application. These attributes can be accessed and manipulated using JavaScript. It provides a way to associate additional data or behavior with specific elements. For example: <ul>
-    <li onclick="showDetails(this)" id="owl" data-animal-type="bird">Owl</li>
-    <li onclick="showDetails(this)" id="salmon" data-animal-type="fish">Salmon</li>  
-    <li onclick="showDetails(this)" id="tarantula" data-animal-type="spider">Tarantula</li>  
-  </ul>`,
+      `data-*`,
+      `Store Custom Data Private`,
+      `Accessed And Manipulated Using Javascript`,
     ],
   },
 
@@ -683,7 +674,13 @@ Your browser does not support the HTML5 canvas tag.
       `To mitigate XSS vulnerabilities, it is important to validate user input before displaying it on a webpage. This involves properly encoding or escaping special characters and ensuring that user-generated content is treated as data, not code. Additionally, implementing Content Security Policy (CSP) headers can further protect against XSS attacks. A CSP compatible browser will then only execute scripts loaded in source files received from those allowed domains and ignores all other scripts.`,
     ],
     hints: [
-      `To mitigate XSS vulnerabilities, it is important to validate user input before displaying it on a webpage. This involves properly encoding or escaping special characters and ensuring that user-generated content is treated as data, not code. Additionally, implementing Content Security Policy (CSP) headers can further protect against XSS attacks. A CSP compatible browser will then only execute scripts loaded in source files received from those allowed domains and ignores all other scripts.`,
+      `Validate User Input`,
+      `Encode`,
+      `Escaping Special Characters`,
+      `Data, Not Code`,
+      `Content Security Policy (CSP) Headers`,
+      `Allowed Domains`,
+      `Ignores All Other Scripts`,
     ],
   },
 
@@ -692,9 +689,7 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `It provides methods and properties to dynamically access, manipulate, and update the elements and content of a webpage using JavaScript or other scripting languages. The DOM allows developers to interact with and modify the HTML document programmatically.`,
     ],
-    hints: [
-      `It provides methods and properties to dynamically access, manipulate, and update the elements and content of a webpage using JavaScript or other scripting languages. The DOM allows developers to interact with and modify the HTML document programmatically.`,
-    ],
+    hints: [`Interact`, `Modify Html Programmatically`],
   },
 
   {
@@ -704,8 +699,6 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `The <input type="file"> element is used to select and upload files. On the other hand, <input type="text"> is a text input field where users can enter alphanumeric text.`,
     ],
-    hints: [
-      `The <input type="file"> element is used to select and upload files. On the other hand, <input type="text"> is a text input field where users can enter alphanumeric text.`,
-    ],
+    hints: [`Upload Files`, `Alphanumeric Text`],
   },
 ];
