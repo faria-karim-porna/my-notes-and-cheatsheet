@@ -170,9 +170,7 @@ export const htmlData: QuestionsAndAnswersType[] = [
     answers: [
       `The HTML iframe tag is used to display a nested webpage. The <iframe> tag embed another HTML document within the current webpage. The URL of the nested webpage is written inside the src attribute. `,
     ],
-    hints: [
-      `The HTML iframe tag is used to display a nested webpage. The <iframe> tag embed another HTML document within the current webpage. The URL of the nested webpage is written inside the src attribute. `,
-    ],
+    hints: [`iframe`, `Url Is Written In src`],
   },
 
   {
@@ -181,7 +179,10 @@ export const htmlData: QuestionsAndAnswersType[] = [
       `To keep list elements straight in an HTML file, CSS provides properties like list-style-type to control the appearance of bullets or numbering, text-indent to control indentation, and margin or padding properties to adjust spacing around list items can be used.`,
     ],
     hints: [
-      `To keep list elements straight in an HTML file, CSS provides properties like list-style-type to control the appearance of bullets or numbering, text-indent to control indentation, and margin or padding properties to adjust spacing around list items can be used.`,
+      `CSS list-style-type Control Appearance`,
+      `text-indent Control Indentation`,
+      `Margin`,
+      `Padding`,
     ],
   },
 
@@ -190,9 +191,7 @@ export const htmlData: QuestionsAndAnswersType[] = [
     answers: [
       `No, hyperlinks can be used on various elements, including text, images, buttons, or any other element that supports user interaction.`,
     ],
-    hints: [
-      `No, hyperlinks can be used on various elements, including text, images, buttons, or any other element that supports user interaction.`,
-    ],
+    hints: [`No`, `Text`, `Images`, `Buttons`],
   },
 
   {
@@ -201,18 +200,47 @@ export const htmlData: QuestionsAndAnswersType[] = [
       `A style sheet is used to build a consistent, transportable, and well-designed style template. It provides a set of rules and properties that determine how elements should be displayed, including fonts, colors, sizes, positioning, and more.`,
     ],
     hints: [
-      `A style sheet is used to build a consistent, transportable, and well-designed style template. It provides a set of rules and properties that determine how elements should be displayed, including fonts, colors, sizes, positioning, and more.`,
+      `Style Template`,
+      `Set Of Rules And Properties`,
+      `Fonts, Colors, Sizes, Positioning, And More`,
     ],
   },
 
   {
     questions: [`Can you create a multi-colored text on a web page?`],
     answers: [
-      "Yes. To create a multicolor text on a web page <font color =`color`> </font> can be used for the specific texts to add color.",
+      `Yes, I can use HTML and CSS to create multi-colored text on a web page by applying different color styles to specific text elements.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .multi-color-text {
+      color: red;
+      font-weight: bold;
+    }
+
+    .highlight-text {
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
+  <title>Multi-Colored Text Example</title>
+</head>
+<body>
+  <p>This is <span class="multi-color-text">bold red</span> text and <span class="highlight-text">underlined blue</span> text.</p>
+</body>
+</html>
+
+or
+
+<p style="color: red;">This is red text.</p>
+<p style="color: blue;">This is blue text.</p>
+<p style="color: green;">This is green text.</p>
+`,
     ],
-    hints: [
-      "Yes. To create a multicolor text on a web page <font color =`color`> </font> can be used for the specific texts to add color.",
-    ],
+    hints: [`Yes`, `Different Color Styles`],
   },
 
   {
@@ -220,9 +248,7 @@ export const htmlData: QuestionsAndAnswersType[] = [
     answers: [
       `The color of the bullet is always the color of the first text of the list. So, to change the color of the bullet, the color of the text has to be changed.  Additionally, using the ::before pseudo-element with CSS, the appearance of the bullet can be customized.`,
     ],
-    hints: [
-      `The color of the bullet is always the color of the first text of the list. So, to change the color of the bullet, the color of the text has to be changed.  Additionally, using the ::before pseudo-element with CSS, the appearance of the bullet can be customized.`,
-    ],
+    hints: [`Yes`, `Change Color Text`, `::before pseudo-element`],
   },
 
   {
@@ -231,7 +257,8 @@ export const htmlData: QuestionsAndAnswersType[] = [
       `The layout of an HTML document refers to the arrangement of elements on a webpage. HTML provides various tags and techniques to structure and organize content, <header> is used to define a header for a document or a section. <nav> is used to define a container for navigation links <section> is used to define a section in a document <article> is used to define an independent, self-contained article <aside> is used to define content aside from the content (like a sidebar) <footer> is used to define a footer for a document or a section`,
     ],
     hints: [
-      `The layout of an HTML document refers to the arrangement of elements on a webpage. HTML provides various tags and techniques to structure and organize content, <header> is used to define a header for a document or a section. <nav> is used to define a container for navigation links <section> is used to define a section in a document <article> is used to define an independent, self-contained article <aside> is used to define content aside from the content (like a sidebar) <footer> is used to define a footer for a document or a section`,
+      `Arrangement Of Elements`,
+      `Various Tags And Techniques To Structure And Organize Content`,
     ],
   },
 
@@ -240,9 +267,7 @@ export const htmlData: QuestionsAndAnswersType[] = [
     answers: [
       `Marquee is used to put the scrolling text or image on a web page. It scrolls the image or text up, down, left or right automatically.`,
     ],
-    hints: [
-      `Marquee is used to put the scrolling text or image on a web page. It scrolls the image or text up, down, left or right automatically.`,
-    ],
+    hints: [`Scrolling Text/Image`],
   },
 
   {
@@ -251,7 +276,11 @@ export const htmlData: QuestionsAndAnswersType[] = [
       `There is no specific limit on the number of tags that can be used to separate a section of texts in HTML. You can use tags like <div>, <section>, <article>, or even <p> (paragraph) to logically group and separate sections of text. <br> tag is used to separate the line of text. It breaks the current line. The <p> tag contains the text in the form of a new paragraph. <blockquote> tag is used to define a large quoted section.`,
     ],
     hints: [
-      `There is no specific limit on the number of tags that can be used to separate a section of texts in HTML. You can use tags like <div>, <section>, <article>, or even <p> (paragraph) to logically group and separate sections of text. <br> tag is used to separate the line of text. It breaks the current line. The <p> tag contains the text in the form of a new paragraph. <blockquote> tag is used to define a large quoted section.`,
+      `No Specific Limit`,
+      `<div>, <section>, <article>, <p>`,
+      `<br>`,
+      `<blockquote>`,
+      `Large Quoted Section`,
     ],
   },
 
@@ -261,7 +290,10 @@ export const htmlData: QuestionsAndAnswersType[] = [
       "To make a picture a background image on a web page, <body background = `image.gif`>  can be used.",
     ],
     hints: [
-      "To make a picture a background image on a web page, <body background = `image.gif`>  can be used.",
+      `<body background = "image.gif">`,
+      `body{
+        background-image: "image.gif"
+      }`,
     ],
   },
 
@@ -270,9 +302,7 @@ export const htmlData: QuestionsAndAnswersType[] = [
     answers: [
       `HTML elements with no content are called empty elements. For example: <br>, <hr> etc.`,
     ],
-    hints: [
-      `HTML elements with no content are called empty elements. For example: <br>, <hr> etc.`,
-    ],
+    hints: [`No Content`, `<br>`, `<hr>`],
   },
 
   {
@@ -281,7 +311,11 @@ export const htmlData: QuestionsAndAnswersType[] = [
       `The <span> tag in HTML is an inline element used to apply styling on specific sections of text within a larger block of content. We can use span tag for adding color on text, for adding background on text, for highlighting any color text.`,
     ],
     hints: [
-      `The <span> tag in HTML is an inline element used to apply styling on specific sections of text within a larger block of content. We can use span tag for adding color on text, for adding background on text, for highlighting any color text.`,
+      `Inline Element`,
+      `Specific Sections`,
+      `Color`,
+      `Background`,
+      `Highlighting`,
     ],
   },
 
@@ -291,7 +325,10 @@ export const htmlData: QuestionsAndAnswersType[] = [
       `The <iframe> tag in HTML is used to embed another HTML document or external content within the current webpage. <iframe> is commonly used for embedding videos, maps, or other external content.`,
     ],
     hints: [
-      `The <iframe> tag in HTML is used to embed another HTML document or external content within the current webpage. <iframe> is commonly used for embedding videos, maps, or other external content.`,
+      `Embed Another Html Document`,
+      `External Content`,
+      `Videos`,
+      `Maps`,
     ],
   },
 
@@ -300,9 +337,7 @@ export const htmlData: QuestionsAndAnswersType[] = [
     answers: [
       `Entities in HTML are special characters that cannot be directly represented in HTML code. They are represented using entity references, such as &amp; for & or &lt; - for <.`,
     ],
-    hints: [
-      `Entities in HTML are special characters that cannot be directly represented in HTML code. They are represented using entity references, such as &amp; for & or &lt; - for <.`,
-    ],
+    hints: [`Special Characters`, `&amp; For &`, `&lt; For <`],
   },
 
   {
@@ -311,7 +346,10 @@ export const htmlData: QuestionsAndAnswersType[] = [
       `URLs are encoded in HTML to handle special characters and ensure their proper representation within a URL. Encoding converts special characters into a format that can be safely transmitted over the internet. This prevents conflicts with reserved characters, such as spaces or symbols.`,
     ],
     hints: [
-      `URLs are encoded in HTML to handle special characters and ensure their proper representation within a URL. Encoding converts special characters into a format that can be safely transmitted over the internet. This prevents conflicts with reserved characters, such as spaces or symbols.`,
+      `Handle Special Characters`,
+      `Proper Representation`,
+      `Safely Transmission Over Internet`,
+      `Prevents Conflicts With Reserved Characters`,
     ],
   },
 
@@ -321,10 +359,7 @@ export const htmlData: QuestionsAndAnswersType[] = [
       `No, the *<!DOCTYPE html> declaration is not an HTML tag. It is an instruction or document type declaration that specifies the HTML version. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset etc.
 `,
     ],
-    hints: [
-      `No, the *<!DOCTYPE html> declaration is not an HTML tag. It is an instruction or document type declaration that specifies the HTML version. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset etc.
-`,
-    ],
+    hints: [`No`, `Instruction/Document Type Declaration`],
   },
 
   {
@@ -335,9 +370,9 @@ Your browser does not support the HTML5 canvas tag.
 </canvas>`,
     ],
     hints: [
-      `The <canvas> element is a container that is used to draw graphics on the web page using scripting language like JavaScript. It allows for dynamic rendering of 2D shapes and bitmap images. For Example: <canvas id="myCanvas1" width="300" height="100" style="border:2px solid;">    
-Your browser does not support the HTML5 canvas tag.    
-</canvas>`,
+      `Container To Draw Graphics`,
+      `Dynamic Rendering Of 2d Shapes`,
+      `Bitmap Images`,
     ],
   },
 
@@ -349,9 +384,10 @@ Your browser does not support the HTML5 canvas tag.
 </svg>`,
     ],
     hints: [
-      `SVG stands for Scalable Vector Graphics. It is an XML-based markup language. It allows for the creation of vector-based graphics and illustrations in a web browser.SVG graphics can be scaled and manipulated without losing image quality.SVG is commonly used for logos, icons, charts, and interactive graphics. <svg width="100" height="100">    
-<circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="red" />    
-</svg>`,
+      `Scalable Vector Graphics`,
+      `Xml-Based Markup Language`,
+      `Vector-Based Graphics`,
+      `Without Losing Image Quality`,
     ],
   },
 
@@ -361,7 +397,17 @@ Your browser does not support the HTML5 canvas tag.
       `HTML5 introduces several new form element types, including Color, Date, Datetime-local, Email, Time, Url, Range, Telephone, Number, Search. For example: <input type="date">`,
     ],
     hints: [
-      `HTML5 introduces several new form element types, including Color, Date, Datetime-local, Email, Time, Url, Range, Telephone, Number, Search. For example: <input type="date">`,
+      `Several`,
+      `Color`,
+      `Date`,
+      `Datetime-Local`,
+      `Email`,
+      `Time`,
+      `Url`,
+      `Range`,
+      `Telephone`,
+      `Number`,
+      `Search`,
     ],
   },
 
@@ -372,15 +418,13 @@ Your browser does not support the HTML5 canvas tag.
     answers: [
       `No, web browsers need to be updated to support HTML5 features fully. Almost all the updated versions of all modern browsers support HTML 5. For example Chrome, Firefox, Opera, Safari, IE.`,
     ],
-    hints: [
-      `No, web browsers need to be updated to support HTML5 features fully. Almost all the updated versions of all modern browsers support HTML 5. For example Chrome, Firefox, Opera, Safari, IE.`,
-    ],
+    hints: [`No`, `Almost All The Updated Versions`],
   },
 
   {
     questions: [`Which type of video formats are supported by HTML5?`],
     answers: [`HTML 5 supports three types of video format: mp4, WebM, Ogg,`],
-    hints: [`HTML 5 supports three types of video format: mp4, WebM, Ogg,`],
+    hints: [`mp4`, `WebM`, `Ogg`],
   },
 
   {
