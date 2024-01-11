@@ -701,4 +701,443 @@ Your browser does not support the HTML5 canvas tag.
     ],
     hints: [`Upload Files`, `Alphanumeric Text`],
   },
+
+  {
+    questions: [`What are HTML Attributes?`],
+    answers: [
+      `HTML attributes provide additional information about HTML elements and are defined within the opening tag, influencing their behavior or appearance. For example, the src attribute in an <img> tag specifies the image source, and the href attribute in an <a> tag defines the hyperlink destination.`,
+    ],
+    hints: [
+      `Additional Information`,
+      `Within Opening Tag`,
+      `Influencing Behavior/Appearance`,
+      `src`,
+      `href`,
+    ],
+  },
+
+  {
+    questions: [`Differentiate between an Ordered list and an Unordered list`],
+    answers: [
+      `An ordered list (<ol>) displays items in a numbered sequence, while an unordered list (<ul>) presents items with bullet points.`,
+    ],
+    hints: [`Numbered Sequence`, `Bullet Points`],
+  },
+
+  {
+    questions: [`What is an element in HTML?`],
+    answers: [
+      `In HTML, an element is a fundamental building block that defines the structure and content of a webpage. It consists of a start tag, content, and an end tag. For example, <p> is the opening tag of a paragraph element, and </p> is the closing tag. The content between these tags represents the paragraph's text or other nested elements.`,
+    ],
+    hints: [
+      `Building Block`,
+      `Defines Structure`,
+      `Content`,
+      `Start Tag, Content, End Tag`,
+      `Paragraph`,
+    ],
+  },
+
+  {
+    questions: [`What is the difference between HTML and CSS?`],
+    answers: [
+      `HTML is for structuring content, while CSS is for styling and layout. In essence, HTML focuses on structure, while CSS focuses on presentation.`,
+    ],
+    hints: [`Structuring`, `Styling`, `Layout`, `Presentation`],
+  },
+
+  {
+    questions: [`What is the advantage of collapsing white space?`],
+    answers: [
+      `Collapsing white space in HTML is advantageous for cleaner code and easier readability, preventing multiple spaces and line breaks from affecting layout. For example:  <div class="example">
+    This   is   an   example   of   collapsing   white    space.
+  </div>
+In this example, the spaces between the words "This," "is," "an," "example," "of," "collapsing," and "white," are collapsed into a single space when rendered in the browser.
+.example {
+      border: 1px solid black;
+      white-space: pre;
+    }
+ <div class="example">
+    Line 1
+    Line 2
+    Line 3
+  </div>
+In this example, the white-space: pre; CSS property is used to preserve both spaces and line breaks. Without collapsing white space, each line break is maintained, resulting in distinct lines in the rendered output.`,
+    ],
+    hints: [
+      `Cleaner Code`,
+      `Easier Readability`,
+      `Preventing Multiple Spaces`,
+      `Layout`,
+    ],
+  },
+
+  {
+    questions: [`How do we insert a comment in HTML?`],
+    answers: [`Use <!-- --> for HTML comments.`],
+    hints: [`<!-- -->`],
+  },
+
+  {
+    questions: [`What is white space in HTML?`],
+    answers: [
+      `White space is extra space, tabs, or line breaks between HTML elements.`,
+    ],
+    hints: [`Extra Space`, `Tabs`, `Line Breaks`],
+  },
+
+  {
+    questions: [
+      `How do you create links to different sections within the same HTML web page?`,
+    ],
+    answers: [
+      `Use the anchor tag <a> and set href to the section's ID, like this: <a href="#sectionID">Link Text</a>.`,
+    ],
+    hints: [`Set href To The Section's Id`],
+  },
+
+  {
+    questions: [`Why do we use a style sheet in HTML?`],
+    answers: [
+      `Style sheets enhance HTML layout and design. They are used to control the look and feel of a webpage.`,
+    ],
+    hints: [`Layout`, `Design`, `Look`, `Feel`],
+  },
+
+  {
+    questions: [`What would happen if there is no text between the HTML tags`],
+    answers: [`Empty HTML tags won't display any content.`],
+    hints: [`Don't Display Content.`],
+  },
+
+  {
+    questions: [`How do you add buttons in HTML?`],
+    answers: [`Use <button> tag for buttons in HTML.`],
+    hints: [`<button>`],
+  },
+
+  {
+    questions: [`How do you add CSS styling in HTML?`],
+    answers: [`Apply styles using <style> or link a CSS file.`],
+    hints: [`<style>`, `Link`],
+  },
+
+  {
+    questions: [`How do you add JavaScript to an HTML webpage?`],
+    answers: [`Include <script> tag with JS code in HTML.`],
+    hints: [`<script>`],
+  },
+
+  {
+    questions: [`What is the ‘class' attribute in HTML?`],
+    answers: [
+      `The 'class' attribute in HTML is used to define a class for one or more HTML elements. It is primarily used for styling and applying CSS rules to multiple elements.`,
+    ],
+    hints: [`One/More Elements`, `CSS Rules`, `Multiple Elements`],
+  },
+
+  {
+    questions: [
+      `What is the difference between the ‘id' and ‘class' attributes of HTML elements?`,
+    ],
+    answers: [
+      `The 'id' attribute in HTML is used to uniquely identify a single element, while the 'class' attribute is used to label and group multiple elements.`,
+    ],
+    hints: [`Single Elemen`, `Group Multiple Elements`],
+  },
+
+  {
+    questions: [`What is the difference between HTML and XHTML?`],
+    answers: [
+      `HTML is forgiving and allows for some flexibility in syntax, while XHTML is stricter, demanding well-formed and XML-compliant documents. XHTML requires proper nesting, closing tags, and lowercase attribute names, enforcing a more rigorous structure compared to HTML.`,
+    ],
+    hints: [
+      `Forgiving`,
+      `Flexible In Syntax`,
+      `Stricter`,
+      `Well-Formed`,
+      `Xml-Compliant Documents`,
+      `Nesting`,
+      `Closing Tags`,
+      `Lowercase Attribute Names`,
+      `Rigorous`,
+    ],
+  },
+
+  {
+    questions: [`What is the difference between HTML and HTML5?`],
+    answers: [
+      `HTML5 is the latest and enhanced version with new elements (like <section> and <article>), improved multimedia support, and better compatibility with modern web standards. HTML5 is essentially a more advanced and feature-rich evolution of HTML.`,
+    ],
+    hints: [
+      `Latest`,
+      `Enhanced`,
+      `<Section> And <Article>`,
+      `Improved Multimedia Support`,
+      `Better Compatibility`,
+      `Modern Web Standards`,
+      `Feature-Rich`,
+    ],
+  },
+
+  {
+    questions: [`What is the role of the <head> tag in HTML?`],
+    answers: [
+      `<head> tag contains metadata, linking stylesheets, scripts, and setting page properties.`,
+    ],
+    hints: [
+      `Metadata`,
+      `Linking Stylesheets`,
+      `Scripts`,
+      `Setting Page Properties.
+`,
+    ],
+  },
+
+  {
+    questions: [`What is the role of the <meta> tag in HTML?`],
+    answers: [
+      `It includes information like character set, viewport settings for responsive design, and description for search engines. It helps browsers and search engines understand and display the webpage correctly.`,
+    ],
+    hints: [
+      `Character Set`,
+      `Viewport Settings`,
+      `Description`,
+      `Search Engines`,
+    ],
+  },
+
+  {
+    questions: [`What is the difference between an absolute and relative URL?`],
+    answers: [
+      `Absolute URLs contain full paths, while relative URLs specify the path from the current location.`,
+    ],
+    hints: [`Full Paths`, `From Current Location`],
+  },
+
+  {
+    questions: [`What is the role of the title attribute in HTML?`],
+    answers: [
+      `The title attribute in HTML provides additional information about an element, appearing as a tooltip when the user hovers over the element. It enhances accessibility and provides supplementary details.`,
+    ],
+    hints: [
+      `Additional Information`,
+      `Tooltip While Hovering`,
+      `Supplementary`,
+    ],
+  },
+
+  {
+    questions: [`What are the different types of form input fields in HTML?`],
+    answers: [
+      `HTML has various form input fields like text, password, checkbox, radio, submit, and more for collecting user data.`,
+    ],
+    hints: [
+      `Text`,
+      `Password`,
+      `Checkbox`,
+      `Radio`,
+      `Submit`,
+      `Collect User Data`,
+    ],
+  },
+
+  {
+    questions: [`What is the role of the action attribute in HTML forms?`],
+    answers: [
+      `The action attribute in HTML forms specifies the URL to which the form data is sent when submitted. It defines the destination where the form data is processed, typically pointing to a server-side script or endpoint that handles the submitted information.`,
+    ],
+    hints: [
+      `Url Where Form Data Is Sent`,
+      `Destination`,
+      `Processed`,
+      `Point To A Server-Side Script/Endpoint`,
+    ],
+  },
+
+  {
+    questions: [`What is the role of the method attribute in HTML forms?`],
+    answers: [
+      `The method attribute in HTML forms defines the HTTP method (GET or POST) used to send form data to the specified action URL.`,
+    ],
+    hints: [`Defines Http Method`, `Get Or Post`],
+  },
+
+  {
+    questions: [`In how many ways can you display HTML elements?`],
+    answers: [
+      `HTML elements can be displayed in three ways: inline, block, and inline-block. It helps decide how elements appear and behave on a webpage.`,
+    ],
+    hints: [`Inline`, `Block`, `Inline-Block`, `Appear`, `Behavior`],
+  },
+
+  {
+    questions: [
+      `What is the difference between “display: none” and “visibility: hidden” when used as attributes to the HTML element?`,
+    ],
+    answers: [
+      `"display: none" hides the element, removing it from layout; "visibility: hidden" hides the element but retains its space.`,
+    ],
+    hints: [`Hides Element`, `Retains Its Space`],
+  },
+
+  {
+    questions: [
+      `How to specify the link in HTML and explain the target attribute?`,
+    ],
+    answers: [
+      `To specify a link in HTML, use the <a> (anchor) tag. The href attribute is used to define the destination URL. The target attribute specifies where to open the linked document. For example: Open link in a new tab:
+<a href="https://www.example.com" target="_blank">Visit Example</a> 
+Open link in the same tab (default behavior):
+<a href="https://www.example.com" target="_self">Visit Example</a> 
+Open link in a specific named window or frame:
+<a href="https://www.example.com" target="myWindow">Visit Example</a> 
+Open link in the parent frame (if applicable):
+<a href="https://www.example.com" target="_parent">Visit Example</a> 
+Open link in the full body of the window:
+<a href="https://www.example.com" target="_top">Visit Example</a>
+`,
+    ],
+    hints: [`Anchor Tag`, `Where To Open`],
+  },
+
+  {
+    questions: [
+      `What is the difference between link tag <link> and anchor tag <a>?`,
+    ],
+    answers: [
+      `<link> Used in the <head> section of an HTML document. Primarily used to link external resources, such as stylesheets (CSS) or icons.Does not create a clickable link or navigate to another page. <a> Used in the body of the HTML document. Creates a hyperlink, allowing users to navigate to another page or resource. Requires the href attribute to specify the destination URL. `,
+    ],
+    hints: [
+      `Link Stylesheets/Icons`,
+      `Not A Clickable Link`,
+      `Not Navigate`,
+      `Hyperlink`,
+      `Destination Url`,
+    ],
+  },
+
+  {
+    questions: [
+      `When to use scripts in the head and when to use scripts in the body?`,
+    ],
+    answers: [
+      `If your script contains essential functions or dependencies needed for the page to render correctly, placing it in the <head> ensures it's loaded early. When the script needs to run before the page content loads to set up initial configurations. If the script is non-essential for the initial page load and won't impact the user experience, placing it in the <body> allows other page elements to load first. If the script relies on elements in the body, placing it there ensures those elements exist when the script runs.`,
+    ],
+    hints: [
+      `Contains Essential Functions`,
+      `Dependencies For Render Page`,
+      `Loaded Early`,
+      `Needs To Run Before Page`,
+      `Set Up Initial Configurations`,
+      `Non-Essential For Initial Page Load`,
+      `Won't Impact User Experience`,
+      `Other Page Elements Load First`,
+      `Script Relies On Elements In The Body`,
+    ],
+  },
+
+  {
+    questions: [`How to handle events in HTML?`],
+    answers: [
+      `Handle events in HTML using attributes like "onclick" or "onchange" within tags, specifying JavaScript code to run when the event occurs.`,
+    ],
+    hints: [
+      `"onclick"/"onchange"`,
+      `Within Tags`,
+      `Specifying`,
+      `When Event Occurs.`,
+    ],
+  },
+
+  {
+    questions: [
+      `What are some advantages of HTML5 over its previous versions?`,
+    ],
+    answers: [
+      `HTML5 offers better multimedia support, improved semantics for cleaner code, and native support for offline applications compared to previous HTML versions.`,
+    ],
+    hints: [
+      `Better Multimedia Support`,
+      `Improved Semantics`,
+      `Native Support`,
+      `Previous Versions`,
+    ],
+  },
+
+  {
+    questions: [`What are the 3 required parts of HTML?`],
+    answers: [
+      `HTML requires a document type declaration (<!DOCTYPE html>), an opening and closing <html> tag, and a pair of <head> and <body> tags for structure.`,
+    ],
+    hints: [
+      `Document Type Declaration (<!Doctype Html>)`,
+      `<html>`,
+      `<head>`,
+      `<body>`,
+    ],
+  },
+
+  {
+    questions: [`Define multipart form data.`],
+    answers: [
+      `Multipart form data is a way to send binary and text data together in HTTP requests, commonly used for file uploads.`,
+    ],
+    hints: [`Send Binary And Text Data Together`, `File Uploads`],
+  },
+
+  {
+    questions: [`How to optimize website assets loading?`],
+    answers: [
+      `Optimize website asset loading by minimizing and combining CSS and JavaScript files, compressing images and using modern image formats, enabling browser caching for static resources.`,
+    ],
+    hints: [
+      `Minimizing And Combining CSS And JS Files`,
+      `Compressing Images`,
+      `Modern Image Formats`,
+      `Caching For Static Resources`,
+    ],
+  },
+
+  {
+    questions: [`What are the various formatting tags in HTML?`],
+    answers: [
+      `HTML formatting tags include: <b> for bold text, <i> for italic text, <u> for underlined text, <strong> for strong importance, <em> for emphasized text, <s> for strikethrough, <sub> for subscript, <sup> for superscript, <ins> for inserted text, <del> for deleted text.`,
+    ],
+    hints: [
+      `Bold`,
+      `Italic`,
+      `Underlined`,
+      `Strong Importance,`,
+      `Emphasized`,
+      `Strikethrough`,
+      `Subscript`,
+      `Superscript,`,
+      `Inserted`,
+      `Deleted`,
+    ],
+  },
+
+  {
+    questions: [`What are the different kinds of Doctypes available?`],
+    answers: [
+      `Doctypes in HTML include: HTML5: <!DOCTYPE html>, HTML 4.01 Strict: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">, HTML 4.01 Transitional: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">, HTML 4.01 Frameset: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">`,
+    ],
+    hints: [
+      `Html5`,
+      `Html 4.01 Strict`,
+      `Html 4.01 Transitional`,
+      `Html 4.01 Frameset`,
+    ],
+  },
+
+  {
+    questions: [
+      `Please explain how to indicate the character set being used by a document in HTML.`,
+    ],
+    answers: [
+      `To indicate the character set in HTML, use <meta charset="UTF-8"> within the <head> section.`,
+    ],
+    hints: [`<meta charset="UTF-8">`],
+  },
 ];
