@@ -1140,4 +1140,621 @@ Open link in the full body of the window:
     ],
     hints: [`<meta charset="UTF-8">`],
   },
+
+  {
+    questions: [
+      `What is the difference between <strong>, <b> tags and <em>, <I> tags?`,
+    ],
+    answers: [
+      `<strong> and <b> are both for bold text; <em> and <i> are for italic text. The former carry semantic meaning, while the latter are presentational.`,
+    ],
+    hints: [`Carry Semantic Meaning`, `Presentational`],
+  },
+
+  {
+    questions: [`What is significance of <head> and <body> tag in HTML?`],
+    answers: [
+      `<head> holds metadata like title, styles, and scripts; <body> contains the actual content visible on the webpage.`,
+    ],
+    hints: [`Metadata Like Title, Styles, Scripts`, `Actual Content Visible`],
+  },
+
+  {
+    questions: [`How is Cell Padding different from Cell Spacing?`],
+    answers: [
+      `Cell Padding is the space inside a cell; Cell Spacing is the gap between cells in an HTML table.`,
+    ],
+    hints: [`Space Inside Cell`, `Gap Between Cells`],
+  },
+
+  {
+    questions: [
+      `How can we club two or more rows or columns into a single row or column in an HTML table?`,
+    ],
+    answers: [
+      `Use rowspan or colspan attributes in the table cells to merge rows or columns.`,
+    ],
+    hints: [`rowspan/colspan`],
+  },
+
+  {
+    questions: [
+      `Is it possible to change an inline element into a block-level element?`,
+    ],
+    answers: [
+      `Yes, set the display property to "block" for an inline element to make it a block-level element.`,
+    ],
+    hints: [`Yes`, `Set Display Property To "block"`],
+  },
+
+  {
+    questions: [
+      `In how many ways can we position an HTML element? Or what are the permissible values of the position attribute?`,
+    ],
+    answers: [
+      `HTML elements can be positioned in four ways: static, relative, absolute, and fixed. Static is the default, relative positions relative to its normal position, absolute positions relative to its nearest positioned ancestor, and fixed is relative to the viewport.`,
+    ],
+    hints: [
+      `Four`,
+      `Static`,
+      `Relative`,
+      `Absolute`,
+      `Fixed`,
+      `Default`,
+      `Relative To Normal Position`,
+      `Relative To Nearest Ancestor`,
+      `Relative To Viewport`,
+    ],
+  },
+
+  {
+    questions: [`In how many ways you can display HTML elements?`],
+    answers: [
+      `You can display HTML elements in five ways: inline, block, inline-block, flex, and grid.`,
+    ],
+    hints: [`Five`, `Inline`, `Block`, `Inline-Block`, `Flex`, `Grid`],
+  },
+
+  {
+    questions: [`How can we include audio or video in a webpage?`],
+    answers: [
+      `You can include audio or video in a webpage using the <audio> and <video> HTML5 tags.`,
+    ],
+    hints: [`<audio>`, `<video>`],
+  },
+
+  {
+    questions: [`Inline and block elements in HTML5?`],
+    answers: [
+      `In HTML5, inline elements like <span> do not create line breaks, while block elements like <div> start on a new line and stretch to the full width of the container.`,
+    ],
+    hints: [
+      `<span>`,
+      `No Line Breaks`,
+      `<div>`,
+      `New Line`,
+      `Stretch To Full Width`,
+    ],
+  },
+
+  {
+    questions: [`What is the difference between <figure> tag and <img> tag?`],
+    answers: [
+      `<figure> is a container for content images, charts, diagrams, etc., with an optional <figcaption> for captions, while <img> is solely for embedding images without additional semantic context.`,
+    ],
+    hints: [
+      `Container For Content`,
+      `Images`,
+      `Charts`,
+      `Diagrams`,
+      `Optional <Figcaption>`,
+      `Embedding Images`,
+      `No Additional Semantic Context`,
+    ],
+  },
+
+  {
+    questions: [`How to specify the metadata in HTML5?`],
+    answers: [
+      `Metadata in HTML5 is specified using the <meta> tag within the <head> section.`,
+    ],
+    hints: [`Within Head Section`],
+  },
+
+  {
+    questions: [`Is the <datalist> tag and <select> tag same?`],
+    answers: [
+      `No, the <datalist> and <select> tags are not the same. <datalist> provides suggestions for input in an associated input field, while <select> creates a dropdown menu for selecting options.`,
+    ],
+    hints: [
+      `No`,
+      `Suggestions For Input`,
+      `Dropdown Menu`,
+      `Selecting Options.`,
+    ],
+  },
+
+  {
+    questions: [`Is drag and drop possible using HTML5 and how?`],
+    answers: [
+      `Yes, HTML5 supports drag and drop through the draggable attribute and event handlers like ondragstart and ondrop.`,
+    ],
+    hints: [
+      `Yes`,
+      `Draggable Attribute And Event Handlers`,
+      `ondragstart`,
+      `ondrop`,
+    ],
+  },
+
+  {
+    questions: [`Difference between SVG and Canvas HTML5 element?`],
+    answers: [
+      `SVG (Scalable Vector Graphics) is a vector-based graphics format, allowing for resolution-independent images. It can be manipulated using XML and CSS. Canvas, on the other hand, is a raster-based drawing API that renders pixel-based graphics using JavaScript. SVG is better suited for static graphics and logos, while Canvas is more suitable for dynamic rendering like games or complex visualizations.`,
+    ],
+    hints: [
+      `Vector-Based Graphics`,
+      `Resolution-Independent Images`,
+      `Manipulated Using Xml And CSS`,
+      `Raster-Based Drawing Api`,
+      `Renders`,
+      `Pixel-Based Graphics Using Javascript`,
+      `Static Graphics`,
+      `Logos,`,
+      `Dynamic Rendering`,
+      `Games/Complex Visualizations`,
+    ],
+  },
+
+  {
+    questions: [`What type of audio files can be played using HTML5?`],
+    answers: [`HTML5 supports playing MP3, WAV, and OGG audio file formats.`],
+    hints: [`mp3`, `Wav`, `Ogg`],
+  },
+
+  {
+    questions: [`What are the significant goals of the HTML5 specification?`],
+    answers: [
+      `HTML5 aims for better multimedia support, improved semantics, and enhanced offline capabilities.`,
+    ],
+    hints: [
+      `Better Multimedia Support`,
+      `Improved Semantics`,
+      `Enhanced Offline Capabilities`,
+    ],
+  },
+
+  {
+    questions: [`Explain the concept of web storage in HTML5.`],
+    answers: [
+      `Web storage in HTML5 provides a way to store key-value pairs locally in a user's browser.`,
+    ],
+    hints: [`Store Key-Value Pairs`, `Locally`, `Browser`],
+  },
+
+  {
+    questions: [`What is Microdata in HTML5?`],
+    answers: [
+      `Microdata in HTML5 is a way to embed machine-readable data in HTML documents for better understanding. This structured data can be used by search engines and other applications to better understand and present information, enhancing the accessibility and visibility of content on the web. For example:  <div itemscope itemtype="http://schema.org/Product">
+    <h1 itemprop="name">Smartphone XYZ</h1>
+    <p itemprop="description">A high-performance smartphone with advanced features.</p>
+    <span itemprop="brand">ABC Electronics</span>
+    <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+      <span itemprop="priceCurrency" content="USD">$</span>
+      <span itemprop="price" content="499.99">499.99</span>
+    </div>
+  </div>
+In this example, the itemscope attribute indicates the scope of the Microdata, and itemtype specifies the type of data using a schema.org URL. The itemprop attribute is used to define specific properties of the item, such as name, description, brand, and offers. This structured data can be utilized by search engines and other applications to better understand the content on the page.
+`,
+    ],
+    hints: [
+      `Embed Machine-Readable Data`,
+      `Better Understanding`,
+      `Search Engines`,
+      `Present Information`,
+      `Enhance Accessibility`,
+      `Enhance Visibility`,
+    ],
+  },
+
+  {
+    questions: [
+      `Which tag is used for representing the result of a calculation? Explain its attributes.`,
+    ],
+    answers: [
+      `The <output> tag in HTML5 is used for representing the result of a calculation. It has two important attributes: "for" links to the calculation's input element and the "name" attribute is optional and provides a way to name the output, making it easier to reference in stylesheets or scripts. For example: <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="range" id="a" value="50"> +
+    <input type="number" id="b" value="50">
+    = <output name="result" for="a b">100</output>
+  </form>`,
+    ],
+    hints: [
+      `Representing Result Of Calculation`,
+      `Two`,
+      `Links To Calculation's Input Element`,
+      `Optional`,
+      `Way To Name Output`,
+      `Reference In Stylesheets/Scripts`,
+    ],
+  },
+
+  {
+    questions: [
+      `What is new about the relationship between the <header> and <h1> tags in HTML5?`,
+    ],
+    answers: [
+      `In HTML5, the <header> tag can now contain multiple <h1> tags, allowing for better structuring of document sections and improving semantic clarity.`,
+    ],
+    hints: [
+      `Contain Multiple <h1> Tags`,
+      `Better Structuring`,
+      `Improve Semantic Clarity`,
+    ],
+  },
+
+  {
+    questions: [`Explain HTML5 Graphics.`],
+    answers: [
+      `HTML5 Graphics lets you draw pictures and shapes on a webpage using the <canvas> tag. You can also use the <svg> tag for scalable graphics, making images look good no matter how big or small they are on the screen.`,
+    ],
+    hints: [
+      `Draw Pictures And Shapes Using The <canvas>`,
+      `<svg> For Scalable Graphics`,
+      `Images Look Good Size Does not Matter`,
+    ],
+  },
+
+  {
+    questions: [`What are the New tags in Media Elements in HTML5?`],
+    answers: [
+      `New media tags in HTML5 include <audio> and <video> for embedding audio and video content.`,
+    ],
+    hints: [`<audio>`, `<video>`],
+  },
+
+  {
+    questions: [
+      `Why do you think the addition of drag-and-drop functionality in HTML5 is important? How will you make an image draggable in HTML5?`,
+    ],
+    answers: [
+      `Drag-and-drop in HTML5 makes it easy for users to move things around on a webpage. To make an image draggable, you just need to add a simple attribute called 'draggable="true"' to the image tag.`,
+    ],
+    hints: [`Move Things`, `'draggable="true"' To Image Tag`],
+  },
+
+  {
+    questions: [`Why do we need the MathML element in HTML5?`],
+    answers: [
+      `MathML in HTML5 is crucial for displaying mathematical content, improving accessibility and rendering complex mathematical expressions.`,
+    ],
+    hints: [
+      `Mathematical Content`,
+      `Accessibility`,
+      `Complex Mathematical Expressions`,
+    ],
+  },
+
+  {
+    questions: [`What are the server-sent events in HTML5?`],
+    answers: [
+      `Server-sent events in HTML5 are a mechanism that allows a web server to push real-time updates to a web page over a single HTTP connection. It enables the server to send data to the client asynchronously, facilitating efficient and continuous communication for live updates or notifications without the need for constant client requests.`,
+    ],
+    hints: [
+      `Push Real-Time Updates`,
+      `Single Http Connection`,
+      `Send Data To Client Asynchronously`,
+      `Continuous Communication`,
+      `Live Updates/Notifications`,
+      `No Need For Constant Client Requests`,
+    ],
+  },
+
+  {
+    questions: [`What are Web Workers?`],
+    answers: [
+      `Web Workers are JavaScript threads that run in the background separate from the main execution thread of a web page. They enable parallel execution of tasks, improving performance by allowing time-consuming operations to run without blocking the user interface. Web Workers are useful for tasks like complex calculations, data processing, or other operations that could otherwise slow down the responsiveness of a web application.`,
+    ],
+    hints: [
+      `Javascript Threads`,
+      `Run In The Background`,
+      `Separate From Main Thread`,
+      `Parallel Execution`,
+      `Non Blocking User Interface`,
+      `Complex Calculations`,
+      `Data Processing`,
+      `Operations That Slow Down`,
+    ],
+  },
+
+  {
+    questions: [
+      `What is the usage of a novalidate attribute for the form tag that is introduced in HTML5?`,
+    ],
+    answers: [
+      `The novalidate attribute, when applied to a <form> tag in HTML5, disables the browser's built-in form validation. This allows developers to handle form validation manually using JavaScript or other custom methods.`,
+    ],
+    hints: [
+      `Disables Browser's Built-In Form Validation`,
+      `Allows Developers To Handle Form Validation Manually`,
+    ],
+  },
+
+  {
+    questions: [`What are raster images and vector images?`],
+    answers: [
+      `Raster images are composed of pixels and are resolution-dependent, For example: JPEG, PNG, GIF. It can lose quality when scaled up. While vector images use mathematical equations and geometric primitives (points, lines, curves), making them resolution-independent. For example: SVG (Scalable Vector Graphics). It maintains quality when scaled, as it's based on mathematical descriptions.`,
+    ],
+    hints: [
+      `Composed Of Pixels`,
+      `Resolution-Dependent`,
+      `Mathematical Equations`,
+      `Geometric Primitives (Points, Lines, Curves)`,
+      `Resolution-Independent`,
+    ],
+  },
+
+  {
+    questions: [`How to support SVG in old browsers?`],
+    answers: [
+      `To support SVG in old browsers, use a JavaScript library like SVG Web or implement a fallback mechanism like providing PNG versions for non-SVG-capable browsers.`,
+    ],
+    hints: [
+      `Javascript Library`,
+      `Svg Web`,
+      `Fallback Mechanism`,
+      `Provide Png Versions`,
+    ],
+  },
+
+  {
+    questions: [`What are different approaches to make an image responsive?`],
+    answers: [
+      `Using CSS media queries and the "max-width" property, or frameworks like Bootstrap for automatic responsiveness.`,
+    ],
+    hints: [`CSS Media Queries`, `max-width"`, `Bootstrap`],
+  },
+
+  {
+    questions: [`What is manifest file in HTML5?`],
+    answers: [
+      `A manifest file in HTML5 is a JSON file named "manifest.json" that provides metadata about a web application. It includes details like the app's name, icons, description, and other properties. This file helps browsers understand how to display the web app when added to the home screen or launched as a standalone application.`,
+    ],
+    hints: [
+      `JSON`,
+      `manifest.json`,
+      `metadata`,
+      `App's Name, Icons, Description`,
+      `Browsers Understand`,
+      `Standalone Application.`,
+    ],
+  },
+
+  {
+    questions: [`What is the Geolocation API in HTML5?`],
+    answers: [
+      `The Geolocation API in HTML5 allows web applications to access a user's geographical location information. It provides methods like getCurrentPosition to retrieve latitude and longitude coordinates, enabling personalized, location-aware features in websites.`,
+    ],
+    hints: [
+      `User's Geographical Location Information`,
+      `getcurrentposition`,
+      `Latitude And Longitude Coordinates`,
+      `Enabling Personalized`,
+      `Location-Aware Features`,
+    ],
+  },
+
+  {
+    questions: [`Explain Web Components and it's usage.`],
+    answers: [
+      `They're reusable parts you can create, like buttons or sliders. You use them to build websites easily, and they help keep your code organized and maintainable.`,
+    ],
+    hints: [
+      `Reusable Parts`,
+      `Buttons/Sliders`,
+      `Build Easily`,
+      `Code Organized`,
+      `Maintainable`,
+    ],
+  },
+
+  {
+    questions: [`Do all character entities display properly on all systems?`],
+    answers: [
+      `No, character entities may not display uniformly on all systems. Compatibility can vary.`,
+    ],
+    hints: [`No`, `Compatibility Can Vary`],
+  },
+
+  {
+    questions: [
+      `Can attribute values be set to anything or are there specific values that they accept?`,
+    ],
+    answers: [
+      `No, you can't just set attribute values to anything; they need to follow specific rules set by HTML.`,
+    ],
+    hints: [`No`, `Specific Rules Set By Html`],
+  },
+
+  {
+    questions: [
+      `If you see a web address on a magazine, to which web page does it point?`,
+    ],
+    answers: [`A magazine's web address typically leads to its homepage.`],
+    hints: [`Leads To`, `Homepage.`],
+  },
+
+  {
+    questions: [`What is the use of alternative text in image mapping?`],
+    answers: [
+      `Alternative text in image mapping is like a description for pictures. It helps people who can't see well or when images don't load, making information accessible to everyone.`,
+    ],
+    hints: [
+      `Description For Pictures`,
+      `Who Can't See Wel`,
+      `When Images Don't Load`,
+      `Accessible`,
+    ],
+  },
+
+  {
+    questions: [`Do older HTML files work on newer browsers?`],
+    answers: [
+      `Yes, Generally, older HTML files are compatible with newer browsers.`,
+    ],
+    hints: [`Yes`],
+  },
+
+  {
+    questions: [`Does a hyperlink apply to text only?`],
+    answers: [
+      `No, hyperlinks can also be applied to images or any HTML element using the "a" tag.`,
+    ],
+    hints: [`No`, `Images/Any Html Element`],
+  },
+
+  {
+    questions: [
+      `If the user’s operating system does not support the needed character, how can the symbol be represented?`,
+    ],
+    answers: [
+      `Use Unicode or HTML entities to represent symbols not supported by the operating system.`,
+    ],
+    hints: [`Unicode/Html Entities`],
+  },
+
+  {
+    questions: [`How do you change the number type in the middle of a list?`],
+    answers: [
+      `You can change the number type in a list using the "type" attribute in the li of the "ol" (ordered list) tag. For example: <ol>
+    <li>First item</li>
+    <li type="A">Second item with uppercase letter</li>
+    <li type="i">Third item with lowercase Roman numeral</li> 
+    <li>Fourth item</li> 
+  </ol>
+  In this example, the second and third list items have their number types changed to uppercase letters and lowercase Roman numerals, respectively, using the "type" attribute within the "li" tag.
+  `,
+    ],
+    hints: [`type Attribute`, `li`, `ol`],
+  },
+
+  {
+    questions: [`State bullet types available in HTML.`],
+    answers: [
+      `HTML supports different bullet types like disc, circle, and square for unordered lists.`,
+    ],
+    hints: [`Disc`, `Circle`, `Square`, `Unordered Lists`],
+  },
+
+  {
+    questions: [
+      `Why are there both numerical and named character entity values?`,
+    ],
+    answers: [
+      `Numerical values are for compatibility, while named entities improve code readability in HTML. For example, numerical represenation of the copyright symbol is &#169; and the named entity representation is &copy;`,
+    ],
+    hints: [`Compatibility`, `Code Readability`, `&#169;`, `&Copy;`],
+  },
+
+  {
+    questions: [
+      `What is the advantage of grouping several checkboxes together?`,
+    ],
+    answers: [
+      `Putting checkboxes together helps users because it organizes similar options, making it easier for them to see and choose related items.`,
+    ],
+    hints: [
+      `Organizes Similar Options`,
+      `Easier To See And Choose Related Items`,
+    ],
+  },
+
+  {
+    questions: [`What will happen if you overlap sets of tags?`],
+    answers: [
+      `Overlapping tags can confuse the browser in understanding the structure of the content, potentially leading to unexpected and incorrect display or functionality issues on the webpage.`,
+    ],
+    hints: [
+      `Confuse The Browser`,
+      `Understanding Structure`,
+      `Leading`,
+      `Unexpected And Incorrect Display/Functionality Issues`,
+    ],
+  },
+
+  {
+    questions: [`What are applets?`],
+    answers: [
+      `Applets are small programs written in Java that can be embedded into web pages. They bring interactive and dynamic features, like games or animations, enhancing the user's experience on a website.`,
+    ],
+    hints: [
+      `Small Java Based Programs`,
+      `Embedded Into Web`,
+      `Interactive And Dynamic Features`,
+      `Games/Animations`,
+    ],
+  },
+
+  {
+    questions: [
+      `What if there is no text between the tags or if a text was omitted by mistake? Will it affect the display of the HTML file?`,
+    ],
+    answers: [
+      `Yes, omitting text between HTML tags or making mistakes in the content can affect the display. For instance, If you forget to put words between HTML tags like <p> and </p>, it may result in an empty paragraph, potentially causing unexpected spacing or formatting issues on the webpage.`,
+    ],
+    hints: [`Yes`, `Unexpected Spacing/Formatting Issues`],
+  },
+
+  {
+    questions: [`Is it possible to set specific colors for table borders?`],
+    answers: [
+      `Yes, you can set specific colours for table borders using CSS. For example, you can use the border-color property to define the colour of the table border.`,
+    ],
+    hints: [`Yes`, `border-color`],
+  },
+
+  {
+    questions: [
+      `How do you create a link that will connect to another web page when clicked?`,
+    ],
+    answers: [
+      `Use the HTML <a> tag and specify the target web page's URL in the href attribute. Example: <a href="https://example.com">Click me</a>.`,
+    ],
+    hints: [`<a> Tag`, `Target Web Page's Url In href Attribute`],
+  },
+
+  {
+    questions: [`What other ways can be used to align images and wrap text?`],
+    answers: [
+      `Utilize CSS properties like text-align for image alignment and float for text wrapping around images. Example: img {text-align: center;} and img {float: left;}.`,
+    ],
+    hints: [`text-align`, `float`],
+  },
+
+  {
+    questions: [`Can a single text link point to two different web pages?`],
+    answers: [`No, a single text link can only point to one web page.`],
+    hints: [`No`],
+  },
+
+  {
+    questions: [
+      `What is the difference between the directory and menu lists and the unordered list?`,
+    ],
+    answers: [
+      `Directory and menu lists imply a hierarchical structure, often used in navigation, while unordered lists (ul) are simple lists without any specific order. Directory and menu lists typically use <dir>, <menu>, or nested lists.`,
+    ],
+    hints: [
+      `Hierarchical Structure`,
+      `Navigation`,
+      `Simple Lists With No Order`,
+    ],
+  },
+
+  {
+    questions: [`What are the limits of the text field size?`],
+    answers: [
+      `Text field size limits depend on the browser, generally around 255 characters.`,
+    ],
+    hints: [`255 Characters`],
+  },
 ];
