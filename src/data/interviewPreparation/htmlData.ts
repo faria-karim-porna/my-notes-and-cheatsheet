@@ -1757,4 +1757,273 @@ In this example, the itemscope attribute indicates the scope of the Microdata, a
     ],
     hints: [`255 Characters`],
   },
+
+  {
+    questions: [
+      `Do <th> tags always need to come at the start of a row or column?`,
+    ],
+    answers: [
+      `No, <th> tags can be placed anywhere within a table row or column.`,
+    ],
+    hints: [`Anywhere`],
+  },
+
+  {
+    questions: [
+      `What is the relationship between the border and rule attributes?`,
+    ],
+    answers: [
+      `Border defines the overall table border, while rule specifies inner borders between cells.`,
+    ],
+    hints: [`Table Border`, `Inner Borders Between Cells`],
+  },
+
+  {
+    questions: [
+      `How do you create text on a webpage that will allow you to send an email when clicked?`,
+    ],
+    answers: [
+      `You can use a "mailto:" link in the text's href attribute to create an email link. For example: <a href="mailto:example@email.com">Click to email</a>.`,
+    ],
+    hints: [`mailto: In Text's href`],
+  },
+
+  {
+    questions: [`Are <br> tags the only way to separate sections of text?`],
+    answers: [
+      `No, CSS styling and block-level elements like <p> or <div> can also be used for text separation.`,
+    ],
+    hints: [`No`, `Css Styling`, `Block-Level`],
+  },
+
+  {
+    questions: [
+      `Are there instances where the text will appear outside of the browser?`,
+    ],
+    answers: [
+      `Yes, if overflow or positioning properties are not handled properly, text may extend beyond the browser window.`,
+    ],
+    hints: [`Yes`, `Overflow`, `Positioning Properties Not Handled`],
+  },
+
+  {
+    questions: [`How are active links different from normal links?`],
+    answers: [
+      `Active links have a different appearance when clicked or hovered, while normal links remain static.`,
+    ],
+    hints: [`Different Appearance`, `Clicked/Hovered`, `Remain Static.`],
+  },
+
+  {
+    questions: [
+      `Do style sheets limit the number of new style definitions that can be included within the brackets?`,
+    ],
+    answers: [
+      `No, style sheets do not limit the number of new style definitions within brackets.`,
+    ],
+    hints: [`No`, `Do Not Limit`],
+  },
+
+  {
+    questions: [
+      `Can I specify fractional weight values such as 670 or 973 for font weight?`,
+    ],
+    answers: [
+      `No, font-weight is typically specified using predefined values like "bold" or numeric values like 100 to 900.`,
+    ],
+    hints: [`No`, `Predefined Values`, `Bold/Numeric Values`, `100 To 900`],
+  },
+
+  {
+    questions: [
+      `What is the hierarchy that is being followed when it comes to style sheets?`,
+    ],
+    answers: [
+      `The order for style sheets is like this:  inline styles (highest priority), internal styles (in the head section), external styles (linked), and browser default styles (lowest priority).`,
+    ],
+    hints: [`Inline`, `Internal`, `External`, `Browser Default`],
+  },
+
+  {
+    questions: [`Can several selectors with class names be grouped together?`],
+    answers: [
+      `Yes, multiple selectors with class names can be grouped together in CSS. For example: .button {
+      background-color: blue;
+      color: white;
+      padding: 10px;
+    }
+    .alert {
+      border: 1px solid red;
+      padding: 15px;
+    }
+    .info, .warning {
+      font-weight: bold;
+    }
+    In this example, the styles for elements with the class "button" and "alert" are defined separately, while the styles for elements with the classes "info" and "warning" are grouped together.`,
+    ],
+    hints: [`Yes`],
+  },
+
+  {
+    questions: [`What happens if you open the external CSS file in a browser?`],
+    answers: [
+      `Surprisingly, when you open the external CSS file in your browser, you'll likely see a rather plain, unformatted page or possibly an error message. This is because browsers are designed to interpret and render HTML content, not CSS files directly.`,
+    ],
+    hints: [
+      `Plain`,
+      `Unformatted Page`,
+      `Possibly An Error Message`,
+      `Browsers Are Designed For Html Content`,
+    ],
+  },
+
+  {
+    questions: [
+      `What happens if the list-style-type property is used on a non-list element like a paragraph?`,
+    ],
+    answers: [
+      `The list-style-type property won't affect non-list elements like paragraphs.`,
+    ],
+    hints: [`Won't Affect`, `Paragraphs`],
+  },
+
+  {
+    questions: [`When is it appropriate to use frames?`],
+    answers: [
+      `Frames can make navigating a site much easier. If the main links to the site are located in a frame that appears at the top or along the edge of the browser, the content for those links can be displayed in the remainder of the browser window. However, modern web development prefers other methods like CSS for a smoother and more reliable website experience.`,
+    ],
+    hints: [
+      `Navigating Easier`,
+      `Remainder Of Browser Window`,
+      `Modern Web Development Does Not Support`,
+    ],
+  },
+
+  {
+    questions: [
+      `What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?`,
+    ],
+    answers: [
+      `The table may not render correctly; the browser may distribute the available space unevenly. Layout will be changed.`,
+    ],
+    hints: [`Space Unevenly`, `Layout Changed`],
+  },
+
+  {
+    questions: [`Which browsers support HTML5?`],
+    answers: [
+      `Major modern browsers, including Chrome, Firefox, Safari, and Edge, support HTML5.`,
+    ],
+    hints: [`Major Modern Browsers`],
+  },
+
+  {
+    questions: [`Name two new tags included in the HTML 5`],
+    answers: [`<header> and <nav> are two new HTML5 tags.`],
+    hints: [`<header>`, `<nav>`],
+  },
+
+  {
+    questions: [
+      `Do you know which two semantic tags are included in the HTML5 version?`,
+    ],
+    answers: [`<article> and <section> are two HTML5 semantic tags.`],
+    hints: [`<article>`, `<section>`],
+  },
+
+  {
+    questions: [`Tell me two benefits of HTML5 Web Storage`],
+    answers: [
+      `HTML5 Web Storage offers local data storage and reduces server requests.`,
+    ],
+    hints: [`Local Data Storage`, `Reduces Server Requests`],
+  },
+
+  {
+    questions: [`What are two types of Web Storage in HTML5?`],
+    answers: [
+      `LocalStorage and SessionStorage are two types of Web Storage in HTML5. LocalStorage keeps data for a long time, even if you close and open your browser later. SessionStorage holds data only for your current browsing session, disappearing when you close the browser.`,
+    ],
+    hints: [
+      `LocalStorage`,
+      `SessionStorage`,
+      `For A Long Time`,
+      `Close And Open Browser`,
+      `Current Browsing Session`,
+      `Disappearing When Close Browser`,
+    ],
+  },
+
+  {
+    questions: [`What is the Application Cache in HTML5 and why it is used?`],
+    answers: [
+      `Application Cache in HTML5 is a feature that allows web applications to be accessed offline by storing resources like HTML, CSS, and images locally. It stores essential parts of a site on your device so that you can still use it when the internet is slow or not available, making things faster and more reliable.`,
+    ],
+    hints: [
+      `Offline`,
+      `Locally`,
+      `Device`,
+      `Slow/Not Available`,
+      `Faster`,
+      `Reliable`,
+    ],
+  },
+
+  {
+    questions: [`Explain five new input types provided by HTML5 for forms.`],
+    answers: [
+      `HTML5 introduces five new input types for forms: date for selecting a date, email for email addresses, url for website URLs, number for numeric input, and tel for telephone numbers. These enhance user input and improve data validation.`,
+    ],
+    hints: [
+      `date`,
+      `email`,
+      `url`,
+      `number`,
+      `tel`,
+      `User Input`,
+      `Data Validation`,
+    ],
+  },
+
+  {
+    questions: [
+      `What are the HTML tags used to display the data in the tabular form?`,
+    ],
+    answers: [
+      `<table> defines a table. <tr> defines a row in a table. <th> defines a header cell in a table. <td> defines a cell in a table. <caption> defines the table caption. <colgroup> specifies a group of one or more columns in a table for formatting. <col> is used with <colgroup> element to specify column properties for each column. <tbody> is used to group the body content in a table. <thead> is used to group the header content in a table. <tfooter> is used to group the footer content in a table.`,
+    ],
+    hints: [
+      `<table>`,
+      `<tr>`,
+      `<th> `,
+      `<td>`,
+      `<caption>`,
+      `<colgroup>`,
+      `<col>`,
+      `<tbody>`,
+      `<thead>`,
+      `<tfooter>`,
+    ],
+  },
+
+  {
+    questions: [`What is the difference between DIV and SPAN in HTML?`],
+    answers: [
+      `<div> is a block-level element for grouping, while <span> is an inline element for styling small portions of text.`,
+    ],
+    hints: [`Block-Level`, `Grouping`, `Inline`, `Small Portions Of Text`],
+  },
+
+  {
+    questions: [`What are logical and physical tags in HTML?`],
+    answers: [
+      `Logical tags define the structure or meaning of the content (e.g., <em> for emphasis), while physical tags control appearance (e.g., <b> for bold). Logical tags are preferred for better semantic understanding and accessibility.`,
+    ],
+    hints: [
+      `Structure/Meaning`,
+      `Appearance`,
+      `Better Semantic Understanding`,
+      `Accessibility`,
+    ],
+  },
 ];
