@@ -2026,4 +2026,454 @@ In this example, the itemscope attribute indicates the scope of the Microdata, a
       `Accessibility`,
     ],
   },
+
+  {
+    questions: [`Which type of video formats are supported by HTML5?`],
+    answers: [`HTML5 supports video formats like MP4, WebM, and Ogg.`],
+    hints: [`Mp4`, `Webm`, `Ogg`],
+  },
+
+  {
+    questions: [`Are HTML tags case-sensitive?`],
+    answers: [
+      `No, HTML tags are not case-sensitive, but it's a good practice to use lowercase for consistency.`,
+    ],
+    hints: [`No`, `Lowercase Is Good Practice`],
+  },
+
+  {
+    questions: [`What is the purpose of the 'section' tag in HTML5?`],
+    answers: [
+      `The 'section' tag in HTML5 helps group similar content together on a webpage, making it easier to organize and structure information.`,
+    ],
+    hints: [`Group Similar Content`, `Organize`, `Structure`],
+  },
+
+  {
+    questions: [`What is the purpose of the 'article' tag in HTML5?`],
+    answers: [
+      `This tag represents an independent piece of content of a document, such as a blog entry or newspaper article.`,
+    ],
+    hints: [`Independent Piece`, `Blog Entry`, `Newspaper Article`],
+  },
+
+  {
+    questions: [`What is the purpose of the 'aside' tag in HTML5?`],
+    answers: [
+      `The 'aside' tag in HTML5 is like a sidebar for content that is related but not the main focus. It's often used for things like additional information, side notes, or related links on a webpage.`,
+    ],
+    hints: [
+      `Sidebar`,
+      `Not The Main Focus`,
+      `Additional Information`,
+      `Side Notes`,
+      `Related Links`,
+    ],
+  },
+
+  {
+    questions: [`What is the purpose of the 'header' tag in HTML5?`],
+    answers: [
+      `The 'header' tag in HTML5 is used to define the introductory or top section of a webpage. It typically contains headings, logos, and sometimes navigation elements.`,
+    ],
+    hints: [`Introductory/Top Section`, `Headings`, `Logos`, `Navigation`],
+  },
+
+  {
+    questions: [`What is the purpose of the 'footer' tag in HTML5?`],
+    answers: [
+      `This tag represents a footer for a section and can contain information about the author, copyright information, et cetera.`,
+    ],
+    hints: [`Footer`, `Author`, `Copyright`, `Et Cetera`],
+  },
+
+  {
+    questions: [`What is the purpose of the 'nav' tag in HTML5?`],
+    answers: [
+      `This tag represents a section of the document intended for navigation.`,
+    ],
+    hints: [`Intended For Navigation`],
+  },
+
+  {
+    questions: [`What is the purpose of the 'dialog' tag in HTML5?`],
+    answers: [
+      `The 'dialog' tag in HTML5 is used to create a modal or popup dialog box on a webpage. It allows developers to create interactive elements for user input, alerts, or displaying additional information without navigating away from the current page.`,
+    ],
+    hints: [
+      `Modal/Popup Dialog Box`,
+      `Interactive Elements`,
+      `User Input`,
+      `Alerts`,
+      `Additional Information`,
+      `Without Navigating Away`,
+    ],
+  },
+
+  {
+    questions: [`What are custom attributes in HTML5?`],
+    answers: [
+      `Custom attributes in HTML5 are user-defined attributes added to HTML elements to store extra information or metadata, enhancing element semantics. A custom data attribute starts with data- and would be named based on the requirement. For example: <div data-user-id="123" data-role="admin">John Doe</div>.`,
+    ],
+    hints: [`User-Defined`, `Extra`, `Semantics`, `Starts With data-`],
+  },
+
+  {
+    questions: [`What is Web Forms 2.0?`],
+    answers: [
+      `Web Forms 2.0 is an extension of HTML forms with additional features such as native form validation, custom input types (like date and time), and improved scripting support. It aims to simplify form development and improve the user experience on the web.`,
+    ],
+    hints: [
+      `Html Forms With Additional Features`,
+      `Native Form Validation`,
+      `Custom Input Types (Like Date And Time)`,
+      `Improved Scripting Support`,
+      `Improve User Experience`,
+    ],
+  },
+
+  {
+    questions: [
+      `What is the purpose of datetime input control in Web form 2.0?`,
+    ],
+    answers: [
+      `It represents a date and time (year, month, day, hour, minute, second, fractions of a second) encoded according to ISO 8601 with the time zone set to UTC.`,
+    ],
+    hints: [
+      `Date And Time (Year, Month, Day, Hour, Minute, Second, Fractions Of A Second)`,
+      `ISO 8601`,
+      `Time Zone Set To UTC`,
+    ],
+  },
+
+  {
+    questions: [
+      `What is the purpose of datetime-local input control in Web form 2.0?`,
+    ],
+    answers: [
+      `It represents a date and time (year, month, day, hour, minute, second, fractions of a second) encoded according to ISO 8601 with no time zone information.`,
+    ],
+    hints: [
+      `Date And Time (Year, Month, Day, Hour, Minute, Second, Fractions Of A Second)`,
+      `ISO 8601`,
+      `No Time Zone Information`,
+    ],
+  },
+
+  {
+    questions: [`What is the purpose of date input control in Web Form 2.0?`],
+    answers: [
+      `It represents a date (year, month, day) encoded according to ISO 8601.`,
+    ],
+    hints: [`Date (Year, Month, Day)`, `ISO 8601`],
+  },
+
+  {
+    questions: [`What is the purpose of month input control in Web Form 2.0?`],
+    answers: [
+      `The month input control in Web Form 2.0 is used to capture and submit a specific month and year.`,
+    ],
+    hints: [`Month And Year`],
+  },
+
+  {
+    questions: [`What is the purpose of week input control in Web form 2.0?`],
+    answers: [
+      `It represents a date consisting of a year and a week number encoded according to ISO 8601.`,
+    ],
+    hints: [`Year And Week Number`, `ISO 8601`],
+  },
+
+  {
+    questions: [`What is the purpose of time input control in Web Form 2.0?`],
+    answers: [
+      `It represents a time (hour, minute, seconds, fractional seconds) encoded according to ISO 8601.`,
+    ],
+    hints: [`Time (Hour, Minute, Seconds, Fractional Seconds)`, `Iso 8601`],
+  },
+
+  {
+    questions: [`What is the purpose of number input control in Web form 2.0?`],
+    answers: [
+      `This control accepts only numerical values. The step attribute specifies the precision, defaulting to 1.`,
+    ],
+    hints: [`Accepts Only Numerical`, `Defaulting To 1`],
+  },
+
+  {
+    questions: [`What is the purpose of range input control in Web Form 2.0?`],
+    answers: [
+      `Range input control lets users select a value within a specified range using a slider for adjustable inputs.`,
+    ],
+    hints: [`Specified Range`, `Slider`],
+  },
+
+  {
+    questions: [`What is the purpose of email input control in Web Form 2.0?`],
+    answers: [
+      `The email input control in Web Form 2.0 ensures users enter a valid email address, helping to collect accurate and properly formatted email information for online forms.`,
+    ],
+    hints: [`Valid Email Address`, `Accurate`, `Formatted`],
+  },
+
+  {
+    questions: [`What is the purpose of url input control in Web Form 2.0?`],
+    answers: [
+      `This accepts only URL value. This type is used for input fields that should contain a URL address. If you try to submit a simple text, it forces to enter only the URL address either in http://www.example.com format or in http://example.com format.`,
+    ],
+    hints: [
+      `Only Url Value`,
+      `http://Www.example.com Format/http://example.com Format`,
+    ],
+  },
+
+  {
+    questions: [`What is the purpose of the 'output' tag in HTML5?`],
+    answers: [
+      `The 'output' tag in HTML5 is used to display the result of a calculation or user action on a webpage. It helps structure the content by providing a designated area to showcase dynamic output, such as the result of a form submission or a JavaScript calculation.`,
+    ],
+    hints: [`Result Of A Calculation/User Action`, `Result Of Form Submission`],
+  },
+
+  {
+    questions: [`What is the purpose of the 'placeholder' attribute in HTML5?`],
+    answers: [
+      `This attribute on <input> and <textarea> elements provides a hint to the user of what can be entered in the field. The placeholder text must not contain carriage returns or line feeds.`,
+    ],
+    hints: [
+      `Hint`,
+      `What Can Be Entered In Field`,
+      `No Carriage Returns/Line Feeds.`,
+    ],
+  },
+
+  {
+    questions: [`What is the purpose of the 'autofocus' attribute in HTML5?`],
+    answers: [
+      `The 'autofocus' attribute in HTML5 is like a shortcut for users. It automatically focuses on a specific form element when the webpage loads, making it more convenient for users as they can start typing or interacting with that element right away without clicking on it.`,
+    ],
+    hints: [
+      `Automatically Focuses On Form Element When The Webpage Loads`,
+      `Start Typing/Interacting Without Clicking`,
+    ],
+  },
+
+  {
+    questions: [`Can you use SVG tags directly in HTML5 without any plugin?`],
+    answers: [
+      `Yes, SVG tags can be used directly in HTML5 without any plugin for scalable vector graphics rendering.`,
+    ],
+    hints: [`Yes`, `Scalable Vector Graphics Rendering`],
+  },
+
+  {
+    questions: [
+      `Can you use MathML tags directly in HTML5 without any plugin?`,
+    ],
+    answers: [
+      `Yes! The HTML syntax of HTML5 allows for MathML elements to be used inside a document using <math>...</math> tags.`,
+    ],
+    hints: [`Yes`, `<math>...</math>`],
+  },
+
+  {
+    questions: [`What are the drawbacks of cookies?`],
+    answers: [
+      `Cookies are included with every HTTP request, thereby slowing down your web application by transmitting the same data and also thereby sending data unencrypted over the internet. Cookies are limited to about 4 KB of data. Not enough to store required data.`,
+    ],
+    hints: [
+      `Included With Every Http Request`,
+      `Slow Down Application`,
+      `Send Data Unencrypted Data Over Internet`,
+      `4 Kb`,
+    ],
+  },
+
+  {
+    questions: [`When does a session storage data get deleted?`],
+    answers: [
+      `Session storage data is deleted when the browser session ends or is closed.`,
+    ],
+    hints: [`Browser Session Ends`, `Is Closed.`],
+  },
+
+  {
+    questions: [`When a local storage data get deleted?`],
+    answers: [
+      `Local storage data persists until it is manually cleared by the user or until the browser cache is cleared. To clear a local storage setting manually you would need to call localStorage.remove('key'); where 'key' is the key of the value you want to remove. If you want to clear all settings, you need to call localStorage.clear() method.`,
+    ],
+    hints: [
+      `Manually Cleared`,
+      `Cache Is Cleared`,
+      `localStorage.Remove('Key')`,
+      `localStorage.Clear()`,
+    ],
+  },
+
+  {
+    questions: [`How to utilize a server-sent event in HTML5?`],
+    answers: [
+      `To utilize a server-sent event in HTML5, you can use the EventSource API. For example: // Create an EventSource object with the URL of the server endpoint 
+      var eventSource = new EventSource('your-server-endpoint'); 
+      // Define the event listener to handle incoming events 
+      eventSource.onmessage = function(event) 
+      { 
+        // Process the event data received from the server 
+        console.log('Received event:', event.data); 
+      }; 
+      // Optional: Define an event listener for errors 
+      eventSource.onerror = function(error) 
+      { 
+        console.error('EventSource failed:', error); 
+      }; 
+      // To close the connection when needed 
+      // eventSource.close();`,
+    ],
+    hints: [`EventSource`],
+  },
+
+  {
+    questions: [`What are the steps of server-side scripts for SSE?`],
+    answers: [
+      `Create an endpoint on the server to handle SSE connections. Send the appropriate HTTP headers, including "Content-Type: text/event-stream" and "Cache-Control: no-cache." Open a connection with the client using the "EventSource" API in JavaScript. Emit events from the server using the "data:" field and send them to the client. Handle disconnections and errors gracefully on both the server and client sides.`,
+    ],
+    hints: [
+      `Create An Endpoint On The Server`,
+      `Send The Appropriate Http Headers`,
+      `"Eventsource" Api In Javascript In Client`,
+      `Emit Events From Server Using "Data:" Field And Send Them To Client`,
+      `Handle Disconnections And Errors Gracefully On Both`,
+    ],
+  },
+
+  {
+    questions: [`What are web sockets?`],
+    answers: [
+      `Web sockets are a communication protocol allowing bidirectional, real-time data transfer between a client and server over a single, long-lived connection. Once you get a Web Socket connection with the web server, you can send data from browser to server by calling a send() method, and receive data from server to browser by an onmessage event handler. Following is the API which creates a new WebSocket object.
+    var Socket = new WebSocket(url, [protocal] ); 
+    Here first argument, url, specifies the URL to which to connect. The second attribute, protocol is optional, and if present, specifies a sub-protocol that the server must support for the connection to be successful.`,
+    ],
+    hints: [
+      `Communication Protocol`,
+      `Bidirectional`,
+      `Real-Time Data Transfer`,
+      `Single, Long-Lived Connection`,
+      `send() From Browser To Server`,
+      `onmessage From Server To Browser`,
+    ],
+  },
+
+  {
+    questions: [
+      `What is the purpose of the Socket.readyState attribute of WebSocket?`,
+    ],
+    answers: [
+      `The read-only attribute readyState represents the state of the connection. A value of 0 indicates that the connection has not yet been established. A value of 1 indicates that the connection is established and communication is possible. A value of 2 indicates that the connection is going through the closing handshake. A value of 3 indicates that the connection has been closed or could not be opened.`,
+    ],
+    hints: [
+      `State Of Connection`,
+      `0 => Not Established Yet`,
+      `1 => Established And Communication Is Possible`,
+      `2 => Closing Handshake`,
+      `3 => Closed/Could Not Be Opened`,
+    ],
+  },
+
+  {
+    questions: [
+      `What is the purpose of the Socket.bufferedAmount attribute of WebSocket?`,
+    ],
+    answers: [
+      `The read-only attribute bufferedAmount represents the number of bytes of UTF-8 text that have been queued but not yet sent over the WebSocket connection.`,
+    ],
+    hints: [`Number Of Bytes Queued`, `Not Sent`],
+  },
+
+  {
+    questions: [
+      `What is purpose of getCurrentPosition() method of geolocation object of HTML5?`,
+    ],
+    answers: [
+      `getCurrentPosition() retrieves the device's current geolocation (latitude and longitude) as provided by the browser's geolocation service in HTML5.`,
+    ],
+    hints: [`Device's Current Geolocation`, `Latitude And Longitude`],
+  },
+
+  {
+    questions: [
+      `What is purpose of watchPosition() method of geolocation object of HTML5?`,
+    ],
+    answers: [
+      `watchPosition() in HTML5 Geolocation continuously monitors and updates the device's location, allowing real-time tracking for applications such as maps or location-based services.`,
+    ],
+    hints: [
+      `Continuously Monitors And Updates The Device's Location`,
+      `Real-Time Tracking`,
+      `Maps/Location-Based Services`,
+    ],
+  },
+
+  {
+    questions: [
+      `What is purpose of clearPosition() method of geolocation object of HTML5?`,
+    ],
+    answers: [
+      `There is no clearPosition() method in the HTML5 Geolocation API. If you meant to ask about stopping location tracking initiated with watchPosition(), the correct method is clearWatch(). It cancels an ongoing watchPosition call.`,
+    ],
+    hints: [
+      `No Such Method`,
+      `Correct Method Is clearWatch()`,
+      `Cancels Ongoing watchPosition Call`,
+    ],
+  },
+
+  {
+    questions: [`What are Web Workers?`],
+    answers: [
+      `Web Workers are JavaScript scripts running in the background, separate from the main execution thread of a web page. They enable parallel processing, allowing tasks to run concurrently, and enhancing performance in web applications by preventing UI freezes and improving responsiveness.`,
+    ],
+    hints: [
+      `Running In Background`,
+      `Separate From Main Thread`,
+      `Parallel Processing`,
+      `Concurrently`,
+      `Prevent UI Freezes`,
+      `Improve Responsiveness`,
+    ],
+  },
+
+  {
+    questions: [`What are the various markup languages available?`],
+    answers: [`Markup languages include HTML, XML, and Markdown.`],
+    hints: [`HTML`, `XML`, `Markdown`],
+  },
+
+  {
+    questions: [`What is the difference between HTML and HTML 5?`],
+    answers: [
+      `HTML is older, while HTML5 has new features like native video support.`,
+    ],
+    hints: [`New Features`, `Native Video Support`],
+  },
+
+  {
+    questions: [`What is the current version of HTML?`],
+    answers: [`HTML 5 is the latest version of HTML.`],
+    hints: [`Html 5`, `Latest Version`],
+  },
+
+  {
+    questions: [`Are <b> and <strong> tags same? If not, then why?`],
+    answers: [
+      `No, <b> is for bold styling, while <strong> is for semantic importance and carries more weight for accessibility and SEO.`,
+    ],
+    hints: [
+      `No`,
+      `Bold Styling`,
+      `Semantic Importance`,
+      `More Weight`,
+      `Accessibility`,
+      `SEO`,
+    ],
+  },
 ];
