@@ -1,6 +1,7 @@
 import React from "react";
 import { TextToVoice } from "../../common/TextToVoice";
 import { cssData } from "../../../data/interviewPreparation/cssData";
+import { Hints } from "../../common/Hints";
 
 const InterviewPreparationCssComponent = () => {
   const data = cssData;
@@ -19,6 +20,7 @@ const InterviewPreparationCssComponent = () => {
             shouldAlwaysView={true}
           />
           <TextToVoice className="ans-voice" text={queAndAns.answers} />
+          <Hints hints={queAndAns.hints} />
         </>
       ))}
     </>
