@@ -896,7 +896,7 @@ It promotes clean separation of HTML and CSS, making code more modular and maint
   {
     questions: [`What do CSS Custom properties variables mean?`],
     answers: [
-      `CSS Custom properties are variables storing reusable values for styling across a stylesheet. For example::root {
+      `CSS Custom properties are variables storing reusable values for styling across a stylesheet. They are declared using the -- prefix and can be assigned values using the var() function. For example::root {
       --main-color: #3498db;
       --font-size: 16px;
     }
