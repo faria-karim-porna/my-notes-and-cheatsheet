@@ -1,16 +1,22 @@
-import React, { useState, useEffect } from "react";
+import React, { ReactNode } from "react";
 
-type BlockProps = {
-  title: string;
-};
-
-const BlockComponent = (props: React.PropsWithChildren<BlockProps>) => {
-  const { title, children } = props;
+const BlockComponent = (props: React.PropsWithChildren) => {
+  const { children } = props;
   return (
-    <div className="block my-4">
-      <h4>{title}</h4>
-      <hr />
-      <div>{children}</div>
+    <div className="block">
+      {Array.isArray(children)
+        ? (children as ReactNode[])?.map((child: ReactNode, index: number) => (
+            <div className="d-flex flex-grow-1 sub-block">
+              <div className="w-100">{child}</div>
+              {children.length === index + 1 || (index + 1) % 3 === 0 ? null : (
+                <div
+                  className="vertical-divider"
+                  style={{ margin: `10px ${(index + 1) % 3 === 1 && children.length % 3 !== 0 ? 5 : 2.5}%` }}
+                ></div>
+              )}
+            </div>
+          ))
+        : children}
     </div>
   );
 };

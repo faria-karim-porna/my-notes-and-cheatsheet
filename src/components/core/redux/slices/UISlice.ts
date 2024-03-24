@@ -3,6 +3,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 interface UIState {
   showSidebar: boolean;
   pageView?: string;
+  filter?: string;
 }
 
 const initialState: UIState = {
@@ -18,6 +19,9 @@ const UISlice = createSlice({
     },
     setPage(state, action: PayloadAction<string>) {
       state.pageView = action.payload;
+    },
+    setFilter(state, action: PayloadAction<string>) {
+      state.filter = action.payload;
     },
   },
 });

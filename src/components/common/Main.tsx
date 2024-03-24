@@ -18,6 +18,7 @@ import { InterviewPreparationBehavioralQuestions } from "../pages/interviewPrepe
 import { InterviewPreparationCompanyRelatedQuestions } from "../pages/interviewPreperation/interviewPreparationCompanyRelatedQuestions";
 import { CheatSheetSpokenEnglish } from "../pages/cheatsheets/CheatsheetSpokenEnglish";
 import { Todo } from "./Todo";
+import { CheatSheetDesignPatterns } from "../pages/cheatsheets/CheatsheetDesignPatterns";
 
 const MainComponent = () => {
   const store = useAppSelector(
@@ -61,6 +62,8 @@ const MainComponent = () => {
             <InterviewPreparationCompanyRelatedQuestions />
           ) : store.page === "TODO" ? (
             <Todo />
+          ) : store.page === "DESIGN_PATTERNS_CHEATSHEET" ? (
+            <CheatSheetDesignPatterns />
           ) : (
             <Home />
           )}

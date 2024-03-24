@@ -9,6 +9,8 @@ import { UncheckList } from "../common/UncheckList";
 import { CheckList } from "../common/CheckList";
 import { Tags } from "../common/Tags";
 import { Block } from "../common/Block";
+import { SubBlock } from "../common/SubBlock";
+import { FilterDropdown } from "../common/FilterDropdown";
 
 const HomeComponent = () => {
   return (
@@ -19,8 +21,15 @@ const HomeComponent = () => {
   }`}
       </CodeBlock>
       <CodeBlock language={"html"}>{`<div>hello world</div>`}</CodeBlock>
-      <TextToVoice className="que-voice" text="What is your name?" shouldAlwaysView={true} />
-      <TextToVoice className="ans-voice" text="Hello this is Faria Karim Porna." />
+      <TextToVoice
+        className="que-voice"
+        text={["What is your name?"]}
+        shouldAlwaysView={true}
+      />
+      <TextToVoice
+        className="ans-voice"
+        text={["Hello this is Faria Karim Porna."]}
+      />
       <VoiceToText />
 
       <Accordion outer="hello world">
@@ -44,11 +53,14 @@ const HomeComponent = () => {
       <Tags>Not Started</Tags>
       <Tags>Progress</Tags>
       <Tags>Done</Tags>
-      <Block title="Main Block">
-        <div>hello</div>
-        <div>hello</div>
-        <div>hello</div>
+      <Block>
+        <SubBlock title="Main Block">
+          <div>hello</div>
+          <div>hello</div>
+          <div>hello</div>
+        </SubBlock>
       </Block>
+      <FilterDropdown options={["Hello", "World"]} />
     </>
   );
 };

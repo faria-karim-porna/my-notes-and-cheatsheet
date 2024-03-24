@@ -10,13 +10,19 @@ const HintsComponent = (props: HintProps) => {
   return (
     <>
       {(hints?.length ?? 0) > 0 && !showHints ? (
-        <div onClick={() => setShowHints(true)} className="hints-button">💡 Show Hints</div>
+        <div onClick={() => setShowHints(true)} className="hints-button">
+          💡 Show Hints
+        </div>
       ) : (hints?.length ?? 0) > 0 && showHints ? (
         <div>
-          {hints?.map((hint) => (
-            <span className="hints">{hint}</span>
-          ))}
-          <div onClick={() => setShowHints(false)} className="hints-button">💡 Hide Hints</div>
+          <div className="hints-container">
+            {hints?.map((hint) => (
+              <div className="hints">{hint}</div>
+            ))}
+          </div>
+          <div onClick={() => setShowHints(false)} className="hints-button">
+            💡 Hide Hints
+          </div>
         </div>
       ) : null}
     </>
